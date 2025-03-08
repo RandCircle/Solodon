@@ -121,6 +121,7 @@
 /turf/open/floor/carpet/royalblue,
 /area/ship/crew/dorm/captain)
 "dh" = (
+/obj/machinery/holopad/emergency/command,
 /turf/open/floor/carpet/royalblue,
 /area/ship/bridge)
 "dD" = (
@@ -153,10 +154,10 @@
 /area/ship/general/science)
 "eg" = (
 /obj/effect/turf_decal/corner/transparent/ntblue/mono,
-/obj/machinery/computer/operating/solgov{
+/obj/machinery/light/directional/south,
+/obj/machinery/computer/operating{
 	dir = 1
 	},
-/obj/machinery/light/directional/south,
 /turf/open/floor/wood/ebony,
 /area/ship/general/science)
 "eo" = (
@@ -172,14 +173,21 @@
 /obj/item/storage/box/survival/solfed,
 /obj/item/storage/box/survival/solfed,
 /obj/item/storage/box/survival/solfed,
+/obj/item/clothing/neck/stripedsolgovscarf,
+/obj/item/clothing/neck/stripedsolgovscarf,
+/obj/item/clothing/neck/stripedsolgovscarf,
+/obj/item/clothing/neck/stripedsolgovscarf,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/radio/headset/solgov/alt,
 /turf/open/floor/plasteel/white,
 /area/ship/crew/cryo)
 "es" = (
-/obj/machinery/computer/atmos_alert/solgov{
-	dir = 8
-	},
 /obj/structure/railing/wood{
 	dir = 4
+	},
+/obj/machinery/computer/secure_data{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
@@ -359,6 +367,10 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/turretid/ship{
+	id = "inkwell_turrets";
+	pixel_x = -28
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
@@ -560,10 +572,11 @@
 	},
 /obj/item/clothing/under/solfed/medical,
 /obj/item/storage/belt/military/solfed/medical,
-/obj/item/clothing/head/helmet/solfed/m11,
 /obj/item/storage/backpack/ert/medical,
 /obj/item/clothing/suit/armor/vest/marine/frontier,
 /obj/item/clothing/mask/gas/solfed,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/clothing/glasses/hud/health/sunglasses,
 /turf/open/floor/wood/ebony,
 /area/ship/general/science)
 "nK" = (
@@ -1062,11 +1075,11 @@
 /area/ship/crew/canteen/kitchen)
 "yw" = (
 /obj/structure/railing/wood,
-/obj/machinery/computer/helm/solgov{
-	dir = 8
-	},
 /obj/structure/railing/wood{
 	dir = 4
+	},
+/obj/machinery/computer/helm{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
@@ -1133,7 +1146,7 @@
 	id = "inkwell_turrets"
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/hallway/central)
+/area/ship/bridge)
 "zB" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/maintenance/three,
@@ -1198,34 +1211,31 @@
 "zT" = (
 /obj/structure/closet/secure_closet/security{
 	populate = 0;
-	name = "sonnensöldners's locker";
+	name = "marine locker";
 	anchored = 1
 	},
-/obj/item/clothing/head/solgov/sonnensoldner,
-/obj/item/radio{
-	icon_state = "sec_radio"
-	},
-/obj/item/clothing/shoes/workboots,
-/obj/item/storage/belt/sabre/solgov,
-/obj/item/clothing/gloves/combat,
-/obj/item/storage/backpack,
-/obj/item/clothing/head/solgov/sonnensoldner,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
-/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/melee/energy/sword/saber/knife,
+/obj/item/melee/energy/sword/saber/knife,
+/obj/item/clothing/glasses/sunglasses/ballistic,
+/obj/item/clothing/glasses/sunglasses/ballistic,
+/obj/item/clothing/head/solfed/beret,
+/obj/item/clothing/head/solfed/beret,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/clothing/under/solfed/camo,
+/obj/item/clothing/under/solfed/camo,
 /obj/item/storage/belt/military/solfed,
 /obj/item/storage/belt/military/solfed,
-/obj/item/clothing/head/helmet/solfed,
-/obj/item/clothing/head/helmet/solfed,
+/obj/item/clothing/mask/balaclava/combat,
+/obj/item/clothing/mask/balaclava/combat,
+/obj/item/clothing/gloves/combat/solfed,
+/obj/item/clothing/gloves/combat/solfed,
 /obj/item/clothing/suit/armor/vest/marine/medium,
 /obj/item/clothing/suit/armor/vest/marine/medium,
+/obj/item/clothing/head/helmet/solfed/m11,
+/obj/item/clothing/head/helmet/solfed/m11,
 /turf/open/floor/wood/ebony,
 /area/ship/security/armory)
 "zV" = (
@@ -1482,13 +1492,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/closet/crate,
-/obj/item/stack/sheet/metal/five{
-	pixel_x = -3
-	},
-/obj/item/stack/sheet/glass/five{
-	pixel_x = 2;
-	pixel_y = 5
-	},
+/obj/item/stack/sheet/metal/twenty,
+/obj/item/stack/sheet/glass/twenty,
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo)
 "FE" = (
@@ -1647,6 +1652,10 @@
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "Hu" = (
+/obj/item/radio/intercom/wideband/directional/north{
+	pixel_x = 1;
+	pixel_y = 32
+	},
 /obj/structure/flora/bigplant,
 /turf/open/floor/carpet/royalblue,
 /area/ship/bridge)
@@ -1750,6 +1759,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
@@ -1860,13 +1872,8 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "Lh" = (
-/obj/item/clothing/head/solgov/captain,
-/obj/item/clothing/suit/armor/vest/solgov/captain,
 /obj/item/clothing/shoes/laceup,
-/obj/item/clothing/gloves/combat,
-/obj/item/door_remote/captain,
 /obj/item/storage/belt/sabre/solgov,
-/obj/item/clothing/under/solgov,
 /obj/item/folder/solgov,
 /obj/item/folder/solgov,
 /obj/structure/closet/secure_closet{
@@ -1877,14 +1884,11 @@
 /obj/item/fish_feed,
 /obj/item/ammo_box/magazine/modelh,
 /obj/item/ammo_box/magazine/modelh,
-/obj/item/clothing/neck/cloak/solgovcap,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable{
 	icon_state = "0-1"
 	},
 /obj/item/clothing/gloves/combat/solfed/captain,
-/obj/item/clothing/under/solfed,
-/obj/item/storage/backpack/satchel/solfed,
 /obj/item/storage/guncase/pistol/modelh,
 /obj/machinery/light_switch{
 	pixel_x = 19;
@@ -1892,9 +1896,13 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/south,
-/obj/item/documents/solfed,
-/obj/item/clothing/suit/armor/solfed/formal,
 /obj/item/clothing/head/collectable/captain,
+/obj/item/clothing/head/solfed/beret,
+/obj/item/clothing/under/solfed/formal,
+/obj/item/clothing/suit/armor/solfed/formal,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/clothing/suit/armor/vest/marine,
+/obj/item/clothing/glasses/hud/spacecop/hidden,
 /turf/open/floor/carpet/royalblue,
 /area/ship/crew/dorm/captain)
 "Lq" = (
@@ -1939,8 +1947,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/mod/control/pre_equipped/engineering,
 /obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/mod/control/pre_equipped/engineering,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "LU" = (
@@ -1951,6 +1959,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/item/radio/intercom/directional/west,
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "Mo" = (
@@ -2009,7 +2018,7 @@
 	id = "inkwell_turrets"
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/crew/cryo)
+/area/ship/bridge)
 "MY" = (
 /obj/effect/turf_decal/corner/opaque/solgovblue/full,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -2032,10 +2041,22 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
-/obj/structure/sign/poster/solgov/paperwork{
-	pixel_x = 3;
-	pixel_y = -29
+/obj/structure/closet/secure_closet/wall{
+	icon_state = "sec_wall";
+	name = "Ammo locker";
+	pixel_y = -27;
+	req_access = list(1)
 	},
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
+/obj/item/ammo_box/magazine/pistol556mm,
 /turf/open/floor/wood/ebony,
 /area/ship/security/armory)
 "NU" = (
@@ -2114,13 +2135,6 @@
 /obj/machinery/power/solar,
 /obj/effect/turf_decal/solarpanel,
 /turf/open/floor/plating,
-/area/ship/engineering)
-"PY" = (
-/obj/machinery/porta_turret/ship/solfed/light{
-	dir = 10;
-	id = "inkwell_turrets"
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering)
 "Qc" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -2201,18 +2215,26 @@
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/central)
 "RA" = (
-/obj/machinery/computer/cargo/solgov{
-	dir = 8
-	},
 /obj/structure/railing/wood{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/computer/cargo{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "RM" = (
 /turf/open/floor/carpet/blue,
 /area/ship/hallway/central)
+"RT" = (
+/obj/docking_port/stationary{
+	dwidth = 10;
+	height = 15;
+	width = 30
+	},
+/turf/template_noop,
+/area/template_noop)
 "RY" = (
 /obj/structure/sign/solfed,
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -2282,13 +2304,13 @@
 /area/ship/crew/canteen/kitchen)
 "Tq" = (
 /obj/structure/railing/wood,
-/obj/machinery/computer/card/solgov{
-	dir = 8
-	},
 /obj/structure/railing/wood{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "Tt" = (
@@ -2457,7 +2479,7 @@
 	id = "inkwell_turrets"
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering)
+/area/ship/bridge)
 "Vi" = (
 /obj/effect/turf_decal/corner/transparent/purple/mono,
 /obj/structure/window/plasma/reinforced/spawner/east,
@@ -2478,6 +2500,7 @@
 	pixel_y = 11;
 	pixel_x = 7
 	},
+/obj/item/documents/solfed,
 /turf/open/floor/carpet/royalblue,
 /area/ship/crew/dorm/captain)
 "Vw" = (
@@ -2549,7 +2572,6 @@
 /obj/item/clothing/glasses/welding,
 /obj/item/clothing/head/welding,
 /obj/item/clothing/shoes/workboots,
-/obj/item/clothing/gloves/combat,
 /obj/effect/turf_decal/industrial/outline/orange,
 /obj/item/clothing/glasses/meson/prescription,
 /obj/effect/turf_decal/corner/opaque/solgovblue/full,
@@ -2558,6 +2580,8 @@
 	},
 /obj/item/clothing/under/solfed/industrial,
 /obj/item/clothing/head/hardhat/solfed,
+/obj/item/radio/headset/solgov/alt,
+/obj/item/clothing/gloves/color/yellow,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "Wa" = (
@@ -2575,13 +2599,13 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "Wq" = (
-/obj/machinery/computer/crew/solgov{
-	dir = 8
-	},
 /obj/structure/railing/wood{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/computer/crew{
+	dir = 8
+	},
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "WJ" = (
@@ -2679,7 +2703,10 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
-/obj/structure/tank_dispenser/oxygen,
+/obj/machinery/power/ship_gravity,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "Yc" = (
@@ -2706,11 +2733,11 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
-/obj/machinery/computer/rdconsole/production{
-	dir = 4
-	},
 /obj/effect/turf_decal/corner/transparent/purple/mono,
 /obj/machinery/light/directional/south,
+/obj/machinery/computer/rdconsole{
+	dir = 4
+	},
 /turf/open/floor/wood/ebony,
 /area/ship/general/science)
 "YW" = (
@@ -2724,7 +2751,7 @@
 	id = "inkwell_turrets"
 	},
 /turf/closed/wall/mineral/titanium,
-/area/ship/engineering)
+/area/ship/bridge)
 "Zr" = (
 /obj/effect/turf_decal/solgov/all/top_right,
 /obj/effect/turf_decal/spline/fancy/transparent/solgovblue{
@@ -2793,7 +2820,7 @@ VT
 VT
 YN
 eB
-PY
+MX
 zH
 zH
 zH
@@ -2850,7 +2877,7 @@ YN
 At
 YN
 eB
-PY
+MX
 "}
 (6,1,1) = {"
 zH
@@ -2955,7 +2982,7 @@ EN
 PI
 "}
 (12,1,1) = {"
-zH
+RT
 QX
 JG
 xh
