@@ -15,7 +15,6 @@
 #include "achievements/_achievements.dme"
 #include "areas/_areas.dme"
 #include "faction/_faction.dme"
-#include "fov/_fov.dme"
 #include "ghost_roles/_ghost_roles.dme"
 #include "ipc_chassis/_ipc_chassis.dme"
 #include "ipc_hair/_ipc_hair.dme"
@@ -66,8 +65,9 @@
 #include "inteq_vendor/inteq_vendor.dme"
 #include "rnd/_rnd.dme"
 #include "rus_labeler/_rus_labeler.dme"
-#include "helmet_seclite/_helmet_seclite.dme"
+//#include "helmet_seclite/_helmet_seclite.dme"
 #include "vending_cash/_vending_cash.dme"
+#include "customization_vest/_customization_vest.dme"
 
 // --- MOBS --- //
 #include "drakeborgs/_drakeborgs.dme"
