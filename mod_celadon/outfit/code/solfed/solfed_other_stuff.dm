@@ -77,7 +77,7 @@
 	name = "\improper Solar Federation bedsheet"
 	desc = "It's a quilt made in the style of the Solar Federation flag. Cover yourself with it and feel the warmth of democracy."
 	icon = 'mod_celadon/_storge_icons/icons/solfed/obj/fluff.dmi'
-	mob_overlay_icon = 'mod_celadon/_storge_icons/icons/mob/sf_neck.dmi'
+	mob_overlay_icon = 'mod_celadon/_storge_icons/icons/items/mob/sf_neck.dmi'
 	icon_state = "solfed_bedsheet"
 	item_state = "solfed_bedsheet"
 
@@ -131,7 +131,7 @@
 	desc = "A really neat uniform used by Federation's high-ranking officials. Fancy."
 	icon_state = "solfed_formal"
 	item_state = "solfed_formal"
-	can_adjust = FALSE
+	// can_adjust = FALSE - [CELADON-ALERT] - Параметр удалён оффами - https://github.com/shiptest-ss13/Shiptest/pull/4738
 
 /obj/item/clothing/under/solfed/formal/elysium
 	name = "Elysium Brigade formal uniform"
