@@ -97,6 +97,8 @@ Weebstick (Красная катана) теперь нельзя сломать
 
 - EDIT: `code/modules/missions/outpost/research_mission.dm` - Окргуление координат
 
+- EDIT: `code/modules/clothing/head/helmet.dm` - Отображение оверлеев
+
 
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
@@ -111,9 +113,10 @@ Weebstick (Красная катана) теперь нельзя сломать
 - `mod_celadon/fixes/code/research_mission.dm` - вроде перезаписывает
 
 <!-- fax_name -->
+<!-- 
 - `code\controllers\subsystem\overmap.dm`: `proc/spawn_ship_at_start`,
 - `code\modules\paperwork\fax.dm`: `proc/connect_to_shuttle`
-
+ -->
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
