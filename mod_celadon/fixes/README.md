@@ -242,6 +242,9 @@ FIXES_ICON_OUT_OF_BORDER
 FIXES_MODSUITS
 - ADD, REMOVE, EDIT: `code/modules/mod/modules/modules_antag.dm` - Выпиливаем неиспользуемые и сломанные опции модов
 
+FIXES_DYNAMIC_MISSION
+- EDIT: `code/modules/overmap/objects/dynamic_datum.dm` - Изменена логика в функции can_reset_dynamic(). Теперь объект не будет диспавниться если миссия все еще может быть завершена
+
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
