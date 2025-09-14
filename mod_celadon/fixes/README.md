@@ -217,6 +217,9 @@ FIXES_AMBIENT_NO_EARS
 FIXES_REPAIR_BONE_COMPOUND
 - EDIT: `code/modules/surgery/bone_fractures.dm` - Исправил неверное название прока
 
+FIXES_SPAWN_SHIP
+- EDIT: `code/controllers/subsystem/overmap.dm` - Изменен порядок приоритетов, теперь space_spawn имеет выше приоритет над позицией
+
 CRUSHER_MARK_ON_MOBS
 - EDIT: `code/datums/status_effects/debuffs.dm` - изменения от Ганзы
 - ADD: `code/datums/status_effects/debuffs.dm` - добавляем проверку на труп для метки крашера
