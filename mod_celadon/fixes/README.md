@@ -217,6 +217,9 @@ CRUSHER_MARK_ON_MOBS
 - REMOVE: `code/modules/mining/equipment/kinetic_crusher.dm` - изменения от Ганзы
 - ADD: `code/modules/mining/equipment/kinetic_crusher.dm` - добавляем проверку на труп дял метки крашера
 
+FIXES_JELLY_BLOOD
+- EDIT, ADD: `code/modules/mob/living/carbon/human/species_types/jellypeople.dm` - Фиксим уровень крови здоровья
+
 FIXES_MOB_SPAWNER
 - REMOVE: `code/modules/mining/ore_veins.dm` - убраны селинги из спавнера Т3 бура в джунглях
 
