@@ -219,9 +219,9 @@ FIXES_REPAIR_BONE_COMPOUND
 
 CRUSHER_MARK_ON_MOBS
 - EDIT: `code/datums/status_effects/debuffs.dm` - изменения от Ганзы
-- ADD: `code/datums/status_effects/debuffs.dm` - добавляем проверку на труп дял метки крашера
+- ADD: `code/datums/status_effects/debuffs.dm` - добавляем проверку на труп для метки крашера
 - REMOVE: `code/modules/mining/equipment/kinetic_crusher.dm` - изменения от Ганзы
-- ADD: `code/modules/mining/equipment/kinetic_crusher.dm` - добавляем проверку на труп дял метки крашера
+- ADD: `code/modules/mining/equipment/kinetic_crusher.dm` - добавляем проверку на труп для метки крашера
 
 FIXES_JELLY_BLOOD
 - EDIT, ADD: `code/modules/mob/living/carbon/human/species_types/jellypeople.dm` - Фиксим уровень крови здоровья
@@ -231,6 +231,10 @@ FIXES_MOB_SPAWNER
 
 FIXES_CALL_TO_SHIP
 - ADD: `code/game/machinery/hologram.dm` - добавлено возвращение TRUE, чтобы интерфейс обновлялся
+
+FIXES_ICON_OUT_OF_BORDER
+- ADD, EDIT: `code/datums/components/storage/ui.dm` - чиним позиционирование иснтрументов в контейнерах
+- ADD: `code/datums/components/storage/concrete/_concrete.dm`
 
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
