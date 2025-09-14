@@ -214,6 +214,9 @@ CELADON_FIXES_DEBUG_ROOM
 FIXES_AMBIENT_NO_EARS
 - ADD: `code/controllers/subsystem/ambience.dm` - Проверка на уши для эмбиента
 
+FIXES_REPAIR_BONE_COMPOUND
+- EDIT: `code/modules/surgery/bone_fractures.dm` - Исправил неверное название прока
+
 CRUSHER_MARK_ON_MOBS
 - EDIT: `code/datums/status_effects/debuffs.dm` - изменения от Ганзы
 - ADD: `code/datums/status_effects/debuffs.dm` - добавляем проверку на труп дял метки крашера
