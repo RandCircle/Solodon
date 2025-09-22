@@ -56,7 +56,7 @@
 			user.dropItemToGround(src, force = TRUE)
 		playsound(src, braking_sound, 100)
 		if(broken_shield)
-			icon = 'mod_celadon/_storge_icons/icons/items/weapons/shields.dmi'
+			icon = 'mod_celadon/_storage_icons/icons/items/weapons/shields.dmi'
 			icon_state = "[src::icon_state]_broken"
 // [/CELADON-ADD]
 		name = "broken [src::name]"
@@ -79,6 +79,10 @@
 /obj/item/shield/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK, damage_type = BRUTE)
 	if(transparent && (hitby.pass_flags & PASSGLASS))
 		return FALSE
+// [CELADON-ADD] - BALLISTIC_SHIELD - Rebalance - Щиты не должны блокировать лежа
+	if(owner.body_position == LYING_DOWN)
+		final_block_chance -= 30
+// [/CELADON-ADD]
 	if(attack_type == THROWN_PROJECTILE_ATTACK)
 		final_block_chance += 30
 	if(attack_type == LEAP_ATTACK)
@@ -104,10 +108,10 @@
 	slowdown = 0.5
 	max_integrity = 600
 	block_chance = 60
-	icon = 'mod_celadon/_storge_icons/icons/items/weapons/shields.dmi'
-	lefthand_file = 'mod_celadon/_storge_icons/icons/items/weapons/shields_lefthand.dmi'
-	righthand_file = 'mod_celadon/_storge_icons/icons/items/weapons/shields_righthand.dmi'
-	mob_overlay_icon = 'mod_celadon/_storge_icons/icons/items/weapons/shields_back.dmi'
+	icon = 'mod_celadon/_storage_icons/icons/items/weapons/shields.dmi'
+	lefthand_file = 'mod_celadon/_storage_icons/icons/items/weapons/shields_lefthand.dmi'
+	righthand_file = 'mod_celadon/_storage_icons/icons/items/weapons/shields_righthand.dmi'
+	mob_overlay_icon = 'mod_celadon/_storage_icons/icons/items/weapons/shields_back.dmi'
 	broken_shield = TRUE
 // [/CELADON-ADD]
 
@@ -339,8 +343,8 @@
 
 // [CELADON-ADD] - BALLISTIC_SHIELD - Extended Edition
 	desc = "An advanced riot shield made of lightweight materials that collapses for easy storage. Use 10 plasteel to repair."
-	lefthand_file = 'mod_celadon/_storge_icons/icons/items/weapons/shields_lefthand.dmi'
-	righthand_file = 'mod_celadon/_storge_icons/icons/items/weapons/shields_righthand.dmi'
+	lefthand_file = 'mod_celadon/_storage_icons/icons/items/weapons/shields_lefthand.dmi'
+	righthand_file = 'mod_celadon/_storage_icons/icons/items/weapons/shields_righthand.dmi'
 	max_integrity = 400
 	block_chance = 50
 	slowdown = 0.3
