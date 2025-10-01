@@ -46,6 +46,7 @@
 	visor_flags_cover = MASKCOVERSMOUTH
 	armor = list("melee" = 0, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 0, "bio" = 50, "rad" = 0, "fire" = 20, "acid" = 40)
 	resistance_flags = FIRE_PROOF
+	supports_variations = SNOUTED_VARIATION | KEPORI_VARIATION
 
 /obj/item/clothing/mask/gas/explorer/attack_self(mob/user)
 	adjustmask(user)
