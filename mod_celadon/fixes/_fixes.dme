@@ -43,4 +43,6 @@
 #include "code/dock_empty_space_fix.dm"
 #include "code/sledgehammer.dm"
 
+#include "code/antagonists/space_ninja.dm"
+
 #endif
