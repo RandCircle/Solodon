@@ -355,6 +355,7 @@
 		/obj/item/gun/ballistic/automatic/pistol,
 		/obj/item/gun/ballistic/revolver,
 		/obj/item/gun/energy/laser,
+		/obj/item/gun/energy/sharplite/x26,
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/kalix/pistol,
 		))
@@ -509,6 +510,7 @@
 		/obj/item/gun/ballistic/automatic/pistol,
 		/obj/item/gun/ballistic/revolver,
 		/obj/item/gun/energy/laser,
+		/obj/item/gun/energy/sharplite/x26,
 		/obj/item/gun/energy/disabler,
 		/obj/item/gun/energy/kalix/pistol,
 		))
