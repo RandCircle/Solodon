@@ -412,6 +412,7 @@
 	can_flashlight = TRUE
 	supports_variations = KEPORI_VARIATION | VOX_VARIATION
 	content_overlays = TRUE
+	unique_reskin = null
 
 /obj/item/clothing/head/helmet/m10/inteq
 	name = "inteq M-10 helmet"
@@ -424,6 +425,7 @@
 	vox_override_icon = 'icons/mob/clothing/faction/inteq/vox.dmi'
 	kepori_override_icon = 'icons/mob/clothing/faction/inteq/kepori.dmi'
 	content_overlays = TRUE
+	unique_reskin = null
 
 // Gloves
 
