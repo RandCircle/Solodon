@@ -3345,6 +3345,9 @@
 	pixel_y = 0;
 	pixel_x = 29
 	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/plasteel/white,
 /area/outpost/medical/hall_2)
 "coJ" = (
@@ -6401,6 +6404,12 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel/white,
 /area/outpost/medical/hall_2)
@@ -17153,12 +17162,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /obj/machinery/light_switch{
 	pixel_y = 1;
 	pixel_x = -23;
@@ -27497,9 +27500,6 @@
 "sbP" = (
 /obj/effect/turf_decal/corner/transparent/blue/three_quarters{
 	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/outpost/medical/hall_2)
