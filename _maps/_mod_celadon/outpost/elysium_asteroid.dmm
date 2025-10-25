@@ -18409,7 +18409,8 @@
 /area/outpost/hallway/central)
 "lXF" = (
 /obj/structure/falsewall/reinforced,
-/turf/open/space/basic,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/fakepit,
 /area/outpost/crew/lounge/cab_1)
 "lXT" = (
 /obj/effect/turf_decal/siding/wood{
@@ -19012,6 +19013,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
+/obj/structure/fans/tiny/invisible,
 /turf/open/floor/plasteel/dark,
 /area/outpost/crew/lounge/cab_1)
 "moq" = (
@@ -25833,10 +25835,6 @@
 	color = "#55391A"
 	},
 /area/outpost/fraction/solfed)
-"qWv" = (
-/obj/structure/falsewall/reinforced,
-/turf/open/floor/fakepit,
-/area/outpost/crew/lounge/cab_1)
 "qWC" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -27497,7 +27495,7 @@
 	name = "Bathroom Stall 1";
 	id_tag = "aster_bar_stall1"
 	},
-/turf/open/floor/plasteel/mono/dark,
+/turf/closed/indestructible/reinforced,
 /area/outpost/crew/lounge/cab_1)
 "saI" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
@@ -61957,7 +61955,7 @@ blm
 kmM
 pkB
 blm
-lXF
+blm
 blm
 cGD
 cGD
@@ -62331,7 +62329,7 @@ blm
 prV
 pkB
 blm
-qWv
+lXF
 blm
 cGD
 cGD
