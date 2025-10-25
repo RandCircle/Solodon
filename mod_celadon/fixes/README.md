@@ -28,6 +28,7 @@ FIXES_WETHIDE
 FIXES_DRILLCLASS
 FIXES_MOTH_EATING_CLOTHING
 FIXES_ANTAG_NINJA
+FIXES_MEDBOT_RUNTIME_PATH_NULL
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -271,6 +272,9 @@ FIXES_ANTAG_NINJA
 - EDIT, ADD, REMOVE: `code/modules/ninja/suit/suit.dm`
 - EDIT, ADD: `code/modules/ninja/energy_katana.dm`
 - EDIT: `code/modules/ninja/suit/suit_attackby.dm`
+
+FIXES_MEDBOT_RUNTIME_PATH_NULL - Добавляем проверки на null путь
+- EDIT: `code/modules/mob/living/simple_animal/bot/medbot.dm`
 
 FIXES_HOODED_ICONS
 - 'code/modules/clothing/suits/toggles.dm'
