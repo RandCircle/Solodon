@@ -82,7 +82,7 @@
 		icon_state = "[base_icon_state]_t"
 	else
 		icon_state = base_icon_state
-	// [CELADON-REMOVE] - FIXES_HOODED_ICONS
+	// [CELADON-REMOVE] - FIXES_HOODED_ICONS - [WARNING] - Расскомментить и посмотреть изменение!
 	// if(isobj(hood))
 	// 	hood.icon_state = base_icon_state
 	// [/CELADON-REMOVE]
