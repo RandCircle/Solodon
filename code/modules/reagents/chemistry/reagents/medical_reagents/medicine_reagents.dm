@@ -840,3 +840,28 @@
 	M.adjust_timed_status_effect(2 SECONDS * REM, /datum/status_effect/dizziness, max_duration = 20 SECONDS)
 	..()
 
+// [УДАЛЕНО]
+// /datum/reagent/medicine/lavaland_extract/overdose_process(mob/living/M)		// Thanks to actioninja
+// 	// [CELADON-ADD] - CELADON_BALANCE
+// 	var/phain = 1
+// 	// [/CELADON-ADD]
+// 	if(prob(2) && iscarbon(M))
+// 		var/selected_part = pick(BODY_ZONE_L_ARM, BODY_ZONE_R_ARM, BODY_ZONE_L_LEG, BODY_ZONE_R_LEG)
+// 		var/obj/item/bodypart/bp = M.get_bodypart(selected_part)
+// 		if(bp)
+// 			M.visible_message(span_warning("[M] feels a spike of pain!!"), span_danger("You feel a spike of pain!!"))
+// 			bp.receive_damage(0, 0, 200)
+// 		// [CELADON-EDIT] - CELADON_BALANCE
+// 		// else	//SUCH A LUST FOR REVENGE!!!
+// 		// 	to_chat(M, span_warning("A phantom limb hurts!"))	// CELADON-EDIT - ORIGINAL
+// 		else
+// 			if(phain == 1)
+// 				if(selected_part != BODY_ZONE_R_ARM | selected_part != BODY_ZONE_L_LEG)		//SUCH A LUST FOR REVENGE!!!
+// 					phain = 0
+// 					to_chat(M, span_warning("A phantom limb hurts!"))
+// 					M.say("Why are we still here...", forced = /datum/reagent/medicine/lavaland_extract)
+// 					M.client.give_award(/datum/award/achievement/misc/theinnerhell, M)
+// 			else
+// 				return
+// 		// [/CELADON-EDIT]
+// 	return ..()
