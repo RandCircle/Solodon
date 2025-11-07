@@ -62,6 +62,19 @@
 
 	chameleon_extras = /obj/item/stamp/qm
 
+/datum/outfit/job/nanotrasen/captain/empty
+	name = "Nanotrasen - Captain (Naked)"
+
+	head = null
+	suit = null
+	alt_suit = null
+	glasses = null
+	gloves = null
+	neck = null
+	l_hand = null
+	belt = null
+	backpack_contents = null
+
 /datum/outfit/job/nanotrasen/captain/ns/empty
 	name = "Nanotrasen - Captain (N+S Logistics) (Naked)"
 
@@ -143,6 +156,15 @@
 						/obj/item/gun/energy/sharplite/x12,
 						/obj/item/stamp/nanotrasen/officer,
 						)
+
+/datum/outfit/job/nanotrasen/hop/empty
+	name = "Nanotrasen - Head of Personnel (Naked)"
+
+	belt = null
+	suit = null
+	head = null
+
+	backpack_contents = null
 
 // Head of Security
 /datum/outfit/job/nanotrasen/hos
@@ -257,6 +279,17 @@
 
 	suit = null
 	chameleon_extras = null
+
+/datum/outfit/job/nanotrasen/security/empty
+	name = "Nanotrasen - Security Officer (Naked)"
+
+	gloves = null
+	head = null
+	suit = null
+	alt_suit = null
+	l_pocket = null
+	r_pocket = null
+	backpack_contents = null
 
 // Warden
 /datum/outfit/job/nanotrasen/warden
@@ -568,6 +601,14 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 	courierbag = /obj/item/storage/backpack/messenger/med
 	box = /obj/item/storage/box/survival/medical
+
+/datum/outfit/job/nanotrasen/doctor/empty
+	name = "Nanotrasen - Medical Doctor (Naked)"
+
+	belt = null
+	head = null
+	suit =  null
+	alt_suit = null
 
 // Paramedic
 /datum/outfit/job/nanotrasen/paramedic
