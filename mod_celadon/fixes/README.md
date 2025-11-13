@@ -316,6 +316,9 @@ FIX_BEAM_EMMITER_IGNITE
 FIXES_AGENT_CARD
 - `code/game/objects/items/cards_ids.dm` : Тут переместил копирование и дополнил копирование доступов после проверки всех условий
 
+FIXES_AGENT_CARD_NAME
+- `code/game/objects/items/cards_ids.dm` : Фиксим отображение меты инфы по карте агента. Теперь можно не бояться что вас 
+
 FIX_TOGGLE_DEAD_OOC
 - 'code/modules/client/verbs/ooc.dm' : добавляем вывод в чат о том что кнопка среагировала
 
