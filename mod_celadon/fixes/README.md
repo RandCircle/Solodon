@@ -334,6 +334,9 @@ FIXES_LONG_RELOAD_AMMO
 FIXES_DRESSER
 - `code/game/objects/structures/dresser.dm` : Изменил на возвращение TRUE по завершению операций вместо вызова родителя . = ..()
 
+FIXES_CARDS_DRAW_RANDOM
+- `code/game/objects/items/toys.dm`	: Меняем взятие с первой позиции на рандомную
+
 FIXES_CQC_GRAB
 - `code/modules/mob/living/carbon/carbon_defense.dm` : Останавливаем захват по самому себе, проверяем что кровотечение уже есть на конечностях. Ну блиид там. Короче странный сикуси момент
 <!--
