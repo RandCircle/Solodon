@@ -1406,14 +1406,6 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	item = /obj/item/healthanalyzer/rad_laser
 	cost = 3
 
-/datum/uplink_item/device_tools/stimpack
-	name = "Stimpack"
-	desc = "Stimpacks, the tool of many great heroes, make you nearly immune to stuns and knockdowns for about \
-			5 minutes after injection."
-	item = /obj/item/reagent_containers/hypospray/medipen/stimulants
-	cost = 5
-	surplus = 90
-
 /datum/uplink_item/device_tools/medkit
 	name = "Syndicate Combat Medic Kit"
 	desc = "This first aid kit is a suspicious brown and red. Included is a combat stimulant injector \
@@ -1851,7 +1843,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 
 /datum/uplink_item/badass/syndiecigs
 	name = "Syndicate Smokes"
-	desc = "Strong flavor, dense smoke, infused with omnizine."
+	desc = "Strong flavor, dense smoke, infused with panacea."
 	item = /obj/item/storage/fancy/cigarettes/cigpack_syndicate
 	cost = 2
 	illegal_tech = FALSE

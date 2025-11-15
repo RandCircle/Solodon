@@ -346,3 +346,158 @@
 					/obj/item/melee/flyswatter)
 	crate_name = "beekeeping starter crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
+
+/*
+	MARK: Брендовая еда
+*/
+
+/datum/supply_pack/faction/independent/food/dote
+	name = "Dote Berry Crate"
+	desc = "A crate full of easily dried, flavorful tecetian berries. Given its hardiness these are probably not from Teceti itself."
+	cost = 100
+	contains = list(
+		/obj/item/food/grown/dote_berries,
+		/obj/item/food/grown/dote_berries,
+		/obj/item/food/grown/dote_berries,
+		/obj/item/food/grown/dote_berries,
+		/obj/item/food/grown/dote_berries
+	)
+
+/datum/supply_pack/faction/independent/food/dotu
+	name = "Dotu-Fime Crate"
+	desc = "Small plump fruit from Teceti."
+	cost = 100
+	contains = list(
+		/obj/item/food/grown/dotu_fime,
+		/obj/item/food/grown/dotu_fime,
+		/obj/item/food/grown/dotu_fime,
+		/obj/item/food/grown/dotu_fime,
+		/obj/item/food/grown/dotu_fime,
+	)
+
+/datum/supply_pack/faction/independent/food/fara
+	name = "Fara-Li Crate"
+	desc = "A small, mildly spicy fruit native to Teceti."
+	cost = 100
+	contains = list(
+		/obj/item/food/grown/fara_li,
+		/obj/item/food/grown/fara_li,
+		/obj/item/food/grown/fara_li,
+		/obj/item/food/grown/fara_li,
+		/obj/item/food/grown/fara_li
+	)
+
+/datum/supply_pack/faction/independent/food/refa
+	name = "Refa-Li Crate"
+	desc = "A small spicy cave fruit native to Teceti."
+	cost = 100
+	contains = list(
+		/obj/item/food/grown/refa_li,
+		/obj/item/food/grown/refa_li,
+		/obj/item/food/grown/refa_li,
+		/obj/item/food/grown/refa_li,
+		/obj/item/food/grown/refa_li
+	)
+
+/datum/supply_pack/faction/independent/food/sososi
+	name = "Sososi Crate"
+	desc = "A gel-filled leaf native to the Tecetian Arid."
+	cost = 100
+	contains = list(
+		/obj/item/food/grown/sososi,
+		/obj/item/food/grown/sososi,
+		/obj/item/food/grown/sososi,
+		/obj/item/food/grown/sososi,
+		/obj/item/food/grown/sososi
+	)
+
+/datum/supply_pack/faction/independent/food/siti
+	name = "Siti Crate"
+	desc = "A small crunchy leaf native to Teceti."
+	cost = 100
+	contains = list(
+		/obj/item/food/grown/siti,
+		/obj/item/food/grown/siti,
+		/obj/item/food/grown/siti,
+		/obj/item/food/grown/siti,
+		/obj/item/food/grown/siti
+	)
+
+/datum/supply_pack/faction/independent/food/miras
+	name = "Miras Meat Crate"
+	desc = "The meat of a small tecetian game animal."
+	cost = 100
+	contains = list(
+		/obj/item/food/meat/slab/miras,
+		/obj/item/food/meat/slab/miras,
+		/obj/item/food/meat/slab/miras,
+		/obj/item/food/meat/slab/miras,
+		/obj/item/food/meat/slab/miras
+	)
+
+/datum/supply_pack/faction/independent/food/remes
+	name = "Remes Meat Crate"
+	desc = "Meat from a tecetian mollusk. Safe to eat raw!"
+	cost = 100
+	contains = list(
+		/obj/item/food/meat/slab/remes,
+		/obj/item/food/meat/slab/remes,
+		/obj/item/food/meat/slab/remes,
+		/obj/item/food/meat/slab/remes,
+		/obj/item/food/meat/slab/remes
+	)
+
+/datum/supply_pack/faction/independent/food/dofi
+	name = "Dofitis Meat Crate"
+	desc = "The meat of a tecetian beast of burden."
+	cost = 100
+	contains = list(
+		/obj/item/food/meat/slab/dofitis,
+		/obj/item/food/meat/slab/dofitis,
+		/obj/item/food/meat/slab/dofitis,
+		/obj/item/food/meat/slab/dofitis,
+		/obj/item/food/meat/slab/dofitis
+	)
+
+/*
+	MARK: Tiris
+*/
+
+/datum/supply_pack/faction/independent/food/tiris
+	name = "Tiris Meat Crate"
+	desc = "The meat of a tecetian herd animal."
+	cost = 100
+	contains = list(
+		/obj/item/food/meat/slab/tiris,
+		/obj/item/food/meat/slab/tiris,
+		/obj/item/food/meat/slab/tiris,
+		/obj/item/food/meat/slab/tiris,
+		/obj/item/food/meat/slab/tiris
+	)
+
+/datum/supply_pack/faction/independent/food/tiris_milk
+	name = "Tiris Milk Crate"
+	desc = "Milk from a Tiris. Made and packaged in unkown space."
+	cost = 100
+	contains = list(
+		/obj/item/reagent_containers/condiment/tiris_milk,
+		/obj/item/reagent_containers/condiment/tiris_milk,
+		/obj/item/reagent_containers/condiment/tiris_milk,
+		/obj/item/reagent_containers/condiment/tiris_milk,
+		/obj/item/reagent_containers/condiment/tiris_milk,
+	)
+/datum/supply_pack/faction/independent/food/tiris_sele
+	name = "Tiris Sele Crate"
+	desc = "A gentle blood sauce made from a Tiris."
+	cost = 20
+	contains = list(
+		/obj/item/reagent_containers/condiment/tiris_sele
+	)
+
+/datum/supply_pack/faction/independent/food/tiris_sale
+	name = "Tiris Sale Crate"
+	desc = "A strong blood sauce made from a Tiris."
+	cost = 20
+	contains = list(
+		/obj/item/reagent_containers/condiment/tiris_sale
+	)
