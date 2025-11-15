@@ -1055,9 +1055,6 @@
 "cN" = (
 /turf/open/space/basic,
 /area/ruin/powered/hydroponicslab)
-"cP" = (
-/turf/open/floor/plating/asteroid/dirt/grass/lavaland,
-/area/space)
 "cQ" = (
 /turf/open/floor/plating/asteroid/dirt,
 /area/space)
@@ -1771,8 +1768,6 @@
 /obj/item/ammo_box/magazine/smgm10mm/rubber,
 /obj/item/ammo_box/magazine/smgm9mm,
 /obj/item/ammo_box/magazine/smgm9mm/ap,
-/obj/item/ammo_box/magazine/smgm9mm/rubber,
-/obj/item/ammo_box/magazine/smgm9mm/rubber,
 /obj/item/ammo_box/magazine/sniper_rounds,
 /obj/item/ammo_box/magazine/sniper_rounds/penetrator,
 /obj/item/ammo_box/magazine/sniper_rounds/soporific,
@@ -2868,14 +2863,12 @@
 /obj/item/reagent_containers/glass/bottle/thermite,
 /obj/item/reagent_containers/glass/bottle/nitroglycerin,
 /obj/item/reagent_containers/glass/bottle/epinephrine,
-/obj/item/reagent_containers/glass/bottle/bicaridine,
-/obj/item/reagent_containers/glass/bottle/kelotane,
-/obj/item/reagent_containers/glass/bottle/antitoxin,
+/obj/item/reagent_containers/glass/bottle/indomide,
+/obj/item/reagent_containers/glass/bottle/charcoal,
 /obj/item/reagent_containers/glass/bottle/dexalin,
 /obj/item/reagent_containers/glass/bottle/epinephrine/sleeper,
-/obj/item/reagent_containers/glass/bottle/bicaridine/sleeper,
-/obj/item/reagent_containers/glass/bottle/kelotane/sleeper,
-/obj/item/reagent_containers/glass/bottle/antitoxin/sleeper,
+/obj/item/reagent_containers/glass/bottle/indomide/sleeper,
+/obj/item/reagent_containers/glass/bottle/charcoal,
 /obj/item/reagent_containers/glass/bottle/dexalin/sleeper,
 /obj/item/reagent_containers/glass/bottle/morphine/sleeper,
 /obj/item/reagent_containers/chem_pack,
@@ -2891,7 +2884,7 @@
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
 /obj/item/reagent_containers/glass/beaker/sulphuric,
 /obj/item/reagent_containers/glass/beaker/slime,
-/obj/item/reagent_containers/glass/beaker/large/styptic,
+/obj/item/reagent_containers/glass/beaker/large/indomide,
 /obj/item/reagent_containers/glass/beaker/large/silver_sulfadiazine,
 /obj/item/reagent_containers/glass/beaker/large/charcoal,
 /obj/item/reagent_containers/glass/beaker/large/epinephrine,
@@ -2910,11 +2903,10 @@
 /obj/item/reagent_containers/hypospray/medipen/stimpack,
 /obj/item/reagent_containers/hypospray/medipen/stimpack/traitor,
 /obj/item/reagent_containers/hypospray/medipen/stimpack/crisis,
-/obj/item/reagent_containers/hypospray/medipen/stimulants,
+/obj/item/reagent_containers/hypospray/medipen/stimpack/crisis,
 /obj/item/reagent_containers/hypospray/medipen/morphine,
-/obj/item/reagent_containers/hypospray/medipen/oxandrolone,
+/obj/item/reagent_containers/hypospray/medipen/ysiltane,
 /obj/item/reagent_containers/hypospray/medipen/penacid,
-/obj/item/reagent_containers/hypospray/medipen/salacid,
 /obj/item/reagent_containers/hypospray/medipen/salbutamol,
 /obj/item/reagent_containers/hypospray/medipen/tuberculosiscure,
 /obj/item/reagent_containers/hypospray/medipen/survival,
@@ -2929,21 +2921,6 @@
 /obj/item/reagent_containers/glass/bottle/vial/small/bluespace,
 /obj/item/reagent_containers/glass/bottle/vial/large,
 /obj/item/reagent_containers/glass/bottle/vial/large/bluespace,
-/obj/item/reagent_containers/glass/bottle/vial/small/preloaded/bicaridine,
-/obj/item/reagent_containers/glass/bottle/vial/small/preloaded/antitoxin,
-/obj/item/reagent_containers/glass/bottle/vial/small/preloaded/kelotane,
-/obj/item/reagent_containers/glass/bottle/vial/small/preloaded/dexalin,
-/obj/item/reagent_containers/glass/bottle/vial/small/preloaded/tricord,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/CMO,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/bicaridine,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/antitoxin,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/kelotane,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/dexalin,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/charcoal,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/tricord,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/salglu,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/synthflesh,
-/obj/item/reagent_containers/glass/bottle/vial/large/preloaded/combat,
 /obj/item/reagent_containers/glass/chem_jug,
 /obj/item/reagent_containers/glass/chem_jug/open,
 /obj/item/reagent_containers/glass/chem_jug/carbon,
@@ -2962,8 +2939,7 @@
 /obj/item/reagent_containers/glass/chem_jug/hexacrete,
 /obj/item/reagent_containers/glass/maunamug,
 /obj/item/reagent_containers/medigel,
-/obj/item/reagent_containers/medigel/styptic,
-/obj/item/reagent_containers/medigel/silver_sulf,
+/obj/item/reagent_containers/medigel/alvitane,
 /obj/item/reagent_containers/medigel/synthflesh,
 /obj/item/reagent_containers/medigel/sterilizine,
 /obj/item/reagent_containers/glass/mortar,
@@ -2973,8 +2949,8 @@
 /obj/item/reagent_containers/glass/mortar/bone,
 /obj/item/reagent_containers/glass/mortar/mushroom,
 /obj/item/reagent_containers/pill/patch,
-/obj/item/reagent_containers/pill/patch/styptic,
-/obj/item/reagent_containers/pill/patch/silver_sulf,
+/obj/item/reagent_containers/pill/patch/indomide,
+/obj/item/reagent_containers/pill/patch/alvitane,
 /obj/item/reagent_containers/pill/patch/synthflesh,
 /obj/item/reagent_containers/pill,
 /obj/item/reagent_containers/pill/tox,
@@ -2988,7 +2964,7 @@
 /obj/item/reagent_containers/pill/mannitol,
 /obj/item/reagent_containers/pill/mutadone,
 /obj/item/reagent_containers/pill/salicylic,
-/obj/item/reagent_containers/pill/oxandrolone,
+/obj/item/reagent_containers/pill/ysiltane,
 /obj/item/reagent_containers/pill/insulin,
 /obj/item/reagent_containers/pill/psicodine,
 /obj/item/reagent_containers/pill/penacid,
@@ -3004,7 +2980,7 @@
 /obj/item/reagent_containers/pill/potassiodide,
 /obj/item/reagent_containers/pill/three_eye,
 /obj/item/reagent_containers/pill/iron,
-/obj/item/reagent_containers/pill/trophazole,
+/obj/item/reagent_containers/pill/indomide,
 /obj/item/reagent_containers/spray/rhigoxane,
 /obj/item/reagent_containers/spray,
 /obj/item/reagent_containers/spray/cleaner,
@@ -3022,7 +2998,6 @@
 /obj/item/reagent_containers/syringe,
 /obj/item/reagent_containers/syringe/epinephrine,
 /obj/item/reagent_containers/syringe/charcoal,
-/obj/item/reagent_containers/syringe/perfluorodecalin,
 /obj/item/reagent_containers/syringe/antiviral,
 /obj/item/reagent_containers/syringe/bioterror,
 /obj/item/reagent_containers/syringe/calomel,
@@ -3035,16 +3010,14 @@
 /obj/item/reagent_containers/syringe/bluespace,
 /obj/item/reagent_containers/syringe/piercing,
 /obj/item/reagent_containers/syringe/spider_extract,
-/obj/item/reagent_containers/syringe/oxandrolone,
-/obj/item/reagent_containers/syringe/salacid,
+/obj/item/reagent_containers/syringe/ysiltane,
 /obj/item/reagent_containers/syringe/penacid,
 /obj/item/reagent_containers/syringe/contraband,
 /obj/item/reagent_containers/syringe/contraband/space_drugs,
 /obj/item/reagent_containers/syringe/contraband/crank,
 /obj/item/reagent_containers/syringe/contraband/methamphetamine,
-/obj/item/reagent_containers/syringe/contraband/fentanyl,
 /obj/item/reagent_containers/syringe/contraband/morphine,
-/obj/item/reagent_containers/syringe/thializid,
+/obj/item/reagent_containers/syringe/contraband/morphine,
 /obj/item/reagent_containers/syringe/charcoal,
 /obj/item/robot_module,
 /obj/item/robot_module/standard,
@@ -3598,7 +3571,7 @@
 /obj/item/storage/box/rndciv,
 /obj/item/storage/box/rndbasic,
 /obj/item/storage/box/rndsci,
-/obj/item/storage/box/silver_sulf,
+/obj/item/storage/box/alvitane,
 /obj/item/storage/box/fountainpens,
 /obj/item/storage/box/holy_grenades,
 /obj/item/storage/box/stockparts/basic,
@@ -3638,7 +3611,7 @@
 /obj/item/storage/fancy/cigarettes/cigpack_syndicate,
 /obj/item/storage/fancy/cigarettes/cigpack_midori,
 /obj/item/storage/fancy/cigarettes/cigpack_candy,
-/obj/item/storage/fancy/cigarettes/cigpack_xeno,
+/obj/item/storage/fancy/cigarettes/cigpack_cannabis,
 /obj/item/storage/fancy/cigarettes/cigpack_cannabis,
 /obj/item/storage/fancy/cigarettes/cigpack_mindbreaker,
 /obj/item/storage/fancy/rollingpapers,
@@ -3920,7 +3893,7 @@
 /obj/item/trash/syndi_cakes,
 /obj/item/trash/energybar,
 /obj/item/trash/waffles,
-/obj/item/trash/plate,
+/obj/item/trash/chips,
 /obj/item/trash/pistachios,
 /obj/item/trash/semki,
 /obj/item/trash/tray,
@@ -4222,7 +4195,7 @@
 /obj/item/gun/energy/e_gun/empty_cell,
 /obj/item/gun/energy/e_gun/hades,
 /obj/item/gun/energy/e_gun,
-/obj/item/gun/energy/e_gun/snare,
+/obj/item/gun/energy/sharplite/x11,
 /obj/item/gun/energy/e_gun/turret,
 /obj/item/gun/energy/e_gun,
 /obj/item/gun/energy/e_gun/rdgun,
@@ -4759,7 +4732,7 @@
 /obj/item/melee/knife/bone,
 /obj/item/melee/knife/combat/cyborg,
 /obj/item/melee/knife/shiv,
-/obj/item/melee/knife/shiv/carrot,
+/obj/item/melee/knife/shiv,
 /obj/item/melee/knife/switchblade,
 /obj/item/melee/knife/letter_opener,
 /obj/item/melee,
@@ -5986,9 +5959,9 @@
 /obj/item/clothing/suit/toggle/lawyer,
 /obj/item/clothing/suit/toggle/lawyer/purple,
 /obj/item/clothing/suit/toggle/lawyer/black,
-/obj/item/clothing/suit/toggle/lawyer/burgundy,
-/obj/item/clothing/suit/toggle/lawyer/navy,
-/obj/item/clothing/suit/toggle/lawyer/charcoal,
+/obj/item/clothing/suit/lawyer/burgundy,
+/obj/item/clothing/suit/lawyer/navy,
+/obj/item/clothing/suit/toggle/lawyer/black,
 /obj/item/clothing/suit/toggle/lawyer/cmo,
 /obj/item/clothing/suit/toggle/lawyer/medical,
 /obj/item/clothing/suit/toggle/lawyer/science,
@@ -6906,7 +6879,7 @@
 /obj/item/storage/box/rndciv,
 /obj/item/storage/box/rndbasic,
 /obj/item/storage/box/rndsci,
-/obj/item/storage/box/silver_sulf,
+/obj/item/storage/box/alvitane,
 /obj/item/storage/box/fountainpens,
 /obj/item/storage/box/holy_grenades,
 /obj/item/storage/box/stockparts/basic,
@@ -8232,7 +8205,7 @@
 /obj/machinery/computer/cargo/solgov,
 /obj/machinery/ltsrbt,
 /obj/machinery/anomalous_crystal,
-/obj/machinery/grill/unwrenched,
+/obj/machinery/griddle/unwrenched,
 /obj/machinery/shieldgen,
 /obj/machinery/power/shieldwallgen,
 /obj/machinery/drill,
@@ -8253,9 +8226,8 @@
 /obj/machinery/food_cart,
 /obj/machinery/gibber,
 /obj/machinery/gibber/autogibber,
-/obj/machinery/grill,
-/obj/machinery/grill/unwrenched,
-/obj/machinery/grill/cat,
+/obj/machinery/griddle,
+/obj/machinery/griddle/unwrenched,
 /obj/machinery/icecream_vat,
 /obj/machinery/microwave,
 /obj/machinery/smartfridge,
@@ -9773,7 +9745,6 @@
 /obj/structure/stone_tile/center/burnt,
 /obj/structure/stone_tile/surrounding/burnt,
 /obj/structure/stone_tile/surrounding_tile/burnt,
-/obj/structure/cursed_money,
 /obj/structure/mirror/magic/pride,
 /obj/structure/fluff/oldturret,
 /obj/structure/spider/spiderling,
@@ -15073,7 +15044,7 @@ xJ
 cx
 TO
 oK
-cP
+cM
 vD
 GW
 rh
@@ -15125,7 +15096,7 @@ TL
 Vt
 hs
 WA
-cP
+cM
 aw
 DW
 rh
@@ -15177,7 +15148,7 @@ YG
 Ev
 Ab
 LK
-cP
+cM
 RP
 mV
 rh
@@ -15281,7 +15252,7 @@ hD
 ds
 pt
 UB
-cP
+cM
 NW
 rN
 rh
