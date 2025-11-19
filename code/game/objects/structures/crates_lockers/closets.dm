@@ -418,6 +418,12 @@
 	if(!toggle(user))
 		togglelock(user)
 
+/obj/structure/closet/attack_hand_secondary(mob/user, modifiers)
+	if(!user.canUseTopic(src, BE_CLOSE) || !isturf(loc))
+		return
+	if(!opened && secure)
+		togglelock(user)
+	return TRUE
 
 /obj/structure/closet/attack_paw(mob/user)
 	return attack_hand(user)
@@ -488,14 +494,14 @@
 	broken = TRUE //applies to secure lockers only
 	open()
 
-/obj/structure/closet/AltClick(mob/user)
-	..()
-	if(!user.canUseTopic(src, BE_CLOSE) || !isturf(loc))
-		return
-	if(opened || !secure)
-		return
-	else
-		togglelock(user)
+// /obj/structure/closet/AltClick(mob/user)	// [CELADON-ALERT] - Выпилено с ПКМ
+// 	..()
+// 	if(!user.canUseTopic(src, BE_CLOSE) || !isturf(loc))
+// 		return
+// 	if(opened || !secure)
+// 		return
+// 	else
+// 		togglelock(user)
 
 // [CELADON-ADD] - CELADON_RETURN_CONTENT_QUIRKS
 /obj/structure/closet/CtrlShiftClick(mob/living/user)
