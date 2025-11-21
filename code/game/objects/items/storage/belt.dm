@@ -856,6 +856,7 @@
 	STR.max_items = 1
 	STR.use_sound = null //if youre wondering why this is null, its so you can look in your sheath to prepare to draw, without letting anyone know youre preparing to draw it
 	STR.max_w_class = WEIGHT_CLASS_BULKY
+	STR.quickdraw = TRUE
 	STR.set_holdable(list(
 		sabre_type
 		))
@@ -863,11 +864,9 @@
 /obj/item/storage/belt/sabre/examine(mob/user)
 	. = ..()
 	if(length(contents))
-		. += span_notice("Alt-click it to quickly draw the blade.")
+		. += span_notice("Right-click it to quickly draw the blade.")
 
 /obj/item/storage/belt/sabre/attack_hand_secondary(mob/user, list/modifiers)
-	if(!iscarbon(user) || !user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
-		return
 	if(length(contents))
 		var/obj/item/I = contents[1]
 		user.visible_message(span_notice("[user] takes [I] out of [src]."), span_notice("You take [I] out of [src]."))
@@ -875,7 +874,7 @@
 		update_appearance()
 	else
 		to_chat(user, span_warning("[src] is empty!"))
-	. = ..()
+	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/storage/belt/sabre/update_icon_state()
 	icon_state = "[base_icon_state]"
