@@ -332,6 +332,11 @@ FIXES_PARROT_DROP_ITEM
 FIXES_CRAFT_MENU
 - `code/datums/components/crafting/crafting.dm` : Обновляем меню крафта автоматически, не в ручную же это делать
 
+FIXES_PHYSICS_AMMO_CASING
+- `mod_celadon/fixes/code/ammo.dm`								: тут прок на то чтобы останавливать физику патрона\гильзы если ты поймал её в руку 
+- `code/modules/projectiles/guns/ballistic.dm`					: тут прок на то чтобы останавливать физику патрона\гильзы если ты вставил её в оружие
+- `code/modules/projectiles/boxes_magazines/_box_magazine.dm`	: тут прок на то чтобы останавливать физику Патрона\гильзы если ты вставил её в обойму
+
 FIXES_LONG_RELOAD_AMMO
 - `code/modules/projectiles/boxes_magazines/_box_magazine.dm` : Прерывает зарядку патронами, если игрок отойдет на растояние. Явно указываю параметр target для do_after чтобы проверка расстояния работала корректно
 
