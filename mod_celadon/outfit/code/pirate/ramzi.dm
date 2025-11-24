@@ -1,4 +1,4 @@
-// MARK: RAMZI
+// MARK: RAMZI RONDO
 //Ramzi_Clique celadon - аутфиты которые используются на рондо
 /datum/outfit/job/cel/pirate/ramzi
 	name = "Ramzi Clique Rondo - Base Outfit"
@@ -12,6 +12,7 @@
 	box = /obj/item/storage/box/survival/ramzi
 
 	faction_icon = "bg_pirate"
+	job_icon = "pirate"
 
 	backpack = /obj/item/storage/backpack/security
 	satchel = /obj/item/storage/backpack/satchel/sec
@@ -25,11 +26,9 @@
 	H.faction |= list(FACTION_PIRATES)
 
 /datum/outfit/job/cel/pirate/ramzi/captain
-	job_icon = "assistant"
 	name = "Ramzi Clique Rondo - Battle Master"
 
 	id_assignment = "Battle Master"
-	job_icon = "captain"
 	jobtype = /datum/job/captain
 	faction_icon = "bg_pirate"
 	job_icon = "piratecaptain"
@@ -46,13 +45,14 @@
 
 	id_assignment = "Commando"
 	jobtype = /datum/job/officer
-	job_icon = "securityofficer"
 
 	id = /obj/item/card/id/cel/ramzi/commando
 
 	belt = /obj/item/storage/belt/security/webbing/ramzi
 	l_pocket = /obj/item/flashlight/seclite
 
+//MARK: RAMZI PIRATE
+//Ramzi_Clique celadon - аутфиты которые используются на пиратах
 /datum/outfit/job/cel/pirate/ramzi
 	name = "Ramzi Clique - Base Outfit"
 
@@ -63,7 +63,8 @@
 	box = /obj/item/storage/box/survival/ramzi
 	id = /obj/item/card/id
 
-	faction_icon = "bg_syndicate"
+	faction_icon = "bg_pirate"
+	job_icon = "pirate"
 
 	backpack = /obj/item/storage/backpack
 	satchel = /obj/item/storage/backpack/satchel
@@ -82,7 +83,6 @@
 	name = "Ramzi Clique - Deckhand"
 
 	id_assignment = "Runt"
-	job_icon = "assistant"
 	jobtype = /datum/job/assistant
 
 	shoes = /obj/item/clothing/shoes/workboots
@@ -91,6 +91,7 @@
 
 /datum/outfit/job/cel/pirate/ramzi/captain
 	name = "Ramzi Clique - Captain"
+	job_icon = "piratecaptain"
 
 	faction_icon = "bg_pirate"
 	job_icon = "piratecaptain"
@@ -109,7 +110,6 @@
 	name = "Ramzi Clique - Team Leader"
 
 	id_assignment = "Sweeper Lead"
-	job_icon = "headofsecurity"
 	jobtype = /datum/job/hos
 	uniform = /obj/item/clothing/under/syndicate/ramzi/officer
 	suit = /obj/item/clothing/suit/armor/ramzi/officer
@@ -125,7 +125,6 @@
 	name = "Ramzi Clique - Operative"
 
 	id_assignment = "Sweeper"
-	job_icon = "securityofficer"
 	jobtype = /datum/job/officer
 	uniform = /obj/item/clothing/under/syndicate/ramzi/overalls
 	l_pocket = /obj/item/flashlight/seclite
@@ -138,7 +137,6 @@
 /datum/outfit/job/cel/pirate/ramzi/pilot
 	name = "Ramzi Clique - Pilot"
 	id_assignment = "Shuttle Chief"
-	job_icon = "securityofficer"
 	jobtype = /datum/job/officer
 	uniform = /obj/item/clothing/under/syndicate/ramzi/officer
 	l_pocket = /obj/item/weldingtool/mini
@@ -150,7 +148,6 @@
 	name = "Ramzi Clique - Medic"
 
 	id_assignment = "Sawbones"
-	job_icon = "medicaldoctor"
 	jobtype = /datum/job/doctor
 	uniform = /obj/item/clothing/under/syndicate/ramzi/overalls
 	accessory = /obj/item/clothing/accessory/armband/med
@@ -165,7 +162,6 @@
 	name = "Ramzi Clique - Motorman"
 
 	id_assignment = "Motorman"
-	job_icon = "stationengineer"
 	jobtype = /datum/job/engineer
 	head = /obj/item/clothing/head/hardhat/ramzi
 	suit = /obj/item/clothing/suit/ramzi
