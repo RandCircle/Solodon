@@ -1234,7 +1234,6 @@
 	icon_state = "service"
 	build_path = /obj/machinery/griddle
 	req_components = list(
-		/obj/item/stack/sheet/mineral/titanium = 1,
 		/obj/item/assembly/igniter = 1,
 		/obj/item/stack/cable_coil = 2,
 		/obj/item/stock_parts/micro_laser = 1,
@@ -1245,7 +1244,6 @@
 	icon_state = "service"
 	build_path = /obj/machinery/oven
 	req_components = list(
-		/obj/item/stack/sheet/mineral/titanium = 1,
 		/obj/item/assembly/igniter = 1,
 		/obj/item/stack/cable_coil = 2,
 		/obj/item/stock_parts/micro_laser = 1,
