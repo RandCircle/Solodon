@@ -352,6 +352,8 @@ FIXES_CQC_GRAB
 FIXES_DEL_FISH
 - `code/modules/fishing/fish/_fish.dm` : Фиксим удаление рыбы после повторной разделки
 
+FIXES_ADVANCED_FIRSTAID
+- `code/game/objects/items/storage/firstaid.dm` : Увеличиваем max_combined_w_class чтобы предметы помещались обратно
 FIXES_HOLO_ESWORD
 - `code/modules/holodeck/items.dm` : Кто-то забыл убрать 0
 FIXES_MASK_ON_KEPORI
