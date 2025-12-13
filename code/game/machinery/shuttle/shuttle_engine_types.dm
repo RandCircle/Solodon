@@ -248,14 +248,6 @@
 
 // This thruster is the same as a standard thruster, but it starts with T3 parts
 /obj/machinery/power/shuttle/engine/electric/premium
-	// name = "high performance ion thruster"
-	// desc = "An expensive variant of a standard ion thruster, using highest quality components in order to achieve much better performance."
-	// // [CELADON-EDIT] - CELADON_BALANCE - Трогаем движки
-	// // thrust = 30
-	// // power_per_burn = 65000 // CELADON-EDIT - ORIGINAL
-	// thrust = 11
-	// power_per_burn = 100000
-	// // [/CELADON-EDIT]		// [CELADON-ALERT] - Выпилено добавлена плата снизу
 	circuit = /obj/item/circuitboard/machine/shuttle/engine/electric/premium
 
 /obj/machinery/power/smes/shuttle

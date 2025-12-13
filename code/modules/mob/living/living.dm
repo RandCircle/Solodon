@@ -2122,6 +2122,7 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 /mob/living/proc/has_reagent(reagent, amount = -1, needs_metabolizing = FALSE)
 	return reagents.has_reagent(reagent, amount, needs_metabolizing)
 
+/* // [CELADON-CANDIDATE-REMOVE] - Убрал не используется, пересмотреть
 // [CELADON-ADD] - CELADON_EMOTES
 /**
   * Sets the mob's direction lock towards a given atom.
@@ -2169,3 +2170,5 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 // /mob/living/proc/can_remote_apc_interface(obj/machinery/power/apc/ourapc)
 // 	return FALSE
 // [/CELADON-ADD]
+// [/CELADON-CANDIDATE-REMOVE]
+*/

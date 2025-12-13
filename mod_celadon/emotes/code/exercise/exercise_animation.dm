@@ -1,3 +1,5 @@
+// [CELADON-ALERT-EMOTES] - Убрал не используется, пересмотреть
+/*
 /datum/exercise/proc/exercise_animation(temp_time_mod = 1)
 	var/target_y = -5
 	var/delay = 0.6 SECONDS * temp_time_mod
@@ -13,10 +15,10 @@
 		return FALSE
 	return TRUE
 
-// /datum/exercise/proc/clear_exercise_animation()	// [CELADON-ALERT] - Убрал не используется, пересмотреть
-// 	if(isliving(user))
-// 		var/mob/living/L = user
-// 		L.clear_forced_look(quiet = TRUE)
+/datum/exercise/proc/clear_exercise_animation()
+	if(isliving(user))
+		var/mob/living/L = user
+		L.clear_forced_look(quiet = TRUE)
 
 /datum/exercise/proc/prepare_for_exercise_animation()
 	if(isliving(user))
@@ -45,3 +47,4 @@
 				user.dir = WEST
 				matrix.Turn(270)
 	user.transform = matrix
+*/

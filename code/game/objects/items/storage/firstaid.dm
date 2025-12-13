@@ -274,20 +274,7 @@
 /obj/item/storage/firstaid/advanced/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
-	STR.max_items = 11		// [CELADON-ALERT] - Изменили, толстые бинты лезут теперь, ниже фикс нужен ли теперь?
-	// [CELADON-ADD] - FIXES_ADVANCED_FIRSTAID
-	STR.max_combined_w_class = 15
-	STR.set_holdable(list(
-		/obj/item/reagent_containers/pill/patch/synthflesh,
-		/obj/item/reagent_containers/hypospray/medipen/atropine,
-		/obj/item/stack/medical/suture,
-		/obj/item/stack/medical/ointment,
-		/obj/item/stack/medical/gauze,
-		/obj/item/storage/pill_bottle/penacid,
-		/obj/item/reagent_containers/glass/bottle/dimorlin,
-		/obj/item/reagent_containers/syringe,
-	))
-	// [/CELADON-ADD]
+	STR.max_items = 11
 
 /obj/item/storage/firstaid/advanced/PopulateContents()
 	if(empty)

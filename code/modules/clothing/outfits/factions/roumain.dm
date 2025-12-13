@@ -59,16 +59,6 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	courierbag = /obj/item/storage/backpack/messenger
 
-	// [CELADON-REMOVE] - CELADON_BALANCE - Убираем телескопички
-	// backpack_contents = list(/obj/item/book/manual/srmlore=1,
-	// 	/obj/item/stamp/chap = 1,
-	// 	/obj/item/melee/classic_baton/telescopic=1,
-	// )	// CELADON-EDIT - ORIGINAL
-	// backpack_contents = list(/obj/item/book/manual/srmlore=1,		// [CELADON-ALERT] - Выпилено
-	// 	/obj/item/stamp/roumain = 1,
-	// )
-	// [/CELADON-REMOVE]
-	chameleon_extras = null
 	backpack_contents = null
 
 /datum/outfit/job/roumain/captain/empty
@@ -97,16 +87,6 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	courierbag = /obj/item/storage/backpack/messenger
 
-	// [CELADON-REMOVE] - CELADON_BALANCE - Убираем телескопички
-	// backpack_contents = list(/obj/item/book/manual/srmlore=1,
-	// 	/obj/item/stamp/chap = 1,
-	// 	/obj/item/melee/classic_baton/telescopic=1,
-	// )	// CELADON-EDIT - ORIGINAL
-	// backpack_contents = list(/obj/item/book/manual/srmlore=1,		// [CELADON-ALERT] - Выпилено
-	// 	/obj/item/stamp/roumain = 1,
-	// )
-	// [/CELADON-REMOVE]
-	chameleon_extras = null
 	backpack_contents = null
 
 /datum/outfit/job/roumain/hop/empty

@@ -517,15 +517,6 @@
 	broken = TRUE //applies to secure lockers only
 	open()
 
-// /obj/structure/closet/AltClick(mob/user)	// [CELADON-ALERT] - Выпилено с ПКМ
-// 	..()
-// 	if(!user.canUseTopic(src, BE_CLOSE) || !isturf(loc))
-// 		return
-// 	if(opened || !secure)
-// 		return
-// 	else
-// 		togglelock(user)
-
 // [CELADON-ADD] - CELADON_RETURN_CONTENT_QUIRKS
 /obj/structure/closet/CtrlShiftClick(mob/living/user)
 	if(!HAS_TRAIT(user, TRAIT_SKITTISH))
