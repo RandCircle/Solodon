@@ -1211,28 +1211,15 @@ SUBSYSTEM_DEF(overmap)
 
 // [CELADON-ADD] - NO_STATIC_SECTOR Опасные стартовые сектора
 /datum/overmap_star_system/shiptest/elysium
-	name = "Elysium Controlled - Value of Public Works"
-	starname = "Ecbatana"
-	startype = /datum/overmap/star/dwarf
-	default_outpost_type = /datum/overmap/outpost/elysium_ice
-
-	//main colors, used for dockable terrestrials, and background
-	primary_color = "#d9ad82"
-	secondary_color = "#c48c60"
-
-	//hazard colors, used for the overmap hazards and sun
-	hazard_primary_color = "#c13623"
-	hazard_secondary_color = "#943a43"
-
 	has_outpost = TRUE
 	override_object_colors = FALSE
 	overmap_icon_state = "overmap_dark"
 
-/datum/overmap_star_system/shiptest/elysium/asteroid
-	name = "Elysium Controlled - Persei-277"
-	starname = "Persei-277"
-	startype = /datum/overmap/star/medium
-	default_outpost_type = /datum/overmap/outpost/elysium_asteroid
+/datum/overmap_star_system/shiptest/elysium/ice
+	name = "Elysium Controlled - Value of Public Works"
+	starname = "Ecbatana"
+	startype = /datum/overmap/star/dwarf
+	default_outpost_type = /datum/overmap/outpost/elysium_ice
 
 	//main colors, used for dockable terrestrials, and background
 	primary_color = "#7e8cd9"
@@ -1241,6 +1228,20 @@ SUBSYSTEM_DEF(overmap)
 	//hazard colors, used for the overmap hazards and sun
 	hazard_primary_color = "#ededed"
 	hazard_secondary_color = "#7f7db0"
+
+/datum/overmap_star_system/shiptest/elysium/asteroid
+	name = "Elysium Controlled - Persei-277"
+	starname = "Persei-277"
+	startype = /datum/overmap/star/medium
+	default_outpost_type = /datum/overmap/outpost/elysium_asteroid
+
+	//main colors, used for dockable terrestrials, and background
+	primary_color = "#d9ad82"
+	secondary_color = "#c48c60"
+
+	//hazard colors, used for the overmap hazards and sun
+	hazard_primary_color = "#c13623"
+	hazard_secondary_color = "#943a43"
 
 // [/CELADON-ADD]
 
