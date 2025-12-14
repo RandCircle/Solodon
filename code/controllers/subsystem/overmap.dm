@@ -1,3 +1,4 @@
+#ifndef MINIMAL
 SUBSYSTEM_DEF(overmap)
 	name = "Overmap"
 	wait = 10
@@ -72,6 +73,7 @@ SUBSYSTEM_DEF(overmap)
 	return create_new_star_system(new system_to_spawn)
 
 /datum/controller/subsystem/overmap/fire()
+#ifndef NOOVERMAP
 	for(var/datum/overmap_star_system/current_system as anything in tracked_star_systems)
 		if(!current_system.encounters_refresh)
 			continue
@@ -83,6 +85,7 @@ SUBSYSTEM_DEF(overmap)
 				E.apply_effect()
 				if(MC_TICK_CHECK)
 					return
+#endif
 
 /**
  * Gets the parent overmap object (e.g. the planet the atom is on) for a given atom.
@@ -389,10 +392,16 @@ SUBSYSTEM_DEF(overmap)
 	outposts = list()
 	events = list()
 
+#ifdef NOOVERMAP
+	size = 8
+#endif
+
+#ifndef NOOVERMAP
 	if(isnull(dynamic_probabilities))
 		dynamic_probabilities = list()
 		for(var/datum/planet_type/planet_type as anything in subtypesof(/datum/planet_type))
 			dynamic_probabilities[initial(planet_type.planet)] = initial(planet_type.weight)
+#endif
 
 	if(!generator_type)
 		generator_type = CONFIG_GET(string/overmap_generator_type)
@@ -465,6 +474,7 @@ SUBSYSTEM_DEF(overmap)
  * The proc that creates all the objects on the overmap, split into seperate procs for redundancy.
  */
 /datum/overmap_star_system/proc/create_map()
+#ifndef NOOVERMAP
 	switch(generator_type)
 		if(OVERMAP_GENERATOR_SOLAR)
 			spawn_events_in_orbits()
@@ -472,6 +482,7 @@ SUBSYSTEM_DEF(overmap)
 			spawn_events()
 
 	spawn_ruin_levels()
+#endif
 
 	if(has_outpost)
 		spawn_outpost()
@@ -1300,3 +1311,4 @@ SUBSYSTEM_DEF(overmap)
 	The [span_notice("MODIF. OVERMAP")] tool is similar in usuage to BUILD ADV but to manipulate the overmap only.
 	"}
 	return ..()
+#endif
