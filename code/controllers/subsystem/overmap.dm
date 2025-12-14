@@ -56,10 +56,14 @@ SUBSYSTEM_DEF(overmap)
 	outposts = list()
 	dynamic_encounters = list()
 	events = list()
-
+/* // [CELADON-EDIT] - Спасибо, пожалуй откажемся от 2 сектора
 	var/list/sector_types = pick(subtypesof(/datum/overmap_star_system/safezone))
 	default_system = create_new_star_system(new sector_types)
 	wild_system = create_new_star_system (new /datum/overmap_star_system/shiptest)
+*/
+	var/list/sector_types = pick(subtypesof(/datum/overmap_star_system/shiptest/elysium))
+	default_system = create_new_star_system(new sector_types)
+// [/CELADON-EDIT]
 	return ..()
 
 /datum/controller/subsystem/overmap/proc/spawn_new_star_system(datum/overmap_star_system/system_to_spawn=/datum/overmap_star_system)
@@ -1205,7 +1209,8 @@ SUBSYSTEM_DEF(overmap)
 // 	overmap_icon_state = "overmap_dark"
 // [/CELADON-REMOVE]
 
-/datum/overmap_star_system/safezone/elysium_ice
+// [CELADON-ADD] - NO_STATIC_SECTOR Опасные стартовые сектора
+/datum/overmap_star_system/shiptest/elysium
 	name = "Elysium Controlled - Value of Public Works"
 	starname = "Ecbatana"
 	startype = /datum/overmap/star/dwarf
@@ -1219,14 +1224,11 @@ SUBSYSTEM_DEF(overmap)
 	hazard_primary_color = "#c13623"
 	hazard_secondary_color = "#943a43"
 
-	//structure colors, used for ships and outposts/colonies
-	primary_structure_color = "#83db2b"
-	secondary_structure_color = "#21a52e"
-
-	override_object_colors = TRUE
+	has_outpost = TRUE
+	override_object_colors = FALSE
 	overmap_icon_state = "overmap_dark"
 
-/datum/overmap_star_system/safezone/elysium_asteroid
+/datum/overmap_star_system/shiptest/elysium/asteroid
 	name = "Elysium Controlled - Persei-277"
 	starname = "Persei-277"
 	startype = /datum/overmap/star/medium
@@ -1240,12 +1242,7 @@ SUBSYSTEM_DEF(overmap)
 	hazard_primary_color = "#ededed"
 	hazard_secondary_color = "#7f7db0"
 
-	//structure colors, used for ships and outposts/colonies
-	primary_structure_color = "#4272db"
-	secondary_structure_color = "#38a0eb"
-
-	override_object_colors = TRUE
-	overmap_icon_state = "overmap_dark"
+// [/CELADON-ADD]
 
 /datum/overmap_star_system/c64
 
