@@ -295,10 +295,7 @@
 	icon_state = "fox2"
 
 /datum/sprite_accessory/ipc_chassis // Used for changing limb icons, doesn't need to hold the actual icon. That's handled in ipc.dm
-	// [CELADON-EDIT] - CELADON_IPC_CHASSIS
-	// icon = null // CELADON-EDIT -> ORIGINAL
-	icon = 'mod_celadon/_storage_icons/icons/species/ipc/bodyparts.dmi'
-	// [/CELADON-EDIT]
+	icon = null
 	icon_state = "who cares fuck you" // In order to pull the chassis correctly, we need AN icon_state(see line 36-39). It doesn't have to be useful, because it isn't used.
 	color_src = 0
 	/// Associated list of bodyparts by zone.
