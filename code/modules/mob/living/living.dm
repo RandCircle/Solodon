@@ -2084,7 +2084,7 @@ GLOBAL_VAR_INIT(ssd_indicator_overlay, mutable_appearance('icons/mob/ssd_indicat
 /mob/living/carbon/verb/open_close_eyes()
 	// [CELADON-ADD] - CELADON_EMOTES
 	set category = "Эмоции"
-	set name = "< Открыть/Закрыть глаза"
+	set name = "Открыть/Закрыть глаза"
 	// [/CELADON-ADD]
 
 	if(HAS_TRAIT_FROM(src, TRAIT_EYESCLOSED, "[type]"))
