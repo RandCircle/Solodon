@@ -5,7 +5,7 @@
 //	You do not need to raise this if you are adding new values that have sane defaults.
 //	Only raise this value when changing the meaning/format/name/layout of an existing value
 //	where you would want the updater procs below to run
-#define SAVEFILE_VERSION_MAX 43
+#define SAVEFILE_VERSION_MAX 42
 
 /*
 SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Carn
@@ -113,17 +113,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 		var/body_size
 		READ_FILE(S["body_size"], body_size)
 		height_filter = body_size
-	if(current_version < 43)
-		var/gender
-		READ_FILE(S["gender"], gender)
-		if(gender == MALE)
-			pronouns = "He"
-		else if(gender == FEMALE)
-			pronouns = "She"
-		else if(gender == NEUTER)
-			pronouns = "It"
-		else
-			pronouns = "They"
 
 
 /// checks through keybindings for outdated unbound keys and updates them
@@ -434,7 +423,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	//Character
 	READ_FILE(S["real_name"], real_name)
 	READ_FILE(S["gender"], gender)
-	READ_FILE(S["pronouns"], pronouns)
 	READ_FILE(S["age"], age)
 	READ_FILE(S["hair_color"], hair_color)
 	READ_FILE(S["facial_hair_color"], facial_hair_color)
@@ -587,7 +575,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	//Sanitize
 	real_name = reject_bad_name(real_name)
 	gender = sanitize_gender(gender)
-	pronouns = sanitize_pronouns(pronouns)
 	if(!real_name)
 		real_name = random_unique_name(gender)
 
@@ -743,7 +730,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	//Character
 	WRITE_FILE(S["real_name"]					, real_name)
 	WRITE_FILE(S["gender"]						, gender)
-	WRITE_FILE(S["pronouns"]					, pronouns)
 	WRITE_FILE(S["age"]							, age)
 	WRITE_FILE(S["hair_color"]					, hair_color)
 	WRITE_FILE(S["facial_hair_color"]			, facial_hair_color)
