@@ -90,7 +90,7 @@
 /obj/machinery/suit_storage_unit/inherit,
 /obj/item/clothing/suit/space/hardsuit/engine,
 /obj/item/tank/jetpack/carbondioxide,
-/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer/sec,
 /obj/structure/sign/poster/official/moth/delam{
 	pixel_x = 32
 	},
@@ -786,7 +786,7 @@
 /area/ship/security)
 "jj" = (
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer/sec,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/machinery/light/directional/west,
 /obj/effect/turf_decal/corner/opaque/black{
@@ -1519,7 +1519,7 @@
 /area/ship/cargo)
 "pI" = (
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer/sec,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/item/clothing/suit/space/hardsuit/engine,
 /obj/machinery/atmospherics/pipe/simple/green/hidden/layer4,
@@ -1701,7 +1701,7 @@
 	},
 /obj/machinery/suit_storage_unit/inherit,
 /obj/item/clothing/suit/space/hardsuit/medical,
-/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer/sec,
 /obj/item/toy/plush/blahaj{
 	name = "Best medic in the sector";
 	desc = "The adorable little mascot of the Solarian Maritime Society. Popular with the cuties."
@@ -2403,7 +2403,7 @@
 /obj/machinery/door/poddoor{
 	id = "teardrop_windows"
 	},
-/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer/sec,
 /obj/item/tank/jetpack/carbondioxide,
 /turf/open/floor/plating,
 /area/ship/security)
@@ -2768,7 +2768,7 @@
 /area/ship/medical)
 "DM" = (
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer/sec,
 /obj/item/tank/jetpack/carbondioxide,
 /obj/effect/turf_decal/corner/opaque/black{
 	dir = 10
