@@ -8,7 +8,7 @@
 // MARK: DATUMS IPS
 
 /datum/sprite_accessory/ipc_chassis/standart // Used for changing limb icons, doesn't need to hold the actual icon. That's handled in ipc.dm
-	name = "Custom Android chassis"
+	name = "EX - Custom Android chassis"
 	icon = 'mod_celadon/_storage_icons/icons/species/ipc/bodyparts.dmi'
 	icon_state = "android" // In order to pull the chassis correctly, we need AN icon_state(see line 36-39). It doesn't have to be useful, because it isn't used.
 	color_src = 0
@@ -25,7 +25,7 @@
 	chassis_features = list()
 
 /datum/sprite_accessory/ipc_chassis/standart/bishop_android_main
-	name = "Bishop AC (Standart)"
+	name = "EX - Bishop AC"
 	limbs_id = "bm"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/bishop_android_main,
@@ -37,7 +37,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/bishop_android_alternative
-	name = "Bishop AC - alternative (Standart)"
+	name = "EX - Bishop AC - alternative"
 	limbs_id = "bm_alt"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/bishop_android_alternative,
@@ -49,7 +49,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/bishop_android_rook
-	name = "Bishop AC - rook (Standart)"
+	name = "EX - Bishop AC - rook"
 	limbs_id = "bm_rook"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/bishop_android_rook,
@@ -61,7 +61,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/cpu4mu
-	name = "CPU 4 MU (Standart)"
+	name = "EX - CPU 4 MU"
 	limbs_id = "cpu4mu"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/cpu4mu,
@@ -73,7 +73,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/hephaestus_main
-	name = "Hephaestus AC (Standart)"
+	name = "EX - Hephaestus AC"
 	limbs_id = "hs"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/hephaestus_main,
@@ -85,7 +85,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/hephaestus_alt
-	name = "Hephaestus AC - alternative (Standart)"
+	name = "EX - Hephaestus AC - alternative"
 	limbs_id = "hs_alt"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/hephaestus_alt,
@@ -97,7 +97,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/hephaestus_titan
-	name = "Hephaestus AC - titan (Standart)"
+	name = "EX - Hephaestus AC - titan"
 	limbs_id = "hs_t"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/hephaestus_titan,
@@ -109,7 +109,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus_main
-	name = "Morpheus AC (Standart)"
+	name = "EX - Morpheus AC"
 	limbs_id = "ms"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/morpheus_main,
@@ -121,7 +121,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus_airborne
-	name = "Morpheus AC - airborne (Standart)"
+	name = "EX - Morpheus AC - airborne"
 	limbs_id = "ms_ab"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/morpheus_airborne,
@@ -133,7 +133,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus_atlantis
-	name = "Morpheus AC - atlantis (Standart)"
+	name = "EX - Morpheus AC - atlantis"
 	limbs_id = "ms_at"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/morpheus_atlantis,
@@ -145,7 +145,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus_blitz
-	name = "Morpheus AC - blitz (Standart)"
+	name = "EX - Morpheus AC - blitz"
 	limbs_id = "ms_bl"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/morpheus_blitz,
@@ -157,7 +157,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus_prime
-	name = "Morpheus AC - prime (Standart)"
+	name = "EX - Morpheus AC - prime"
 	limbs_id = "ms_pr"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/morpheus_prime,
@@ -169,7 +169,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus_mantis
-	name = "Morpheus AC - mantis (Standart)"
+	name = "EX - Morpheus AC - mantis"
 	limbs_id = "ms_mantis"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/morpheus_mantis,
@@ -181,7 +181,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/nanotrasen_main
-	name = "Nanotrasen AC (Standart)"
+	name = "EX - Nanotrasen AC"
 	limbs_id = "ns"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/nanotrasen_main,
@@ -193,7 +193,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/shellg_main
-	name = "Shellguard AC (Standart)"
+	name = "EX - Shellguard AC"
 	limbs_id = "sg_m"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/shellg_main,
@@ -205,7 +205,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/shellg_alt
-	name = "Shellguard AC - alternative (Standart)"
+	name = "EX - Shellguard AC - alternative"
 	limbs_id = "sg_alt"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/shellg_alt,
@@ -217,7 +217,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/veymed_female
-	name = "Veymed AC - female (Standart)"
+	name = "EX - Veymed AC - female"
 	limbs_id = "veymed_f"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/veymed_female,
@@ -229,7 +229,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/veymed_male
-	name = "Veymed AC - male (Standart)"
+	name = "EX - Veymed AC - male"
 	limbs_id = "veymed_m"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/veymed_male,
@@ -241,7 +241,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/wardtakahashi_main
-	name = "Wardtakahashi AC (Standart)"
+	name = "EX - Wardtakahashi AC"
 	limbs_id = "wt"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/wardtakahashi_main,
@@ -253,7 +253,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/wardtakahashi_alt
-	name = "Wardtakahashi AC - alternative (Standart)"
+	name = "EX - Wardtakahashi AC - alternative"
 	limbs_id = "wt_alt"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/wardtakahashi_alt,
@@ -265,7 +265,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/wardtakahashi_economy
-	name = "Wardtakahashi AC - economy (Standart)"
+	name = "EX - Wardtakahashi AC - economy"
 	limbs_id = "wt_eco"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/wardtakahashi_economy,
@@ -277,7 +277,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/xion_main
-	name = "Xion AC (Standart)"
+	name = "EX - Xion AC"
 	limbs_id = "xn"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/xion_main,
@@ -289,7 +289,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/xion_alt
-	name = "Xion AC - alternative (Standart)"
+	name = "EX - Xion AC - alternative"
 	limbs_id = "xn_alt"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/xion_alt,
@@ -301,7 +301,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/xion_economy
-	name = "Xion AC - economy (Standart)"
+	name = "EX - Xion AC - economy"
 	limbs_id = "xn_eco"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/xion_economy,
@@ -313,7 +313,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/zion_main
-	name = "Zion AC (Standart)"
+	name = "EX - Zion AC"
 	limbs_id = "zen"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/zion_main,
@@ -325,7 +325,7 @@
 	)
 
 /datum/sprite_accessory/ipc_chassis/standart/morpheus
-	name = "Zion AC - spirit (Standart)"
+	name = "EX - Zion AC - spirit"
 	limbs_id = "zen_sp"
 	chassis_bodyparts = list(
 		BODY_ZONE_HEAD = /obj/item/bodypart/head/ipc/standart/zion_spirit,
