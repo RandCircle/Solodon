@@ -291,7 +291,7 @@
 	return TRUE
 
 /obj/structure/closet/welder_act(mob/living/user, obj/item/tool, modifiers)
-	if(user.a_intent == INTENT_HARM && !LAZYACCESS(modifiers, RIGHT_CLICK))
+	if(user.a_intent == INTENT_HARM)
 		return FALSE
 	if(!tool.tool_start_check(user, amount=0))
 		return FALSE
@@ -322,7 +322,7 @@
 	return FALSE
 
 /obj/structure/closet/wirecutter_act(mob/living/user, obj/item/tool, modifiers)
-	if(user.a_intent != INTENT_HELP && !LAZYACCESS(modifiers, RIGHT_CLICK))
+	if(user.a_intent == INTENT_HARM)
 		return FALSE
 	if(tool.tool_behaviour != cutting_tool)
 		return FALSE
@@ -332,7 +332,7 @@
 	return TRUE
 
 /obj/structure/closet/wrench_act(mob/living/user, obj/item/tool, modifiers)
-	if(user.a_intent != INTENT_HELP && !LAZYACCESS(modifiers, RIGHT_CLICK))
+	if(user.a_intent == INTENT_HARM)
 		return FALSE
 	if(!anchorable)
 		return FALSE
@@ -345,9 +345,12 @@
 		span_italics("You hear a ratchet."))
 	return TRUE
 
-/obj/structure/closet/tool_act(mob/living/user, obj/item/I, tool_type)
+/obj/structure/closet/tool_act(mob/living/user, obj/item/tool, tool_type, params)
 	if(user in src)
 		return FALSE
+	var/list/modifiers = params2list(params)
+	if(opened && !LAZYACCESS(modifiers, RIGHT_CLICK) && user.transferItemToLoc(tool, drop_location()))
+		return TRUE
 	return ..()
 
 /obj/structure/closet/deconstruct_act(mob/living/user, obj/item/tool)
