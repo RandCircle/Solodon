@@ -358,6 +358,9 @@ FIXES_HOLO_ESWORD
 FIXES_MASK_ON_KEPORI
 - `code/modules/mob/living/carbon/human/species_types/kepori.dm` : Добавляем проверку на проклятость маски для кепори
 
+FIXES_FIRES_OVERLAYES
+- `code/datums/elements/perma_fire.dm`					: Добавлен флаг override = TRUE
+- `code/datums/status_effects/debuffs/fire_stacks.dm`	: Добавлен флаг override = TRUE
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
