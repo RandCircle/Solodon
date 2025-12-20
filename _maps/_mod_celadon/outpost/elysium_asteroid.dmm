@@ -10052,7 +10052,7 @@
 /area/outpost/crew/bar/bar_zone)
 "gGx" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/plating/asteroid/wasteplanet,
+/turf/open/floor/concrete,
 /area/outpost/hallway/central)
 "gGA" = (
 /obj/effect/turf_decal/siding/wood{
@@ -66613,7 +66613,7 @@ xLc
 qxA
 xLc
 nMJ
-vKe
+gGx
 ohc
 utH
 utH
@@ -66984,7 +66984,7 @@ lAT
 gjq
 gjq
 gjq
-gGx
+xLc
 xLc
 xLc
 aeU
@@ -67363,7 +67363,7 @@ gjq
 xLc
 xLc
 pOz
-vKe
+gGx
 vKe
 hYP
 utH
@@ -67539,7 +67539,7 @@ cGD
 utH
 xLc
 onk
-gGx
+xLc
 gjq
 gjq
 gjq
@@ -68291,7 +68291,7 @@ lAT
 gjq
 gjq
 gjq
-gGx
+xLc
 dJy
 xLc
 xLc
