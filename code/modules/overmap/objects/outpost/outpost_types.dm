@@ -8,7 +8,8 @@
 	// (Interestingly, this is much less of a problem for ruins: PlaceOnTop ignores the top closed turf in the baseturfs stack
 	// of the new tile, meaning that placing plating on top of a wall doesn't result in a wall underneath the plating.)
 	should_place_on_top = FALSE
-	var/outpost_name
+	var/outpost_name = "Fallback Outpost"
+	var/outpost_administrator = "Fallback Administration"
 
 /datum/map_template/outpost/New()
 	// [CELADON-EDIT] - CELADON_CONFIGS_MAPS
@@ -45,6 +46,7 @@
 /datum/map_template/outpost/indie_space
 	name = "indie_space"
 	outpost_name = "Installation Trifuge"
+	outpost_administrator = "Caldwell"
 
 /datum/map_template/outpost/hangar/indie_space_20x20
 	name = "hangar/indie_space_20x20"
@@ -77,6 +79,7 @@
 /datum/map_template/outpost/nanotrasen_ice
 	name = "nanotrasen_ice"
 	outpost_name = "Yebiri Sipili"
+	outpost_administrator = "Nanotrasen Authorities"
 
 /datum/map_template/outpost/hangar/nt_ice_20x20
 	name = "hangar/nt_ice_20x20"
@@ -109,6 +112,7 @@
 /datum/map_template/outpost/ngr_rock
 	name = "ngr_rock"
 	outpost_name = "Agni Trading Post"
+	outpost_administrator = "The NGR Bureau Of Development"
 
 /datum/map_template/outpost/hangar/ngr_rock_20x20
 	name = "hangar/ngr_rock_20x20"
@@ -141,6 +145,7 @@
 /datum/map_template/outpost/clip_ocean
 	name = "clip_ocean"
 	outpost_name = "Arrowsong Refueling Platform"
+	outpost_administrator = "The Arrowsong Executive Council"
 
 /datum/map_template/outpost/hangar/clip_ocean_20x20
 	name = "hangar/clip_ocean_20x20"
@@ -171,6 +176,7 @@
 /datum/map_template/outpost/cybersun_gas_giant
 	name = "cybersun_gas_giant"
 	outpost_name = "Thousand Eyes Perch"
+	outpost_administrator = "Cybersun Frontier Developments"
 
 /datum/map_template/outpost/hangar/cybersun_gas_giant_20x20
 	name = "hangar/cybersun_gas_giant_20x20"
