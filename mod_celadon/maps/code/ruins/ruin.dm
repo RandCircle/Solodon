@@ -34,13 +34,6 @@
 	cost = 3
 	ruin_tags = list(RUIN_TAG_HARD_COMBAT, RUIN_TAG_MAJOR_LOOT, RUIN_TAG_HAZARDOUS)
 
-/datum/map_template/ruin/beachplanet/colony
-	id = "beach_colony"
-	name = "Abandoned Beachside Colony"
-	description = "A abandoned colony. It seems that this colony was abandoned, for a reason or another"
-	suffix = "beach_colony.dmm"
-	cost = 1
-
 /datum/map_template/ruin/beachplanet/ancient
 	id = "beach_ancient"
 	name = "Ancient Danger"
@@ -352,26 +345,12 @@
 	cost = 1
 
 //vae's jungle ruins from bungalowstation
-/datum/map_template/ruin/jungle/pizzawave
-	id = "pizzawave"
-	name = "Jungle Pizzawave"
-	description = "Get some pizza my dude."
-	suffix = "jungle_pizzawave.dmm"
-	cost = 1
-
 /datum/map_template/ruin/jungle/nest
 	id = "xenonestjungle"
 	name = "Jungle Xenonest"
 	description = "A Xeno nest crammed into the Jungle."
 	suffix = "jungle_nest.dmm"
 	cost = 2
-
-/datum/map_template/ruin/jungle/seedling
-	id = "seedling"
-	name = "Seedling ruin"
-	description = "A rare seedling plant."
-	suffix = "jungle_seedling.dmm"
-	cost = 1
 
 /datum/map_template/ruin/jungle/hangar
 	id = "hangar"
@@ -395,13 +374,6 @@
 	cost = 5
 	allow_duplicates = FALSE
 
-/datum/map_template/ruin/jungle/roommates
-	id = "roommates"
-	name = "Roommates"
-	description = "A shack once inhabited by a clown and a mime... and they were roommates."
-	suffix = "jungle_surface_roommates.dmm"
-	cost = 1
-
 /datum/map_template/ruin/jungle/ninjashrine
 	id = "ninjashrine"
 	name = "Ninja Shrine"
@@ -412,12 +384,6 @@
 //							///
 //		MARK: Lavaland
 //							///
-/datum/map_template/ruin/lavaland/funmaze
-	name = "fun maze"
-	id = "funmaze"
-	description = "very fanny maze."
-	suffix = "lavaland_fun_maze.dmm"
-	cost = 4
 
 /datum/map_template/ruin/lavaland/bubble_outpost
 	id = "bubble-outpost"
@@ -486,35 +452,11 @@
 	suffix = "lavaland_surface_xeno_nest.dmm"
 	cost = 3
 
-/datum/map_template/ruin/lavaland/pizza
-	id = "pizza"
-	name = "Ruined Pizza Party"
-	description = "Little Timmy's birthday pizza bash took a turn for the worse when a bluespace anomaly passed by."
-	suffix = "lavaland_surface_pizzaparty.dmm"
-	cost = 2
-	allow_duplicates = FALSE
-
-/datum/map_template/ruin/lavaland/hermit
-	id = "hermitcave"
-	name = "Makeshift Shelter"
-	description = "A place of shelter for a lone hermit, scraping by to live another day."
-	suffix = "lavaland_surface_hermit.dmm"
-	cost = 4
-	allow_duplicates = FALSE
-
 /datum/map_template/ruin/lavaland/comm_outpost
 	id = "commoutpost"
 	name = "Syndicate Comm Outpost"
 	description = "A forgotten outpost home to only a tragic tale."
 	suffix = "lavaland_surface_comm_outpost.dmm"
-	cost = 1
-	allow_duplicates = FALSE
-
-/datum/map_template/ruin/lavaland/dwarffortress
-	id = "dwarffortress"
-	name = "Legion infested Dwarf Fortress"
-	description = "A forgotten fortress home to only a tragic tale and infested corpses."
-	suffix = "lavaland_surface_dwarffortress.dmm"
 	cost = 1
 	allow_duplicates = FALSE
 
@@ -583,13 +525,6 @@
 	ruin_mission_types = list(
 		/datum/mission/ruin/bitch_wife,
 	)
-
-/datum/map_template/ruin/rockplanet/nomadcrash
-	id = "rockplanet_nomadcrash"
-	name = "Nomad Crash"
-	description = "A Crashed Arrow & Axe Interceptor. A long forgotten Crew. They tried their best to survive..."
-	suffix = "rockplanet_nomadcrash.dmm"
-	cost = 1
 
 /datum/map_template/ruin/rockplanet/heirophant
 	id = "rockheiro"
@@ -831,13 +766,6 @@
 	suffix = "wasteplanet_fortress_of_solitide.dmm"
 	cost = 3
 
-/datum/map_template/ruin/wasteplanet/oreprocess
-	id = "oreprocess"
-	name = "Ore Processing Facility"
-	description = "A fortress, although one you are probably more familiar with.."
-	suffix = "wasteplanet_ore_proccessing_facility.dmm"
-	cost = 3
-
 /datum/map_template/ruin/wasteplanet/tradepost	// NEW
 	id = "wasteplanet_tradepost"
 	name = "Ruined Tradepost"
@@ -847,13 +775,6 @@
 	ruin_mission_types = list(
 		/datum/mission/ruin/dead_vanguard
 	)
-
-/datum/map_template/ruin/wasteplanet/tarpit
-	id = "tarpit"
-	name = "Tar pit"
-	description = "A facility once constructed over a asphalt deposit."
-	suffix = "wasteplanet_tarpit.dmm"
-	cost = 2
 
 /datum/map_template/ruin/wasteplanet/crash_kitchen
 	id = "crash_kitchen"
@@ -947,13 +868,6 @@
 	description = "The fauna of desert planets can be deadly even to equipped Syndicate Operatives."
 	suffix = "whitesands_surface_assaultpodcrash.dmm"
 	cost = 2
-
-/datum/map_template/ruin/whitesands/conveniencestore
-	id = "ws-conveniencestore"
-	name = "Conveniently Abandoned Convenience Store"
-	description = "Pretty convenient that they have a convenience store out here, huh?"
-	suffix = "whitesands_surface_conveniencestore.dmm"
-	cost = 1
 
 /datum/map_template/ruin/whitesands/onlyaspoonful
 	id = "ws-onlyaspoonful"
