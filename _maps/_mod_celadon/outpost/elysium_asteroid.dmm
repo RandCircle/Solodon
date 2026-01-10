@@ -4041,6 +4041,16 @@
 /area/ruin/beach/complex{
 	name = "Elysium Town"
 	})
+"cIP" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/concrete/slab_4,
+/area/outpost/hallway/aft)
 "cJg" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
@@ -4087,6 +4097,11 @@
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/outpost/fraction/inteq)
+"cKo" = (
+/obj/effect/spawner/random/trash/garbage,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/outpost/hallway/aft)
 "cKr" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -6255,11 +6270,8 @@
 /turf/open/floor/concrete/slab_4,
 /area/outpost/hallway/aft)
 "ecA" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/plating,
-/area/outpost/hallway/aft)
+/turf/open/floor/engine/hull/reinforced,
+/area/outpost/fraction/inteq)
 "ecQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/wood{
@@ -9193,16 +9205,6 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
 /area/outpost/fraction/syndi)
-"fYE" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	dir = 4;
-	req_access_txt = "8100, 8111, 8134"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/concrete/slab_1,
-/area/outpost/hallway/aft)
 "fYR" = (
 /obj/effect/turf_decal/techfloor/orange{
 	dir = 1
@@ -10715,11 +10717,6 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/outpost/engineering)
-"gZP" = (
-/obj/effect/spawner/random/trash/garbage,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
-/area/outpost/hallway/aft)
 "has" = (
 /obj/effect/turf_decal/corner/transparent/blue/three_quarters,
 /obj/machinery/disposal/bin{
@@ -11822,27 +11819,6 @@
 /area/ruin/beach/complex{
 	name = "Elysium Town"
 	})
-"hIu" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/outpost{
-	dir = 4;
-	icon = 'icons/obj/doors/airlocks/station/mining.dmi';
-	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi';
-	assemblytype = /obj/structure/door_assembly/door_assembly_min
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech/grid,
-/area/outpost/cargo)
 "hJa" = (
 /obj/effect/turf_decal/trimline/opaque/solgovgold/warning{
 	dir = 6
@@ -16554,6 +16530,15 @@
 	},
 /turf/open/floor/concrete/slab_3,
 /area/outpost/hallway/aft)
+"kJN" = (
+/obj/machinery/conveyor/auto{
+	id = "outpost3";
+	use_static_power = 1;
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mineral/plastitanium,
+/area/outpost/cargo)
 "kJQ" = (
 /obj/item/banner/elysium/mundane{
 	pixel_x = 2;
@@ -17608,13 +17593,6 @@
 	},
 /turf/open/floor/plating/rust,
 /area/outpost/hallway/central)
-"ltL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/outpost_export_console{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/outpost/fraction/syndi)
 "ltW" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -17701,6 +17679,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/outpost/crew/cryo)
+"lxV" = (
+/turf/closed/indestructible/rock/schist,
+/area/space,
+/area/outpost/external)
 "lyf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -18171,6 +18153,16 @@
 /obj/structure/chair/comfy/blue/corpo/directional/east,
 /turf/open/floor/carpet/blue,
 /area/outpost/fraction/nanotrasen)
+"lNR" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4;
+	req_access_txt = "8100, 8111, 8134"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/outpost/hallway/aft)
 "lOk" = (
 /obj/effect/portal/permanent/random{
 	alpha = 0;
@@ -18461,12 +18453,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/outpost/vacant_rooms)
-"lXp" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/outpost/hallway/aft)
 "lXu" = (
 /obj/structure/stone_tile/surrounding/cracked{
 	dir = 1
@@ -19965,16 +19951,6 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plasteel/dark,
 /area/outpost/operations)
-"naP" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/floor/concrete/slab_4,
-/area/outpost/hallway/aft)
 "nbM" = (
 /turf/closed/indestructible/rock/schist,
 /area/outpost/maintenance/aft)
@@ -20583,6 +20559,11 @@
 	},
 /turf/open/floor/concrete/slab_3,
 /area/outpost/hallway/central)
+"nvS" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/poddoor,
+/turf/open/floor/mineral/plastitanium,
+/area/outpost/cargo)
 "nwm" = (
 /obj/structure/railing/wood{
 	dir = 4
@@ -22349,8 +22330,11 @@
 /turf/open/floor/plasteel/patterned/grid,
 /area/outpost/fraction/inteq)
 "oJb" = (
-/turf/open/floor/engine/hull/reinforced,
-/area/outpost/fraction/inteq)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/outpost/hallway/aft)
 "oJn" = (
 /obj/machinery/vending/hydroseeds{
 	can_be_unanchored = 1;
@@ -22473,6 +22457,12 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass,
 /area/outpost/hallway/fore)
+"oMG" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/outpost/hallway/aft)
 "oNp" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 4
@@ -24448,11 +24438,6 @@
 	icon_state = "wood-broken6"
 	},
 /area/outpost/crew/dorm)
-"qbu" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/poddoor,
-/turf/open/floor/mineral/plastitanium,
-/area/outpost/cargo)
 "qbL" = (
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/outpost/fraction/inteq)
@@ -24462,6 +24447,16 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/outpost/crew/cryo)
+"qcg" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/plasticflaps/outpost,
+/obj/machinery/conveyor/auto{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/outpost/cargo)
 "qcl" = (
 /obj/effect/portal/permanent/one_way{
 	id = "outpost_trash_portal";
@@ -25142,6 +25137,19 @@
 	},
 /turf/open/floor/carpet,
 /area/outpost/crew/library)
+"qyh" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/outpost/hallway/aft)
 "qyS" = (
 /obj/structure/railing/wood{
 	dir = 9
@@ -25597,19 +25605,6 @@
 /obj/effect/spawner/random/clothing/gloves,
 /turf/open/floor/wood/jungleplanet,
 /area/outpost/fraction/syndi/donkco_shop)
-"qLI" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/disposaloutlet{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/turf/open/floor/concrete/slab_1,
-/area/outpost/hallway/aft)
 "qLV" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -28385,16 +28380,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/wood,
 /area/outpost/crew/dop_zone_3)
-"sGb" = (
-/obj/effect/turf_decal/techfloor{
-	dir = 1
-	},
-/obj/structure/plasticflaps/outpost,
-/obj/machinery/conveyor/auto{
-	dir = 8
-	},
-/turf/open/floor/plasteel/tech,
-/area/outpost/cargo)
 "sGl" = (
 /obj/structure/barricade/security,
 /obj/structure/curtain/cloth/elysium,
@@ -32845,6 +32830,27 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/outpost/maintenance/fore)
+"vuW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/outpost{
+	dir = 4;
+	icon = 'icons/obj/doors/airlocks/station/mining.dmi';
+	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi';
+	assemblytype = /obj/structure/door_assembly/door_assembly_min
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/outpost/cargo)
 "vvP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -32981,15 +32987,6 @@
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/outpost/fraction/inteq)
-"vAj" = (
-/obj/machinery/conveyor/auto{
-	id = "outpost3";
-	use_static_power = 1;
-	dir = 9
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/mineral/plastitanium,
-/area/outpost/cargo)
 "vAq" = (
 /obj/structure/sign/poster/contraband/robustmore_drinkfoods{
 	pixel_x = -32
@@ -34233,9 +34230,12 @@
 /turf/open/floor/plating/rust,
 /area/outpost/hallway/central)
 "wuC" = (
-/turf/closed/indestructible/rock/schist,
-/area/space,
-/area/outpost/external)
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/outpost_export_console{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/outpost/fraction/syndi)
 "wvc" = (
 /obj/structure/railing/wood{
 	layer = 3.1
@@ -46638,7 +46638,7 @@ pdc
 cGD
 cGD
 jff
-ltL
+wuC
 qsL
 qQV
 rYq
@@ -55428,10 +55428,10 @@ bMk
 qgG
 esy
 bqq
-vAj
-qbu
-gZP
-ecA
+kJN
+nvS
+cKo
+oMG
 iTs
 iTs
 iTs
@@ -55618,7 +55618,7 @@ bFW
 bMk
 bFW
 bCs
-lXp
+oJb
 bFW
 bFW
 bFW
@@ -55805,7 +55805,7 @@ bFW
 vxl
 bFW
 bFW
-lXp
+oJb
 bFW
 eZH
 yhW
@@ -55992,7 +55992,7 @@ tks
 iVs
 bso
 bFW
-lXp
+oJb
 bFW
 xbM
 hSO
@@ -56179,7 +56179,7 @@ xcO
 hTd
 muU
 bFW
-lXp
+oJb
 bFW
 iSR
 yhW
@@ -56366,7 +56366,7 @@ cOS
 tWs
 lss
 bFW
-lXp
+oJb
 bFW
 daE
 enO
@@ -56553,7 +56553,7 @@ oRV
 arC
 cxw
 bFW
-lXp
+oJb
 bFW
 bFW
 cew
@@ -56740,7 +56740,7 @@ bFW
 mgy
 bee
 bFW
-fYE
+lNR
 bFW
 bFW
 bFW
@@ -56942,7 +56942,7 @@ vXY
 vXY
 cGD
 pdc
-wuC
+lxV
 pdc
 ruV
 pdc
@@ -57125,11 +57125,11 @@ dgc
 diJ
 hzM
 vqh
-qLI
+qyh
 vXY
 cGD
 pdc
-wuC
+lxV
 pdc
 pdc
 pdc
@@ -57312,11 +57312,11 @@ lzA
 htu
 rMG
 xrk
-naP
+cIP
 vXY
 cGD
 pdc
-wuC
+lxV
 pdc
 pdc
 pdc
@@ -57451,7 +57451,7 @@ xtx
 ugh
 baL
 tmh
-oJb
+ecA
 uqj
 tmh
 tmh
@@ -57638,8 +57638,8 @@ xtx
 nVF
 fPm
 tmh
-oJb
-oJb
+ecA
+ecA
 tmh
 oZT
 tmh
@@ -57685,7 +57685,7 @@ mfE
 rTr
 qBH
 bFW
-hIu
+vuW
 bFW
 bFW
 cGD
@@ -57826,7 +57826,7 @@ iXV
 xrz
 tmh
 ghq
-oJb
+ecA
 tmh
 oZT
 tmh
@@ -58060,7 +58060,7 @@ vsL
 pwF
 mYZ
 rdm
-sGb
+qcg
 bFW
 cGD
 cGD
