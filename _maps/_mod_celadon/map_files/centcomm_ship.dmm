@@ -10481,14 +10481,8 @@
 /obj/item/gun{
 	pixel_y = 17
 	},
-/obj/item/gun/ballistic/automatic/laser/ctf/blue{
-	pixel_y = 25
-	},
 /obj/item/gun/ballistic/automatic/laser{
 	pixel_y = 9
-	},
-/obj/item/gun/ballistic/automatic/laser/ctf/red{
-	pixel_y = -9
 	},
 /obj/item/gun/ballistic/automatic/marksman,
 /turf/open/floor/plasteel/darkredfull,
@@ -16893,9 +16887,6 @@
 	pixel_y = 6
 	},
 /obj/item/gun/ballistic/automatic/pistol,
-/obj/item/gun/ballistic/automatic/laser/ctf{
-	pixel_y = -6
-	},
 /turf/open/floor/plasteel/darkredfull,
 /area/centcom/ferry)
 "Wv" = (
