@@ -244,7 +244,7 @@
 			target_atom = target
 	// [CELADON-ADD] - CELADON_FIXES_BLOOD
 	// Проверка на переливание крови в живое существо
-	if(method == INJECT && ishuman(target_atom))
+	if(methods == INJECT && ishuman(target_atom))
 		var/mob/living/carbon/human/H = target_atom
 		var/datum/reagent/blood/B = has_reagent(/datum/reagent/blood)
 		if(B && H.blood_volume >= (BLOOD_VOLUME_NORMAL - 0.5)) // Добавляем небольшой запас для предотвращения перелива
