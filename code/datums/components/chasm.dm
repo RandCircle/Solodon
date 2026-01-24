@@ -125,7 +125,6 @@ GLOBAL_LIST_INIT(chasm_storage, list())
 				return CHASM_REGISTER_SIGNALS
 		if(ishuman(dropped_thing))
 			var/mob/living/carbon/human/victim = dropped_thing
-			var/obj/item/wormhole_jaunter/jaunter = H.get_item_by_slot(ITEM_SLOT_BELT)
 			if(istype(victim.belt, /obj/item/wormhole_jaunter))
 				var/obj/item/wormhole_jaunter/jaunter = victim.belt
 				var/turf/chasm = get_turf(victim)
