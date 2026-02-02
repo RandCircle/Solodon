@@ -15327,7 +15327,7 @@
 	},
 /area/outpost/exterior)
 "iml" = (
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = 10;
 	pixel_x = -4
 	},
@@ -22288,12 +22288,12 @@
 /area/outpost/medical/hall_1)
 "mkn" = (
 /obj/structure/table/scrap,
-/obj/item/reagent_containers/food/drinks/beer,
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead,
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_x = 8;
 	pixel_y = 11
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_x = -8;
 	pixel_y = 8
 	},
@@ -22330,7 +22330,7 @@
 	pixel_x = -5;
 	pixel_y = 4
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = 10;
 	pixel_x = -12
 	},
@@ -41770,7 +41770,7 @@
 	},
 /area/outpost/exterior)
 "wRn" = (
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = 12;
 	pixel_x = -4
 	},

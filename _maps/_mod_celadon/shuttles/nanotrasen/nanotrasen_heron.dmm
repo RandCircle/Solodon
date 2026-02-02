@@ -4301,7 +4301,7 @@
 /obj/item/reagent_containers/syringe/charcoal{
 	pixel_x = -3
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_x = -4
 	},
 /obj/machinery/light/small/directional/south,

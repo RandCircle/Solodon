@@ -3615,15 +3615,15 @@
 	pixel_y = -5;
 	pixel_x = 6
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = -2;
 	pixel_x = 5
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = -6;
 	pixel_x = 9
 	},
-/obj/item/reagent_containers/food/drinks/beer/light{
+/obj/item/reagent_containers/food/drinks/beer{
 	pixel_y = -12;
 	pixel_x = 1
 	},
@@ -3639,11 +3639,11 @@
 	name = "internals tank";
 	icon = 'icons/obj/tank.dmi'
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = 6;
 	pixel_x = -9
 	},
-/obj/item/reagent_containers/food/drinks/beer/light{
+/obj/item/reagent_containers/food/drinks/beer{
 	pixel_y = -9;
 	pixel_x = -12
 	},
