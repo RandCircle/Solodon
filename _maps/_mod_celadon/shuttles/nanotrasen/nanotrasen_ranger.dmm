@@ -4172,7 +4172,7 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/starboard)
 "Mh" = (
-/obj/machinery/computer/apc_control{
+/obj/machinery/computer/monitor{
 	dir = 4;
 	icon_state = "computer-left"
 	},
