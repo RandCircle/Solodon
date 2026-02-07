@@ -315,9 +315,20 @@
 	list_reagents = list(/datum/reagent/medicine/mannitol = 15)
 	volume = 15
 	amount_per_transfer_from_this = 15
-	icon_state = "morphen"
-	base_icon_state = "morphen"
-	item_state = "morphen"
+	icon_state = "brainpen"
+	base_icon_state = "brainpen"
+	item_state = "brainpen"
+	custom_price = 70 // [CELADON-ADD] - OUTPOST_MED_BALANCE
+
+/obj/item/reagent_containers/hypospray/medipen/neurine
+	name = "neurine injector"
+	desc = "An injector filled with neurine, a restorative compound that targets brain trauma."
+	list_reagents = list(/datum/reagent/medicine/neurine = 15)
+	volume = 15
+	amount_per_transfer_from_this = 15
+	icon_state = "brainpen"
+	base_icon_state = "brainpen"
+	item_state = "brainpen"
 	custom_price = 70 // [CELADON-ADD] - OUTPOST_MED_BALANCE
 
 /obj/item/reagent_containers/hypospray/medipen/badstop
