@@ -915,7 +915,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "nw" = (
 /mob/living/simple_animal/hostile/carp{
-	resize = 0.5;
+	current_size = 0.5;
 	melee_damage_lower = 0;
 	melee_damage_upper = 0;
 	name = "Baby carp";
