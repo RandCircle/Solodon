@@ -799,7 +799,7 @@
 	},
 /obj/structure/table/wood,
 /obj/item/trash/popcorn,
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = 10;
 	pixel_x = 9
 	},
