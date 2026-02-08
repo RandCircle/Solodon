@@ -5664,7 +5664,7 @@
 /area/ruin/whitesands/trainyard/checkpoint)
 "Dq" = (
 /obj/structure/table,
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_x = 10;
 	pixel_y = 5
 	},

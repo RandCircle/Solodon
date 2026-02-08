@@ -3623,7 +3623,7 @@
 	pixel_y = -6;
 	pixel_x = 9
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = -12;
 	pixel_x = 1
 	},
@@ -3643,7 +3643,7 @@
 	pixel_y = 6;
 	pixel_x = -9
 	},
-/obj/item/reagent_containers/food/drinks/beer{
+/obj/item/reagent_containers/food/drinks/mead{
 	pixel_y = -9;
 	pixel_x = -12
 	},
