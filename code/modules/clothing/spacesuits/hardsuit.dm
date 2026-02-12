@@ -1151,6 +1151,7 @@
 	item_state = "independent_mining_helm"
 	hardsuit_type = "independent-mining"
 	armor = list("melee" = 50, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 65, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 100, "wound" = 20)
+	supports_variations = SNOUTED_VARIATION
 
 /obj/item/clothing/suit/space/hardsuit/mining/independent
 	name = "mining hardsuit"
@@ -1160,3 +1161,4 @@
 	hardsuit_type = "independent-mining"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining/independent
 	armor = list("melee" = 50, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 65, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 100, "wound" = 20)
+	supports_variations = DIGITIGRADE_VARIATION
