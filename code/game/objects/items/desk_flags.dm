@@ -11,10 +11,14 @@
 
 /obj/item/desk_flag/Initialize()
 	. = ..()
-	if(prob(3))
-		name = "vampire flag"
-		desc = "The blue, cyan, and white flag of the transylvanian society of vampires."
+	if(prob(50))
+		name = "Вампирский настольный флаг"
+		desc = "Голубо-розово-белый флаг трансильванского вампирского общества."
 		icon_state = "trans"
+	else if(prob(50))
+		name = "Гондольский настольный флаг"
+		desc = "Флаг, символизирующий очень редкий вид существ - \"Гондола.\""
+		icon_state = "rainbow"
 
 /obj/item/desk_flag/solgov
 	name = "solgov desk flag"
@@ -22,9 +26,14 @@
 	icon_state = "solgov"
 
 /obj/item/desk_flag/trans
-	name = "vampire desk flag"
-	desc = "The blue, cyan, and white flag of the transylvanian society of vampires."
+	name = "Вампирский настольный флаг"
+	desc = "Голубо-розово-белый флаг трансильванского вампирского общества."
 	icon_state = "trans"
+
+/obj/item/desk_flag/rainbow
+	name = "Гондольский настольный флаг"
+	desc = "Флаг, символизирующий очень редкий вид существ - \"Гондола.\""
+	icon_state = "rainbow"
 
 /obj/item/desk_flag/gezena
 	name = "gezenan desk flag"

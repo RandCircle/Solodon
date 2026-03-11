@@ -211,5 +211,5 @@ dmm-tools.exe
 pngcrush.exe
 
 # Solodon
-/config/admins.txt
+config/admins.txt
 shiptest.dme
