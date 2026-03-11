@@ -1001,18 +1001,25 @@
 	item_state = "grogu"
 
 /obj/item/toy/plush/celadon/brigadier_general
-	name = "Brigadier general Gold"
-	desc = "Эта игрушка была сделана в честь бригадного генерала ТМИ, погибшего в одном из самого ожесточенного планетарного боя \
+	name = "Генерал Гым"
+	desc = "Эта игрушка была сделана в честь бригадного генерала ТМИ, погибшего в одном из самых ожесточенных планетарных боев \
 	Великой межсистемной войны. На задней части игрушки имеется бирка с надписью: \"Важно дойти до конца!\"."
 	lefthand_file = 'mod_celadon/_storage_icons/icons/items/misc/in_hands/plushes_lefthand.dmi'
 	righthand_file = 'mod_celadon/_storage_icons/icons/items/misc/in_hands/plushes_righthand.dmi'
 	icon_state = "brigadier_general"
 	item_state = "brigadier_general"
 	COOLDOWN_DECLARE(cooldown)
+	squeak_override = list('sound/misc/SanabiBoom.ogg'=1)
+
+/obj/item/toy/plush/celadon/brigadier_general/Initialize()
+	. = ..()
+	var/datum/component/squeak/S = GetComponent(/datum/component/squeak)
+	S.vary_pitch = FALSE
 
 /obj/item/toy/plush/celadon/brigadier_general/attack_self(mob/user)
 	if(!COOLDOWN_FINISHED(src, cooldown))
 		return
 
+	playsound(src, 'sound/misc/SanabiBoom.ogg', 30, FALSE)
 	say("Важно дойти до конца...")
-	COOLDOWN_START(src, cooldown, 5 SECONDS)
+	COOLDOWN_START(src, cooldown, 3 SECONDS)

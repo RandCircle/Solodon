@@ -3,6 +3,17 @@
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/cargo)
+"aS" = (
+/obj/machinery/light/directional/east{
+	pixel_x = 27
+	},
+/obj/machinery/autolathe,
+/obj/item/stack/sheet/metal{
+	amount = 20
+	},
+/obj/item/stack/sheet/glass/twenty,
+/turf/open/floor/plating,
+/area/ship/science)
 "aV" = (
 /turf/open/floor/plating,
 /area/ship/external)
@@ -20,10 +31,10 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "bf" = (
-/obj/machinery/light/directional/north,
 /obj/effect/turf_decal/corner/opaque/purple/half{
 	dir = 1
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/plasteel,
 /area/ship/science)
 "bn" = (
@@ -141,12 +152,6 @@
 /obj/machinery/microwave{
 	pixel_y = 5
 	},
-/obj/structure/closet/wall/directional/north,
-/obj/item/storage/box/donkpockets,
-/obj/item/storage/box/donkpockets,
-/obj/item/storage/box/donkpockets,
-/obj/item/storage/box/donkpockets,
-/obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "gZ" = (
@@ -280,10 +285,7 @@
 /area/ship/bridge)
 "lV" = (
 /obj/effect/turf_decal/corner/opaque/yellow/border,
-/obj/machinery/autolathe,
-/obj/item/stack/sheet/glass/twenty,
-/obj/item/stack/sheet/metal/ten,
-/obj/item/stack/sheet/metal/ten,
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "mo" = (
@@ -304,16 +306,13 @@
 	dir = 8;
 	pixel_y = 11
 	},
-/obj/structure/mirror{
-	pixel_x = 28
-	},
-/obj/structure/toilet{
-	pixel_y = 7
+/obj/machinery/light/small/directional/north{
+	pixel_y = 22
 	},
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/port)
 "nd" = (
-/obj/effect/turf_decal/industrial/warning{
+/obj/effect/turf_decal/industrial/warning/corner{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -398,13 +397,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
-/obj/item/toy/plush/lizardplushie{
-	color = "cyan"
-	},
-/obj/item/clothing/head/wig/random{
-	pixel_x = -1;
-	pixel_y = -4
-	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "py" = (
@@ -463,6 +456,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+/obj/item/toy/plush/celadon/brigadier_general,
 /turf/open/floor/plasteel,
 /area/ship/bridge)
 "qN" = (
@@ -490,7 +484,6 @@
 /turf/open/floor/plasteel,
 /area/ship/science)
 "rd" = (
-/obj/item/soap,
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/port)
 "rv" = (
@@ -501,7 +494,6 @@
 /area/ship/external)
 "rx" = (
 /obj/machinery/firealarm/directional/south,
-/obj/machinery/newscaster/directional/west,
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
 "rV" = (
@@ -511,6 +503,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/item/soap,
 /turf/open/floor/plasteel/mono,
 /area/ship/bridge)
 "sg" = (
@@ -543,7 +536,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
-/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "uE" = (
@@ -593,9 +585,9 @@
 	id = "bridge";
 	pixel_x = -6
 	},
-/obj/machinery/newscaster/directional/south{
-	pixel_x = 7;
-	pixel_y = -35
+/obj/structure/extinguisher_cabinet/directional/south{
+	pixel_x = 6;
+	pixel_y = -32
 	},
 /turf/open/floor/plasteel,
 /area/ship/bridge)
@@ -663,7 +655,6 @@
 	pixel_x = -13;
 	pixel_y = 23
 	},
-/obj/machinery/newscaster/directional/north,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "zu" = (
@@ -915,8 +906,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
-/obj/item/stack/sheet/mineral/plasma/ten,
-/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 30
+	},
 /turf/open/floor/plasteel,
 /area/ship/engineering)
 "Kg" = (
@@ -999,9 +991,7 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "Nw" = (
-/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/corner/opaque/purple/border,
-/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "NA" = (
@@ -1042,9 +1032,7 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/layer2{
 	dir = 1
 	},
-/obj/machinery/portable_atmospherics/canister/air{
-	anchored = 1
-	},
+/obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "QP" = (
@@ -1168,7 +1156,9 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
-/obj/item/stack/sheet/cotton/cloth/ten,
+/obj/item/stack/sheet/cotton/cloth/ten{
+	amount = 11
+	},
 /turf/open/floor/plasteel,
 /area/ship/bridge)
 "Wx" = (
@@ -1273,6 +1263,12 @@
 /obj/effect/turf_decal/corner/opaque/blue/border{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/freezer/wall/directional/east,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 
@@ -1467,7 +1463,7 @@ wY
 gK
 ni
 Nw
-Jo
+aS
 rc
 Dt
 bG
@@ -1538,7 +1534,7 @@ Tr
 "}
 (14,1,1) = {"
 Tr
-Tr
+Wg
 DQ
 DQ
 DQ
