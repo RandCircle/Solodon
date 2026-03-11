@@ -1,0 +1,1706 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ar" = (
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/cargo)
+"be" = (
+/obj/machinery/button/shieldwallgen{
+	dir = 4;
+	id = "monolith_shield_south";
+	pixel_x = -24;
+	pixel_y = -5
+	},
+/obj/machinery/button/door{
+	dir = 4;
+	pixel_x = -26;
+	pixel_y = 3;
+	id = "skybreaker_poddor2"
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/ship/hallway/central)
+"br" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"bI" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/half,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"cd" = (
+/obj/machinery/door/window/northleft,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"cv" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"cy" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 4;
+	id = "monolith_shield_north"
+	},
+/obj/machinery/door/poddoor{
+	id = "monolith_poddor_north"
+	},
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"cQ" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/bordercorner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/cryo)
+"dj" = (
+/obj/machinery/door/airlock/command/glass{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"dH" = (
+/obj/item/banner/nanotrasen,
+/turf/open/floor/plasteel/darkyellowfull/darkyellow,
+/area/ship/hallway/central)
+"eG" = (
+/obj/machinery/door/poddoor{
+	id = "monolith_poddor_north"
+	},
+/obj/docking_port/mobile{
+	callTime = 250;
+	dir = 2;
+	launch_status = 0;
+	name = "Nanotrasen Ship";
+	port_direction = 8;
+	preferred_direction = 4
+	},
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"fn" = (
+/obj/docking_port/stationary,
+/turf/template_noop,
+/area/template_noop)
+"fA" = (
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"hD" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"ij" = (
+/obj/machinery/door/airlock/command/glass{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"kf" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/bordercorner,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"kI" = (
+/obj/structure/sign/flag/nanotrasen/directional/west,
+/turf/open/floor/plasteel/lightgrey,
+/area/ship/hallway/central)
+"le" = (
+/obj/item/banner/nanotrasen,
+/turf/open/floor/plating,
+/area/ship/hallway/central)
+"lI" = (
+/obj/structure/sign/flag/nanotrasen/directional/east,
+/turf/open/floor/plasteel/lightgrey,
+/area/ship/hallway/central)
+"lQ" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/three_quarters{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/cryo)
+"mR" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 4;
+	id = "monolith_shield_south"
+	},
+/obj/machinery/door/poddoor{
+	id = "monolith_poddor_south"
+	},
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"rk" = (
+/obj/machinery/atmospherics/components/binary/circulator,
+/turf/open/floor/plating,
+/area/ship/engineering)
+"rn" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/cryo)
+"rv" = (
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"ry" = (
+/obj/machinery/door/airlock/engineering{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering)
+"rJ" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"tk" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"vz" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/three_quarters{
+	dir = 8
+	},
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/machinery/computer/cryopod/directional{
+	dir = 1;
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/cryo)
+"vI" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/computer/cargo{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"vQ" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"xQ" = (
+/turf/open/floor/plating,
+/area/ship/hallway/central)
+"zh" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/three_quarters{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"zL" = (
+/turf/open/floor/plating,
+/area/ship/engineering)
+"An" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/crew/cryo)
+"AM" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/half{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Bk" = (
+/turf/open/floor/plasteel/darkyellowfull/darkyellow,
+/area/ship/hallway/central)
+"Bl" = (
+/turf/open/floor/plating,
+/area/ship/cargo)
+"BB" = (
+/turf/template_noop,
+/area/template_noop)
+"Ce" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/bordercorner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Dd" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"EC" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Fb" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/three_quarters{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Gf" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 8;
+	id = "monolith_shield_south"
+	},
+/obj/machinery/door/poddoor{
+	id = "monolith_poddor_south"
+	},
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"Ik" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/computer/helm{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Kd" = (
+/obj/machinery/button/door{
+	dir = 8;
+	pixel_x = 26;
+	pixel_y = 3;
+	id = "monolith_poddor_north"
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 8;
+	id = "monolith_shield_north";
+	pixel_x = 24;
+	pixel_y = -5
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/ship/hallway/central)
+"Kj" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Ku" = (
+/turf/open/floor/plating,
+/area/ship/science)
+"KG" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/bordercorner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"KQ" = (
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/science)
+"Lm" = (
+/obj/machinery/atmospherics/components/binary/circulator/cold{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ship/engineering)
+"Mc" = (
+/turf/open/floor/plasteel/lightgrey,
+/area/ship/hallway/central)
+"MF" = (
+/obj/effect/landmark/observer_start,
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/crew/canteen)
+"Nd" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/table/reinforced/titaniumglass,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Ng" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/three_quarters,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Nt" = (
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/bridge)
+"Nw" = (
+/turf/open/floor/plating,
+/area/ship/crew/canteen)
+"Nx" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/half{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"ND" = (
+/obj/machinery/power/generator{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering)
+"PP" = (
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 8;
+	id = "monolith_shield_north"
+	},
+/obj/machinery/door/poddoor{
+	id = "monolith_poddor_north"
+	},
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"Qf" = (
+/obj/machinery/door/airlock/command/glass,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"SR" = (
+/obj/machinery/door/airlock/engineering,
+/turf/open/floor/plating,
+/area/ship/engineering)
+"Tt" = (
+/obj/structure/chair/comfy/shuttle{
+	name = "helm shuttle chair"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"Tv" = (
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/engineering)
+"UH" = (
+/obj/effect/turf_decal/corner/opaque/ntbluelight/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"VF" = (
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/crew/cryo)
+"Wl" = (
+/obj/machinery/door/poddoor{
+	id = "monolith_poddor_south"
+	},
+/turf/open/floor/plasteel/dark_2,
+/area/ship/hallway/central)
+"WO" = (
+/turf/closed/wall/mineral/titanium/exterior,
+/area/ship/crew/canteen)
+"YL" = (
+/obj/mecha/working/ripley/nanotrasen,
+/turf/open/floor/plating,
+/area/ship/cargo)
+
+(1,1,1) = {"
+BB
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+rv
+rv
+rv
+rv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+"}
+(2,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(3,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(4,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(5,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(6,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(7,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+SR
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(8,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+SR
+zL
+zL
+zL
+zL
+zL
+rk
+ND
+Lm
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(9,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(10,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(11,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+xQ
+Mc
+Mc
+Bk
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(12,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+WO
+le
+Mc
+Mc
+dH
+Tv
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(13,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nt
+Nt
+Nt
+dj
+dj
+Nt
+Nt
+Nt
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(14,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nt
+Nt
+Fb
+Nx
+Nx
+Nx
+Nx
+zh
+Nt
+Nt
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(15,1,1) = {"
+BB
+WO
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nt
+Nt
+Fb
+KG
+EC
+EC
+EC
+EC
+Ce
+zh
+Nt
+Nt
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+zL
+Tv
+"}
+(16,1,1) = {"
+BB
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+WO
+MF
+WO
+WO
+Nt
+Fb
+KG
+EC
+vQ
+rJ
+rJ
+Dd
+EC
+Ce
+zh
+Nt
+Tv
+Tv
+Tv
+Tv
+ry
+ry
+Tv
+Tv
+Tv
+Tv
+Tv
+Tv
+"}
+(17,1,1) = {"
+BB
+cy
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+lI
+fA
+UH
+EC
+EC
+hD
+EC
+EC
+vI
+EC
+EC
+bI
+fA
+lI
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+be
+mR
+"}
+(18,1,1) = {"
+fn
+eG
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Qf
+UH
+EC
+EC
+cd
+cv
+Tt
+Ik
+EC
+EC
+bI
+ij
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Wl
+"}
+(19,1,1) = {"
+BB
+PP
+Mc
+Kd
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+kI
+fA
+An
+rn
+rn
+hD
+EC
+EC
+Kj
+EC
+EC
+bI
+fA
+kI
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Mc
+Gf
+"}
+(20,1,1) = {"
+BB
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+Nt
+lQ
+cQ
+rn
+Nd
+br
+br
+tk
+EC
+kf
+Ng
+Nt
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+"}
+(21,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Nt
+VF
+vz
+cQ
+EC
+EC
+EC
+EC
+kf
+Ng
+Nt
+Nt
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(22,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+VF
+VF
+lQ
+AM
+AM
+AM
+AM
+Ng
+Nt
+Nt
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(23,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Nt
+Nt
+Nt
+dj
+dj
+Nt
+Nt
+Nt
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(24,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+le
+Mc
+Mc
+le
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(25,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+YL
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(26,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(27,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(28,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(29,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(30,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(31,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(32,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(33,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(34,1,1) = {"
+BB
+KQ
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+Ku
+KQ
+xQ
+Mc
+Mc
+xQ
+ar
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+Bl
+ar
+"}
+(35,1,1) = {"
+BB
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+rv
+rv
+rv
+rv
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+ar
+"}

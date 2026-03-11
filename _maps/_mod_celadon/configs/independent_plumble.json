@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/CeladonSS13/Shiptest/beta-dev/_maps/_mod_celadon/ship_config_schema.json",
+	"map_name": "Plumble-class Scientific Ship",
+	"map_short_name": "Plumble",
+	"map_path": "_maps/_mod_celadon/shuttles/independent/independent_plumble.dmm",
+	"description": "Модифицированная версия bubble-класса, оптимизированная для удобства умелых ученых и продающаяся за чуть большую цену. Автор идеи, известный гражданский механик Стэш Черепанов, устал помогать клиентам с одной и той же задачей - оптимизацией bubble-класса, поэтому стал продавать заранее настроенный шаттл.",
+	"enabled": true,
+	"limit": 2,
+	"sensor_range": 3,
+	"prefix": "ISV",
+	"faction": "/datum/faction/independent",
+	"tags": ["Исследовательский"],
+	"namelists": [
+		"GENERAL",
+		"SPACE"
+	],
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/cel/independent/captain",
+			"slots": 1
+		},
+		"Scientist": {
+			"outfit": "/datum/outfit/job/cel/independent/scientist",
+			"slots": 1
+		},
+		"Engineer": {
+			"outfit": "/datum/outfit/job/cel/independent/engineer",
+			"slots": 1
+		},
+		"Miner": {
+			"outfit": "/datum/outfit/job/cel/independent/miner",
+			"slots": 1
+		},
+		"Assistant": {
+			"outfit": "/datum/outfit/job/cel/independent/assistant",
+			"slots": 3
+		}
+	}
+}
