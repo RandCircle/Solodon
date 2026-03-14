@@ -388,7 +388,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
-/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "py" = (
@@ -991,6 +990,10 @@
 	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
+"Nr" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating,
+/area/ship/maintenance/starboard)
 "Nw" = (
 /obj/effect/turf_decal/corner/opaque/purple/border,
 /turf/open/floor/plasteel,
@@ -1592,7 +1595,7 @@ gA
 Ew
 rV
 oU
-gf
+Nr
 gf
 Tr
 Tr
@@ -1613,7 +1616,7 @@ ws
 VC
 gf
 gf
-Tr
+gf
 Tr
 Tr
 Tr
