@@ -285,7 +285,6 @@
 /area/ship/bridge)
 "lV" = (
 /obj/effect/turf_decal/corner/opaque/yellow/border,
-/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "mo" = (
@@ -298,16 +297,8 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "mt" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 14
-	},
 /obj/machinery/shower{
-	dir = 8;
-	pixel_y = 11
-	},
-/obj/machinery/light/small/directional/north{
-	pixel_y = 22
+	dir = 8
 	},
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/port)
@@ -484,6 +475,10 @@
 /turf/open/floor/plasteel,
 /area/ship/science)
 "rd" = (
+/obj/structure/sink{
+	dir = 1;
+	pixel_y = -2
+	},
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/port)
 "rv" = (
@@ -757,6 +752,11 @@
 	dir = 4
 	},
 /obj/machinery/computer/cryopod/directional/north,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -22;
+	pixel_y = -8
+	},
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/port)
 "Ew" = (
@@ -920,6 +920,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
+/obj/machinery/power/ship_gravity,
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
 "Kk" = (
@@ -1071,6 +1072,13 @@
 	},
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
+"Tn" = (
+/obj/machinery/light/small/directional/north{
+	pixel_y = 22
+	},
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/port)
 "Tr" = (
 /turf/template_noop,
 /area/template_noop)
@@ -1112,7 +1120,6 @@
 /obj/structure/cable{
 	icon_state = "0-1"
 	},
-/obj/machinery/power/ship_gravity,
 /turf/open/floor/plating,
 /area/ship/maintenance/aft)
 "VC" = (
@@ -1577,7 +1584,7 @@ Tr
 Tr
 Tr
 kq
-kq
+Tn
 mt
 dI
 qu
@@ -1596,7 +1603,7 @@ Tr
 Tr
 Tr
 Tr
-Tr
+kq
 kq
 kq
 zX
