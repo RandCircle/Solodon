@@ -115,6 +115,9 @@
 	pixel_y = 2;
 	pixel_x = 1
 	},
+/obj/item/toy/plush/celadon/stash_cherepanov{
+	layer = 3.5
+	},
 /turf/open/floor/plasteel,
 /area/ship/bridge)
 "eM" = (
@@ -443,9 +446,6 @@
 "qu" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
-	},
-/obj/item/toy/plush/celadon/brigadier_general{
-	layer = 3.5
 	},
 /turf/open/floor/plasteel,
 /area/ship/bridge)
@@ -957,7 +957,9 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/machinery/power/ship_gravity,
+/obj/machinery/power/ship_gravity{
+	anchored = 0
+	},
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
 "Kk" = (
@@ -1328,6 +1330,9 @@
 /obj/item/storage/box/donkpockets,
 /obj/item/storage/box/donkpockets,
 /obj/item/storage/box/donkpockets,
+/obj/item/toy/plush/celadon/brigadier_general{
+	layer = 3.5
+	},
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 

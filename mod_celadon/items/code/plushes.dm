@@ -1009,7 +1009,7 @@
 	icon_state = "brigadier_general"
 	item_state = "brigadier_general"
 	COOLDOWN_DECLARE(cooldown)
-	squeak_override = list('sound/misc/SanabiBoom.ogg'=1)
+	squeak_override = list('mod_celadon/_storage_sounds/sound/plushes/SanabiBoom.ogg'=1)
 
 /obj/item/toy/plush/celadon/brigadier_general/Initialize()
 	. = ..()
@@ -1020,6 +1020,12 @@
 	if(!COOLDOWN_FINISHED(src, cooldown))
 		return
 
-	playsound(src, 'sound/misc/SanabiBoom.ogg', 30, FALSE)
+	playsound(src, 'mod_celadon/_storage_sounds/sound/plushes/SanabiBoom.ogg', 30, FALSE)
 	say("Важно дойти до конца...")
 	COOLDOWN_START(src, cooldown, 3 SECONDS)
+
+/obj/item/toy/plush/celadon/stash_cherepanov
+	name = "Стэш Черепанов"
+	desc = "Карманная версия величайшего механика всего космоса, спроектировавшего такие шаттлы как plumble и monolith"
+	icon_state = "stash"
+	squeak_override = list('mod_celadon/_storage_sounds/sound/plushes/stash_meow.ogg'=1)
