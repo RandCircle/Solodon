@@ -119,7 +119,8 @@
 		/obj/item/toy/plush/celadon/grogu = 2,
 		/obj/item/toy/talking/neznakomka = 2,
 		/obj/item/toy/talking/barmen_tim = 2,
-		/obj/item/toy/plush/celadon/brigadier_general = 2,)
+		/obj/item/toy/plush/celadon/brigadier_general = 2,
+		/obj/item/toy/plush/celadon/stash_cherepanov = 2)
 	contraband	= list(
 		/obj/item/toy/plush/celadon/separ = 1,
 		)
