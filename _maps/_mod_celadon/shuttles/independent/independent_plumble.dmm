@@ -51,10 +51,15 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "bG" = (
-/obj/structure/window/reinforced/spawner/east,
 /obj/item/circuitboard/machine/protolathe/department/science,
 /obj/effect/turf_decal/corner/opaque/purple/three_quarters,
 /obj/structure/frame/machine,
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/ship/science)
 "cg" = (
@@ -465,10 +470,12 @@
 /turf/open/floor/plasteel,
 /area/ship/hallway/central)
 "rc" = (
-/obj/structure/window/reinforced/spawner/east,
 /obj/item/circuitboard/machine/circuit_imprinter/department/science,
 /obj/structure/frame/machine,
 /obj/effect/turf_decal/corner/opaque/purple/half{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -630,17 +637,13 @@
 /obj/structure/cable{
 	icon_state = "0-1"
 	},
-/obj/item/circuitboard/computer/arcade/orion_trail,
 /obj/structure/crate_shelf,
-/obj/structure/closet/crate/engineering,
-/obj/item/storage/toolbox/mechanical{
-	pixel_y = 5
-	},
-/obj/item/storage/toolbox/electrical,
-/obj/item/multitool,
-/obj/item/stack/sheet/cotton/cloth/ten{
-	amount = 11
-	},
+/obj/item/stack/sheet/plasteel/fifty,
+/obj/item/construction/rcd/combat,
+/obj/item/construction/plumbing,
+/obj/item/construction/rcd/arcd,
+/obj/item/pipe_dispenser,
+/obj/structure/closet/crate,
 /turf/open/floor/plasteel,
 /area/ship/science)
 "yK" = (
@@ -751,9 +754,6 @@
 /turf/open/floor/plating,
 /area/ship/crew/dorm)
 "Dt" = (
-/obj/machinery/door/window/eastright{
-	req_ship_access = 1
-	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
@@ -1186,12 +1186,16 @@
 /obj/effect/turf_decal/corner/opaque/purple/three_quarters{
 	dir = 1
 	},
-/obj/structure/closet/crate,
-/obj/item/stack/sheet/plasteel/fifty,
-/obj/item/pipe_dispenser,
-/obj/item/construction/rcd/arcd,
-/obj/item/construction/plumbing,
-/obj/item/construction/rcd/combat,
+/obj/structure/closet/crate/engineering,
+/obj/item/circuitboard/computer/arcade/orion_trail,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 5
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/item/multitool,
+/obj/item/stack/sheet/cotton/cloth/ten{
+	amount = 11
+	},
 /turf/open/floor/plasteel,
 /area/ship/science)
 "VQ" = (
