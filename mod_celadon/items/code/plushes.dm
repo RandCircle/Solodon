@@ -1029,6 +1029,3 @@
 	desc = "Карманная версия величайшего механика всего космоса, спроектировавшего такие шаттлы как plumble и monolith"
 	icon_state = "stash"
 	squeak_override = list('mod_celadon/_storage_sounds/sound/plushes/stash_meow1.ogg'=1, 'mod_celadon/_storage_sounds/sound/plushes/stash_meow2.ogg'=1, 'mod_celadon/_storage_sounds/sound/plushes/stash_meow3.ogg'=1)
-
-/obj/item/toy/plush/celadon/stash_cherepanov/attack_self(mob/user)
-	playsound(src, 'mod_celadon/_storage_sounds/sound/plushes/stash_purr.ogg', 30, FALSE)
