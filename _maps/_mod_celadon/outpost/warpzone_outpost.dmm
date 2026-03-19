@@ -1,6 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
 /obj/structure/railing,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "aw" = (
@@ -13,6 +16,9 @@
 /obj/machinery/computer/cargo/faction/independent/computer_2{
 	dir = 8
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/all/zone_2)
 "cA" = (
@@ -22,11 +28,14 @@
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/inteq)
 "dE" = (
-/obj/machinery/door/airlock/mining{
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/door/airlock/mining/glass{
+	id_tag = "cargo_inteq";
 	name = "InteQ Cargo";
 	req_access_txt = "8133";
-	dir = 8;
-	id_tag = "cargo_inteq"
+	dir = 8
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/fraction/inteq)
@@ -40,17 +49,32 @@
 /turf/open/space/basic,
 /area/space)
 "eI" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/structure/chair/wood{
+	dir = 4
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/aft)
 "eY" = (
 /obj/structure/railing{
 	dir = 8
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "fD" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
-/area/outpost/vacant_rooms/trash_factory)
+/area/outpost/cargo/faction/inteq)
 "gD" = (
 /obj/structure/window/reinforced/fulltile/indestructible{
 	alpha = 0
@@ -61,6 +85,9 @@
 /obj/machinery/computer/cargo/faction/independent/computer_1{
 	dir = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/all/zone_1)
 "hJ" = (
@@ -70,10 +97,28 @@
 /turf/open/space/basic,
 /area/outpost/fraction/nanotrasen)
 "hT" = (
-/turf/open/floor/glass/indigo,
-/area/outpost/fraction/nanotrasen)
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"iT" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
 "jQ" = (
 /obj/item/banner/nanotrasen/mundane,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
 "kh" = (
@@ -89,18 +134,33 @@
 /turf/open/space/basic,
 /area/space)
 "ld" = (
-/turf/open/floor/glass/red,
-/area/outpost/fraction/syndi)
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
 "li" = (
 /obj/machinery/door/airlock/maintenance/glass{
 	id_tag = "cargo_cab_1";
 	dir = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo)
 "lx" = (
-/turf/open/floor/glass/indigo,
-/area/outpost/cargo/faction/nanotrasen)
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_2)
 "lJ" = (
 /obj/machinery/button/door{
 	id = "cargo_cab_2";
@@ -110,6 +170,9 @@
 	dir = 4;
 	pixel_x = -22;
 	layer = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo)
@@ -130,21 +193,33 @@
 	dir = 1;
 	layer = 2.8
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "ot" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "oL" = (
 /obj/item/banner/inteq/mundane,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
 "qs" = (
 /obj/machinery/computer/cargo/faction/inteq{
 	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/inteq)
@@ -159,6 +234,9 @@
 	id = "outpost3";
 	use_static_power = 1;
 	dir = 9
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
@@ -179,14 +257,21 @@
 /area/outpost/hallway/central)
 "wt" = (
 /obj/item/banner/syndie/mundane,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
 "ww" = (
+/obj/machinery/computer/slot_machine,
 /turf/open/floor/glass/cyan,
-/area/outpost/fraction/inteq)
+/area/outpost/hallway/aft)
 "wY" = (
 /obj/machinery/computer/cargo/faction/solfed{
 	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/solfed)
@@ -195,11 +280,17 @@
 	id_tag = "cargo_cab_2";
 	dir = 8
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo)
 "xk" = (
 /obj/machinery/computer/cargo/faction/nanotrasen{
 	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/indigo,
 /area/outpost/cargo/faction/nanotrasen)
@@ -208,11 +299,20 @@
 	dir = 5;
 	id = "outpost3"
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "xw" = (
-/turf/open/floor/glass/cyan,
-/area/outpost/cargo/faction/inteq)
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
 "xY" = (
 /obj/effect/landmark/outpost/elevator_machine{
 	shaft = "1"
@@ -220,6 +320,9 @@
 /obj/machinery/elevator_call_button{
 	pixel_y = 31;
 	pixel_x = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
@@ -230,6 +333,12 @@
 /turf/open/floor/glass/red,
 /area/outpost/cargo/faction/syndicate)
 "zZ" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
 "Ab" = (
@@ -239,14 +348,23 @@
 /turf/open/space/basic,
 /area/outpost/fraction/syndi)
 "AI" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
-/area/outpost/cargo/faction/solfed)
+/area/outpost/fraction/inteq)
 "Cf" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Nanotrasen Cargo";
 	req_access_txt = "8130";
 	dir = 4;
 	id_tag = "cargo_nt"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/indigo,
 /area/outpost/fraction/nanotrasen)
@@ -288,15 +406,29 @@
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/all/zone_1)
 "HM" = (
-/obj/structure/closet/firecloset/full{
-	anchored = 1;
-	can_be_unanchored = 1
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
+/obj/structure/closet/emcloset/anchored,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/clothing/mask/breath,
+/obj/item/tank/internals/plasmaman/belt,
+/obj/item/tank/internals/plasmaman/belt,
+/obj/item/extinguisher,
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/aft)
 "Ib" = (
 /obj/machinery/conveyor/auto{
 	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
@@ -310,14 +442,26 @@
 	pixel_x = -22;
 	layer = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/fraction/inteq)
 "II" = (
-/turf/open/floor/glass/cyan,
-/area/outpost/fraction/solfed)
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/cargo/faction/nanotrasen)
 "LC" = (
 /obj/structure/railing{
 	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
@@ -331,11 +475,14 @@
 /turf/closed/indestructible/reinforced,
 /area/outpost/hallway/central)
 "NA" = (
-/obj/machinery/door/airlock/solgov{
-	dir = 4;
-	id_tag = "cargo_solfed";
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/door/airlock/solgov/glass{
 	req_access_txt = "8132";
-	name = "SolFed Cargo"
+	name = "SolFed Cargo";
+	id_tag = "cargo_solfed";
+	dir = 4
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/fraction/solfed)
@@ -349,13 +496,25 @@
 	pixel_x = 22;
 	layer = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/indigo,
 /area/outpost/fraction/nanotrasen)
 "OA" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
-/area/outpost/cargo)
+/area/outpost/vacant_rooms/trash_factory)
 "OT" = (
 /obj/item/banner/solfed/mundane,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
 "PA" = (
@@ -363,11 +522,17 @@
 	dir = 6;
 	id = "outpost3"
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "Qz" = (
 /obj/machinery/conveyor/auto{
 	dir = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
@@ -381,10 +546,16 @@
 /obj/machinery/computer/cargo/faction/syndicate{
 	dir = 8
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/red,
 /area/outpost/cargo/faction/syndicate)
 "Sd" = (
 /obj/item/banner/cargo/mundane,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
 "Ss" = (
@@ -403,6 +574,9 @@
 	pixel_x = 22;
 	layer = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo)
 "TM" = (
@@ -415,6 +589,9 @@
 	pixel_x = 22;
 	layer = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/fraction/solfed)
 "Uh" = (
@@ -423,11 +600,17 @@
 	id = "outpost3"
 	},
 /obj/machinery/recycler,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
 "Uw" = (
 /obj/effect/landmark/observer_start,
 /obj/effect/landmark/outpost_orbit_token,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
@@ -438,7 +621,12 @@
 	pixel_y = 6;
 	can_be_unanchored = 1
 	},
-/obj/structure/table,
+/obj/structure/table{
+	deconstruction_ready = 0
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/aft)
 "Vo" = (
@@ -448,14 +636,29 @@
 	dir = 8;
 	id_tag = "cargo_syndie"
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/red,
 /area/outpost/fraction/syndi)
 "VQ" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
-/area/outpost/cargo/faction/all/zone_2)
+/area/outpost/cargo/faction/all/zone_1)
 "WD" = (
-/turf/open/floor/glass/red,
-/area/outpost/cargo/faction/syndicate)
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
 "XB" = (
 /obj/structure/window/reinforced/fulltile/indestructible{
 	alpha = 0
@@ -472,16 +675,30 @@
 	pixel_x = -22;
 	layer = 4
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/red,
 /area/outpost/fraction/syndi)
 "XR" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
-/area/outpost/cargo/faction/all/zone_1)
+/area/outpost/cargo/faction/solfed)
 "Yn" = (
-/obj/structure/table/wood,
+/obj/structure/table/wood{
+	deconstruction_ready = 0
+	},
 /obj/item/candle/infinite{
 	pixel_y = 4;
 	pixel_x = -1
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
@@ -489,14 +706,22 @@
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
-/obj/structure/closet/emcloset/anchored{
-	can_be_unanchored = 1
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/item/storage/firstaid/medical,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid,
+/obj/structure/closet{
+	icon_state = "med";
+	anchored = 1
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/aft)
 "Zn" = (
 /obj/structure/table{
-	can_be_unanchored = 1;
 	deconstruction_ready = 0
 	},
 /obj/effect/spawner/random/food_or_drink/donkpockets{
@@ -517,6 +742,9 @@
 /obj/effect/spawner/random/food_or_drink/donkpockets{
 	pixel_y = 5
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/aft)
 "ZE" = (
@@ -525,6 +753,15 @@
 	},
 /turf/open/floor/glass/red,
 /area/outpost/fraction/syndi)
+"ZZ" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/red,
+/area/outpost/cargo/faction/syndicate)
 
 (1,1,1) = {"
 eH
@@ -1130,39 +1367,39 @@ eH
 eH
 eH
 kh
-fD
-fD
 lL
-fD
+lL
+OA
+lL
 LC
 LC
-fD
+lL
 kh
 eH
 rP
+VQ
 GL
-XR
 he
-XR
 GL
+VQ
 rP
 eH
 eH
 hJ
+II
 Ss
-lx
 xk
-lx
 Ss
+II
 hJ
 eH
 eH
 aw
+XR
 Eb
-AI
 wY
-AI
 Eb
+XR
 aw
 eH
 eH
@@ -1185,8 +1422,8 @@ eH
 eH
 kh
 ot
-fD
-fD
+lL
+lL
 ad
 xr
 qT
@@ -1194,29 +1431,29 @@ ne
 kh
 eH
 rP
-OA
-OA
-OA
-OA
-OA
+mO
+mO
+mO
+mO
+mO
 rP
 eH
 eH
 hJ
-hT
-hT
-hT
-hT
-hT
+LO
+LO
+LO
+LO
+LO
 hJ
 eH
 eH
 aw
-II
-II
-II
-II
-II
+qQ
+qQ
+qQ
+qQ
+qQ
 aw
 eH
 eH
@@ -1239,8 +1476,8 @@ eH
 eH
 kh
 Yn
-fD
-fD
+lL
+lL
 ad
 Uh
 Ib
@@ -1248,29 +1485,29 @@ ne
 kh
 eH
 rP
-OA
-OA
 mO
-OA
-OA
+mO
+hT
+mO
+mO
 rP
 eH
 eH
 hJ
-hT
-hT
 LO
-hT
-hT
+LO
+xw
+LO
+LO
 hJ
 eH
 eH
 aw
-II
-II
 qQ
-II
-II
+qQ
+ld
+qQ
+qQ
 aw
 eH
 eH
@@ -1292,39 +1529,39 @@ eH
 eH
 eH
 kh
-fD
-fD
-fD
 lL
+lL
+lL
+OA
 PA
 Qz
 ne
 kh
 eH
 rP
-OA
+mO
 SO
-OA
-OA
-OA
+mO
+mO
+mO
 rP
 eH
 eH
 hJ
-hT
+LO
 Oy
-hT
-hT
-hT
+LO
+LO
+LO
 hJ
 eH
 eH
 aw
-II
+qQ
 TM
-II
-II
-II
+qQ
+qQ
+qQ
 aw
 eH
 eH
@@ -1346,19 +1583,19 @@ eH
 eH
 eH
 kh
-fD
-fD
-fD
-fD
+lL
+lL
+lL
+lL
 eY
 eY
-fD
+lL
 kh
 eH
 rP
 rP
 rP
-OA
+mO
 rP
 rP
 rP
@@ -1367,7 +1604,7 @@ eH
 hJ
 hJ
 hJ
-hT
+LO
 hJ
 hJ
 hJ
@@ -1376,7 +1613,7 @@ eH
 aw
 aw
 aw
-II
+qQ
 aw
 aw
 aw
@@ -1403,7 +1640,7 @@ kh
 kh
 kh
 kh
-fD
+lL
 kh
 kh
 kh
@@ -1412,7 +1649,7 @@ eH
 eH
 eH
 rP
-OA
+mO
 rP
 eH
 eH
@@ -1421,7 +1658,7 @@ eH
 eH
 eH
 hJ
-hT
+LO
 hJ
 eH
 eH
@@ -1430,7 +1667,7 @@ eH
 eH
 eH
 aw
-II
+qQ
 aw
 eH
 eH
@@ -1454,10 +1691,10 @@ eH
 eH
 eH
 eH
+eH
 gD
 gD
-gD
-zZ
+vZ
 gD
 gD
 gD
@@ -1509,40 +1746,40 @@ Mw
 Mw
 Mw
 Mw
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 Sd
-zZ
+vZ
 Sd
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 jQ
-zZ
+vZ
 jQ
+vZ
+vZ
+vZ
+vZ
 zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
 OT
-zZ
+vZ
 OT
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
 gD
 eH
 eH
@@ -1563,40 +1800,40 @@ tH
 tH
 dL
 Mw
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 gD
 eH
 eH
@@ -1617,40 +1854,40 @@ tH
 tH
 tH
 Df
-zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
+vZ
 Uw
-zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
-zZ
+vZ
 vZ
 zZ
+vZ
 gD
 eH
 eH
@@ -1672,39 +1909,39 @@ tH
 tH
 Mw
 xY
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 gD
 eH
 eH
@@ -1725,40 +1962,40 @@ Mw
 Mw
 Mw
 Mw
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 Sd
-zZ
+vZ
 Sd
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 wt
-zZ
+vZ
 wt
-zZ
-zZ
-zZ
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
+vZ
+vZ
+vZ
 oL
-zZ
+vZ
 oL
-zZ
-zZ
-zZ
+vZ
+vZ
+vZ
 gD
 eH
 eH
@@ -1778,10 +2015,10 @@ eH
 eH
 eH
 eH
+eH
 gD
 gD
-gD
-zZ
+vZ
 gD
 gD
 gD
@@ -1835,7 +2072,7 @@ eH
 eH
 eH
 XB
-eI
+En
 XB
 eH
 eH
@@ -1844,7 +2081,7 @@ eH
 eH
 eH
 rP
-OA
+mO
 rP
 eH
 eH
@@ -1853,7 +2090,7 @@ eH
 eH
 eH
 Ab
-ld
+ZE
 Ab
 eH
 eH
@@ -1862,7 +2099,7 @@ eH
 eH
 eH
 QY
-ww
+EU
 QY
 eH
 eH
@@ -1889,7 +2126,7 @@ XB
 XB
 XB
 XB
-eI
+En
 XB
 XB
 XB
@@ -1898,7 +2135,7 @@ eH
 rP
 rP
 rP
-OA
+mO
 rP
 rP
 rP
@@ -1907,7 +2144,7 @@ eH
 Ab
 Ab
 Ab
-ld
+ZE
 Ab
 Ab
 Ab
@@ -1916,7 +2153,7 @@ eH
 QY
 QY
 QY
-ww
+EU
 QY
 QY
 QY
@@ -1939,40 +2176,40 @@ eH
 eH
 eH
 XB
-eI
 En
-eI
-eI
-eI
-eI
-eI
+WD
 En
+En
+En
+En
+En
+WD
 XB
 eH
 rP
-OA
+mO
 lJ
-OA
-OA
-OA
+mO
+mO
+mO
 rP
 eH
 eH
 Ab
-ld
+ZE
 XN
-ld
-ld
-ld
+ZE
+ZE
+ZE
 Ab
 eH
 eH
 QY
-ww
+EU
 Ir
-ww
-ww
-ww
+EU
+EU
+EU
 QY
 eH
 eH
@@ -1993,40 +2230,40 @@ eH
 eH
 eH
 XB
-eI
+En
 HM
-eI
-eI
-eI
-eI
-eI
-eI
+En
+En
+En
+En
+En
+En
 XB
 eH
 rP
-OA
-OA
 mO
-OA
-OA
+mO
+hT
+mO
+mO
 rP
 eH
 eH
 Ab
-ld
-ld
 ZE
-ld
-ld
+ZE
+iT
+ZE
+ZE
 Ab
 eH
 eH
 QY
-ww
-ww
 EU
-ww
-ww
+EU
+AI
+EU
+EU
 QY
 eH
 eH
@@ -2047,40 +2284,40 @@ eH
 eH
 eH
 XB
-eI
-eI
-eI
-eI
 En
-eI
-eI
-eI
+En
+En
+En
+WD
+En
+En
+En
 XB
 eH
 rP
-OA
-OA
-OA
-OA
-OA
+mO
+mO
+mO
+mO
+mO
 rP
 eH
 eH
 Ab
-ld
-ld
-ld
-ld
-ld
+ZE
+ZE
+ZE
+ZE
+ZE
 Ab
 eH
 eH
 QY
-ww
-ww
-ww
-ww
-ww
+EU
+EU
+EU
+EU
+EU
 QY
 eH
 eH
@@ -2101,40 +2338,40 @@ eH
 eH
 eH
 XB
-eI
+En
 UI
-eI
-eI
+En
+En
 Zn
-eI
-eI
-eI
+En
+En
+En
 XB
 eH
 rP
+lx
 GC
-VQ
 aJ
-VQ
 GC
+lx
 rP
 eH
 eH
 Ab
+ZZ
 zG
-WD
 Rz
-WD
 zG
+ZZ
 Ab
 eH
 eH
 QY
+fD
 cA
-xw
 qs
-xw
 cA
+fD
 QY
 eH
 eH
@@ -2155,14 +2392,14 @@ eH
 eH
 eH
 XB
-eI
 En
-eI
-eI
-eI
-eI
-eI
+WD
 En
+En
+En
+En
+En
+WD
 XB
 eH
 rP
@@ -2209,14 +2446,14 @@ eH
 eH
 eH
 XB
-eI
-Zd
-eI
-eI
-eI
 En
-eI
-eI
+Zd
+En
+En
+En
+WD
+En
+En
 XB
 eH
 eH
@@ -2263,14 +2500,14 @@ eH
 eH
 eH
 XB
+En
+En
+En
+En
 eI
-eI
-eI
-eI
-eI
-eI
-eI
-eI
+En
+En
+En
 XB
 eH
 eH
@@ -2321,7 +2558,7 @@ XB
 XB
 XB
 XB
-XB
+ww
 XB
 XB
 XB
@@ -2374,9 +2611,9 @@ eH
 eH
 eH
 eH
-eH
-eH
-eH
+XB
+XB
+XB
 eH
 eH
 eH
@@ -2633,6 +2870,114 @@ eH
 eH
 "}
 (40,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(41,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(42,1,1) = {"
 eH
 eH
 eH

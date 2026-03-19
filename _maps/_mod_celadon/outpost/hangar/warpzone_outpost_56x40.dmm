@@ -5,11 +5,64 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"b" = (
+/obj/effect/portal/permanent/one_way{
+	id = "cargo_20x20"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"c" = (
+/obj/effect/landmark/portal_exit{
+	id = "cargo_20x20"
+	},
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"e" = (
+/obj/structure/plasticflaps/outpost,
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "i" = (
 /obj/effect/landmark/outpost/elevator,
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"j" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"k" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	id = "outpost3"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"l" = (
+/obj/effect/landmark/outpost/hangar_crate_spawner,
+/obj/machinery/conveyor/auto/outpost{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
 /area/hangar)
 "m" = (
 /obj/effect/dummy/lighting_obj{
@@ -36,13 +89,43 @@
 /turf/closed/indestructible/reinforced,
 /area/hangar)
 "q" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
 /turf/open/space/anima,
-/area/template_noop)
+/area/hangar)
+"t" = (
+/obj/machinery/conveyor/auto{
+	id = "outpost3";
+	use_static_power = 1;
+	dir = 9
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"u" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "v" = (
 /obj/effect/landmark/outpost/elevator_machine,
 /obj/machinery/elevator_call_button{
 	pixel_y = 31;
 	pixel_x = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"x" = (
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
 	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
@@ -60,14 +143,88 @@
 /obj/effect/landmark/outpost/elevator_machine,
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"E" = (
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/machinery/recycler,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"F" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 1
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"G" = (
+/obj/machinery/conveyor/auto{
+	dir = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"I" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "J" = (
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"K" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
 "M" = (
 /turf/open/space/basic,
 /area/template_noop)
+"Q" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/structure/railing,
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"R" = (
+/obj/structure/railing,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "S" = (
 /obj/effect/landmark/outpost/hangar_dock,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"T" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	id = "outpost3"
+	},
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
@@ -92,8 +249,22 @@
 /obj/effect/landmark/outpost/hangar_numbers,
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"Z" = (
+/obj/machinery/conveyor/auto{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 
 (1,1,1) = {"
+U
+U
+U
+M
+M
 M
 M
 M
@@ -166,6 +337,11 @@ M
 M
 "}
 (2,1,1) = {"
+U
+b
+U
+M
+M
 M
 M
 M
@@ -238,6 +414,11 @@ M
 M
 "}
 (3,1,1) = {"
+U
+l
+U
+M
+M
 M
 M
 M
@@ -310,6 +491,11 @@ M
 M
 "}
 (4,1,1) = {"
+U
+U
+U
+M
+M
 M
 M
 M
@@ -452,8 +638,18 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 "}
 (6,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -596,8 +792,18 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 "}
 (8,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -680,6 +886,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 U
 U
@@ -742,6 +953,11 @@ M
 M
 "}
 (10,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -823,7 +1039,12 @@ M
 M
 M
 M
-M
+U
+U
+U
+U
+U
+U
 U
 a
 a
@@ -890,13 +1111,18 @@ M
 M
 M
 M
-q
-q
-q
-q
-q
 M
-U
+M
+M
+M
+M
+q
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -962,13 +1188,18 @@ M
 M
 M
 M
-q
-q
-q
-q
-q
 M
-U
+M
+M
+M
+M
+q
+a
+x
+x
+j
+a
+a
 a
 a
 a
@@ -1034,13 +1265,18 @@ M
 M
 M
 M
-q
-q
-q
-q
-q
+M
 M
 U
+U
+U
+q
+a
+u
+a
+j
+a
+a
 a
 a
 a
@@ -1106,13 +1342,18 @@ M
 M
 M
 M
-q
-q
-q
-q
-q
+M
 M
 U
+c
+x
+e
+x
+u
+a
+j
+a
+a
 a
 a
 a
@@ -1180,11 +1421,16 @@ M
 M
 M
 M
-M
-M
-M
-M
 U
+U
+U
+U
+a
+u
+a
+j
+a
+a
 a
 a
 a
@@ -1255,8 +1501,13 @@ M
 M
 M
 M
-M
 U
+a
+u
+F
+F
+a
+a
 a
 a
 a
@@ -1327,8 +1578,13 @@ M
 M
 M
 M
-M
 U
+a
+a
+a
+a
+a
+a
 a
 a
 m
@@ -1399,7 +1655,12 @@ M
 M
 M
 M
-M
+U
+U
+U
+U
+U
+U
 U
 a
 m
@@ -1462,6 +1723,11 @@ M
 M
 "}
 (20,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -1538,6 +1804,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 o
 o
 o
@@ -1606,6 +1877,11 @@ M
 M
 "}
 (22,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -1682,6 +1958,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 o
 z
 z
@@ -1750,6 +2031,11 @@ M
 M
 "}
 (24,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -1826,6 +2112,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 o
 o
 o
@@ -1894,6 +2185,11 @@ M
 M
 "}
 (26,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -1976,6 +2272,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 n
@@ -2038,6 +2339,11 @@ M
 M
 "}
 (28,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -2120,6 +2426,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 m
@@ -2182,6 +2493,11 @@ M
 M
 "}
 (30,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -2265,6 +2581,11 @@ M
 M
 M
 U
+U
+U
+U
+U
+U
 a
 a
 n
@@ -2338,6 +2659,11 @@ M
 M
 U
 a
+K
+K
+a
+a
+a
 a
 m
 m
@@ -2409,6 +2735,11 @@ M
 M
 M
 U
+R
+k
+t
+a
+a
 a
 a
 a
@@ -2481,6 +2812,11 @@ M
 M
 M
 U
+R
+E
+Z
+a
+a
 a
 a
 m
@@ -2553,6 +2889,11 @@ M
 M
 M
 U
+Q
+T
+G
+a
+a
 a
 a
 m
@@ -2626,6 +2967,11 @@ M
 M
 U
 a
+I
+I
+a
+a
+a
 a
 a
 m
@@ -2697,6 +3043,11 @@ M
 M
 M
 U
+U
+U
+U
+U
+U
 a
 a
 m
@@ -2758,6 +3109,11 @@ M
 M
 "}
 (38,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -2840,6 +3196,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 m
@@ -2902,6 +3263,11 @@ M
 M
 "}
 (40,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -2984,6 +3350,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3046,6 +3417,11 @@ M
 M
 "}
 (42,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3128,6 +3504,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3190,6 +3571,11 @@ M
 M
 "}
 (44,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3272,6 +3658,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3334,6 +3725,11 @@ M
 M
 "}
 (46,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3416,6 +3812,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3478,6 +3879,11 @@ M
 M
 "}
 (48,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3560,6 +3966,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3622,6 +4033,11 @@ M
 M
 "}
 (50,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3704,6 +4120,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3766,6 +4187,11 @@ M
 M
 "}
 (52,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3848,6 +4274,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -3910,6 +4341,11 @@ M
 M
 "}
 (54,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -3992,6 +4428,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 m
@@ -4054,6 +4495,11 @@ M
 M
 "}
 (56,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -4136,6 +4582,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -4198,6 +4649,11 @@ M
 M
 "}
 (58,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -4280,6 +4736,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 m
@@ -4342,6 +4803,11 @@ M
 M
 "}
 (60,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -4424,6 +4890,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -4486,6 +4957,11 @@ M
 M
 "}
 (62,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -4568,6 +5044,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -4630,6 +5111,11 @@ M
 M
 "}
 (64,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -4712,6 +5198,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -4774,6 +5265,11 @@ M
 M
 "}
 (66,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -4856,6 +5352,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -4918,6 +5419,11 @@ M
 M
 "}
 (68,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5000,6 +5506,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 n
@@ -5062,6 +5573,11 @@ M
 M
 "}
 (70,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5144,6 +5660,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 m
@@ -5206,6 +5727,11 @@ M
 M
 "}
 (72,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5288,6 +5814,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 m
@@ -5350,6 +5881,11 @@ M
 M
 "}
 (74,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5432,6 +5968,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -5494,6 +6035,11 @@ M
 M
 "}
 (76,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5576,6 +6122,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -5638,6 +6189,11 @@ M
 M
 "}
 (78,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5720,6 +6276,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -5782,6 +6343,11 @@ M
 M
 "}
 (80,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -5864,6 +6430,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -5936,6 +6507,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 U
 a
 a
@@ -5998,6 +6574,11 @@ M
 M
 "}
 (83,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -6140,8 +6721,18 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 "}
 (85,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -6284,8 +6875,18 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 "}
 (87,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M
@@ -6428,6 +7029,11 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 "}
 (89,1,1) = {"
 M
@@ -6500,8 +7106,18 @@ M
 M
 M
 M
+M
+M
+M
+M
+M
 "}
 (90,1,1) = {"
+M
+M
+M
+M
+M
 M
 M
 M

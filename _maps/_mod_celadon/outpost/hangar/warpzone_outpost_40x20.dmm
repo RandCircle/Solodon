@@ -2,6 +2,15 @@
 "a" = (
 /turf/open/space/basic,
 /area/template_noop)
+"c" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "d" = (
 /obj/effect/landmark/outpost/elevator_machine,
 /obj/machinery/elevator_call_button{
@@ -10,7 +19,71 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"f" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	id = "outpost3"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"i" = (
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/machinery/recycler,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"j" = (
+/obj/effect/landmark/outpost/hangar_crate_spawner,
+/obj/machinery/conveyor/auto/outpost{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"k" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"l" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 1
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "n" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"o" = (
+/obj/machinery/conveyor/auto{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"p" = (
+/obj/effect/portal/permanent/one_way{
+	id = "cargo_20x20"
+	},
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
@@ -25,18 +98,49 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"s" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "u" = (
 /obj/machinery/door/airlock,
 /obj/effect/landmark/outpost/elevator_machine,
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"v" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/structure/railing,
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "w" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
 /turf/open/space/anima,
-/area/template_noop)
+/area/hangar)
 "y" = (
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"z" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
 /area/hangar)
 "A" = (
 /obj/effect/landmark/outpost/shaft_number,
@@ -53,6 +157,31 @@
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"F" = (
+/obj/structure/plasticflaps/outpost,
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"J" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	id = "outpost3"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"K" = (
+/obj/structure/railing,
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
@@ -77,6 +206,43 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"Q" = (
+/obj/machinery/conveyor/auto{
+	id = "outpost3";
+	use_static_power = 1;
+	dir = 9
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"T" = (
+/obj/machinery/conveyor/auto{
+	dir = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"U" = (
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"V" = (
+/obj/effect/landmark/portal_exit{
+	id = "cargo_20x20"
+	},
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "W" = (
 /turf/open/floor/glass/cyan,
 /area/hangar)
@@ -85,9 +251,9 @@
 /area/hangar)
 
 (1,1,1) = {"
-a
-a
-a
+L
+L
+L
 a
 a
 a
@@ -137,9 +303,9 @@ a
 a
 "}
 (2,1,1) = {"
-a
-a
-a
+L
+p
+L
 a
 a
 a
@@ -189,9 +355,9 @@ a
 a
 "}
 (3,1,1) = {"
-a
-a
-a
+L
+j
+L
 a
 a
 a
@@ -241,9 +407,9 @@ a
 a
 "}
 (4,1,1) = {"
-a
-a
-a
+L
+L
+L
 a
 a
 a
@@ -564,12 +730,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
+L
+L
+L
+L
+L
+L
 L
 n
 n
@@ -617,12 +783,12 @@ a
 a
 a
 w
-w
-w
-w
-w
-a
-L
+n
+n
+n
+n
+n
+n
 n
 n
 q
@@ -669,12 +835,12 @@ a
 a
 a
 w
-w
-w
-w
-w
-a
-L
+n
+U
+U
+k
+n
+n
 n
 n
 n
@@ -717,16 +883,16 @@ a
 a
 a
 a
-a
-a
-a
-w
-w
-w
-w
-w
-a
 L
+L
+L
+w
+n
+c
+n
+k
+n
+n
 n
 n
 n
@@ -769,16 +935,16 @@ a
 a
 a
 a
-a
-a
-a
-w
-w
-w
-w
-w
-a
 L
+V
+U
+F
+U
+c
+n
+k
+n
+n
 n
 n
 n
@@ -821,16 +987,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
 L
+L
+L
+L
+n
+c
+n
+k
+n
+n
 n
 n
 q
@@ -876,13 +1042,13 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
 L
+n
+c
+l
+l
+n
+n
 n
 n
 n
@@ -928,13 +1094,13 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
 L
+n
+n
+n
+n
+n
+n
 n
 n
 n
@@ -980,12 +1146,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
+L
+L
+L
+L
+L
+L
 L
 n
 n
@@ -1605,11 +1771,11 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
+L
+L
+L
+L
+L
 L
 n
 n
@@ -1657,12 +1823,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
 L
+n
+s
+s
+n
+n
 n
 n
 n
@@ -1709,12 +1875,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
 L
+K
+J
+Q
+n
+n
 n
 n
 n
@@ -1761,12 +1927,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
 L
+K
+i
+o
+n
+n
 n
 n
 q
@@ -1813,12 +1979,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
 L
+v
+f
+T
+n
+n
 n
 n
 n
@@ -1865,12 +2031,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
 L
+n
+z
+z
+n
+n
 n
 n
 n
@@ -1917,11 +2083,11 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
+L
+L
+L
+L
+L
 L
 n
 n

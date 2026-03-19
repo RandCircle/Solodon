@@ -2,6 +2,15 @@
 "a" = (
 /turf/open/space/basic,
 /area/template_noop)
+"b" = (
+/obj/machinery/conveyor/auto{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "c" = (
 /obj/effect/landmark/outpost/elevator,
 /turf/open/floor/plasteel/elevatorshaft{
@@ -11,10 +20,45 @@
 "e" = (
 /turf/closed/indestructible/reinforced,
 /area/hangar)
+"f" = (
+/obj/structure/plasticflaps/outpost,
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "h" = (
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"n" = (
+/obj/structure/railing,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"o" = (
+/obj/machinery/conveyor/auto{
+	dir = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"u" = (
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/machinery/recycler,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
 /area/hangar)
 "v" = (
 /obj/effect/dummy/lighting_obj{
@@ -31,6 +75,12 @@
 	},
 /turf/open/space/basic,
 /area/hangar)
+"x" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/anima,
+/area/hangar)
 "y" = (
 /turf/open/floor/glass/cyan,
 /area/hangar)
@@ -40,8 +90,47 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"B" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"F" = (
+/obj/effect/landmark/portal_exit{
+	id = "cargo_20x20"
+	},
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"G" = (
+/obj/machinery/conveyor/auto{
+	id = "outpost3";
+	use_static_power = 1;
+	dir = 9
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "H" = (
 /obj/effect/landmark/outpost/shaft_number,
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"I" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
 "J" = (
@@ -53,8 +142,45 @@
 /obj/effect/landmark/outpost/elevator_machine,
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"L" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "M" = (
 /obj/effect/landmark/outpost/hangar_dock,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"O" = (
+/obj/effect/portal/permanent/one_way{
+	id = "cargo_20x20"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"P" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	id = "outpost3"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"Q" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 1
+	},
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
 	},
@@ -72,9 +198,49 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/hangar)
+"U" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/structure/railing,
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"V" = (
+/obj/effect/landmark/outpost/hangar_crate_spawner,
+/obj/machinery/conveyor/auto/outpost{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "W" = (
-/turf/open/space/anima,
-/area/template_noop)
+/obj/machinery/conveyor/auto/outpost,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"X" = (
+/obj/machinery/conveyor/auto/outpost{
+	dir = 4
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
+"Y" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	id = "outpost3"
+	},
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/hangar)
 "Z" = (
 /obj/effect/landmark/outpost/elevator_machine,
 /obj/machinery/elevator_call_button{
@@ -85,6 +251,18 @@
 /area/hangar)
 
 (1,1,1) = {"
+w
+w
+w
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -127,6 +305,18 @@ a
 a
 "}
 (2,1,1) = {"
+w
+O
+w
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -169,6 +359,18 @@ a
 a
 "}
 (3,1,1) = {"
+w
+V
+w
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -211,6 +413,18 @@ a
 a
 "}
 (4,1,1) = {"
+w
+w
+w
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -293,8 +507,32 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (6,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -377,8 +615,32 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (8,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -427,6 +689,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 w
 w
@@ -463,6 +737,18 @@ a
 a
 "}
 (10,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -511,6 +797,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+w
+w
+w
+w
+w
+w
 w
 A
 A
@@ -547,13 +845,25 @@ a
 a
 "}
 (12,1,1) = {"
-W
-W
-W
-W
-W
 a
-w
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+x
+A
+A
+A
+A
+A
+A
 A
 A
 v
@@ -589,13 +899,25 @@ a
 a
 "}
 (13,1,1) = {"
-W
-W
-W
-W
-W
 a
-w
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+x
+A
+W
+W
+X
+A
+A
 A
 A
 A
@@ -631,13 +953,25 @@ a
 a
 "}
 (14,1,1) = {"
-W
-W
-W
-W
-W
+a
+a
+a
+a
+a
+a
+a
+a
 a
 w
+w
+w
+x
+A
+I
+A
+X
+A
+A
 A
 A
 A
@@ -673,13 +1007,25 @@ a
 a
 "}
 (15,1,1) = {"
-W
-W
-W
-W
-W
+a
+a
+a
+a
+a
+a
+a
+a
 a
 w
+F
+W
+f
+W
+I
+A
+X
+A
+A
 A
 A
 A
@@ -721,7 +1067,19 @@ a
 a
 a
 a
+a
+a
+a
 w
+w
+w
+w
+A
+I
+A
+X
+A
+A
 A
 A
 v
@@ -763,7 +1121,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
 w
+A
+I
+Q
+Q
+A
+A
 A
 A
 A
@@ -805,7 +1175,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
 w
+A
+A
+A
+A
+A
+A
 A
 A
 A
@@ -847,6 +1229,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+w
+w
+w
+w
+w
+w
 w
 A
 A
@@ -883,6 +1277,18 @@ a
 a
 "}
 (20,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -925,6 +1331,18 @@ a
 a
 "}
 (21,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 e
 e
 e
@@ -967,6 +1385,18 @@ a
 a
 "}
 (22,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 e
 h
 h
@@ -1009,6 +1439,18 @@ a
 a
 "}
 (23,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 e
 h
 h
@@ -1051,6 +1493,18 @@ a
 a
 "}
 (24,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 e
 h
 h
@@ -1093,6 +1547,18 @@ a
 a
 "}
 (25,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 e
 e
 e
@@ -1135,6 +1601,18 @@ a
 a
 "}
 (26,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1183,6 +1661,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -1219,6 +1709,18 @@ a
 a
 "}
 (28,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1267,6 +1769,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -1303,6 +1817,18 @@ a
 a
 "}
 (30,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1351,6 +1877,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+w
+w
+w
+w
+w
 w
 A
 A
@@ -1393,7 +1931,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
 w
+A
+B
+B
+A
+A
 A
 A
 v
@@ -1435,7 +1985,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
 w
+n
+Y
+G
+A
+A
 A
 A
 v
@@ -1477,7 +2039,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
 w
+n
+u
+b
+A
+A
 A
 A
 v
@@ -1519,7 +2093,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
 w
+U
+P
+o
+A
+A
 A
 A
 A
@@ -1561,7 +2147,19 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
 w
+A
+L
+L
+A
+A
 A
 A
 A
@@ -1603,6 +2201,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+w
+w
+w
+w
+w
 w
 A
 A
@@ -1639,6 +2249,18 @@ a
 a
 "}
 (38,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1687,6 +2309,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -1723,6 +2357,18 @@ a
 a
 "}
 (40,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1771,6 +2417,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -1807,6 +2465,18 @@ a
 a
 "}
 (42,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1855,6 +2525,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -1891,6 +2573,18 @@ a
 a
 "}
 (44,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -1939,6 +2633,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -1975,6 +2681,18 @@ a
 a
 "}
 (46,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2023,6 +2741,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -2059,6 +2789,18 @@ a
 a
 "}
 (48,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2107,6 +2849,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -2143,6 +2897,18 @@ a
 a
 "}
 (50,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2191,6 +2957,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2227,6 +3005,18 @@ a
 a
 "}
 (52,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2275,6 +3065,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2311,6 +3113,18 @@ a
 a
 "}
 (54,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2359,6 +3173,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -2395,6 +3221,18 @@ a
 a
 "}
 (56,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2443,6 +3281,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2479,6 +3329,18 @@ a
 a
 "}
 (58,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2527,6 +3389,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2563,6 +3437,18 @@ a
 a
 "}
 (60,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2611,6 +3497,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -2647,6 +3545,18 @@ a
 a
 "}
 (62,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2695,6 +3605,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2731,6 +3653,18 @@ a
 a
 "}
 (64,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2779,6 +3713,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2815,6 +3761,18 @@ a
 a
 "}
 (66,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2863,6 +3821,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -2899,6 +3869,18 @@ a
 a
 "}
 (68,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -2947,6 +3929,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -2983,6 +3977,18 @@ a
 a
 "}
 (70,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3031,6 +4037,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -3067,6 +4085,18 @@ a
 a
 "}
 (72,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3115,6 +4145,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -3151,6 +4193,18 @@ a
 a
 "}
 (74,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3199,6 +4253,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 v
@@ -3235,6 +4301,18 @@ a
 a
 "}
 (76,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3283,6 +4361,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -3319,6 +4409,18 @@ a
 a
 "}
 (78,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3367,6 +4469,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 A
 A
@@ -3403,6 +4517,18 @@ a
 a
 "}
 (80,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3451,6 +4577,18 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 w
 v
 A
@@ -3487,6 +4625,18 @@ a
 a
 "}
 (82,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3569,8 +4719,32 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (84,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3653,8 +4827,32 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (86,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3737,8 +4935,32 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (88,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
@@ -3821,8 +5043,32 @@ a
 a
 a
 a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (90,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 a
 a
 a
