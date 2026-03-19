@@ -1267,6 +1267,18 @@ SUBSYSTEM_DEF(overmap)
 	hazard_secondary_color = "#943a43"
 // [/CELADON-ADD]
 
+/datum/overmap_star_system/shiptest/elysium/warpzone
+	name = "Warp Zone(Outpost)"
+	starname = "Nova"
+	startype = /datum/overmap/star/singularity
+	default_outpost_type = /datum/overmap/outpost/warpzone_outpost
+
+	primary_color = "#7e8cd9"
+	secondary_color = "#33324a"
+
+	hazard_primary_color = "#c13623"
+	hazard_secondary_color = "#943a43"
+
 /datum/overmap_star_system/c64
 
 	//main colors, used for dockable terrestrials, and background

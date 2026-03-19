@@ -1,4 +1,51 @@
 /*
+	/// MARK:Warpzone
+*/
+/datum/map_template/outpost/elevator_warpzone
+	name = "elevator_warpzone"
+
+/datum/map_template/outpost/warpzone_outpost
+	name = "warpzone_outpost"
+
+/datum/map_template/outpost/hangar/warpzone_outpost_20x20
+	name = "hangar/warpzone_outpost_20x20"
+	dock_width = 20
+	dock_height = 20
+
+/datum/map_template/outpost/hangar/warpzone_outpost_40x20
+	name = "hangar/warpzone_outpost_40x20"
+	dock_width = 40
+	dock_height = 20
+
+/datum/map_template/outpost/hangar/warpzone_outpost_40x40
+	name = "hangar/warpzone_outpost_40x40"
+	dock_width = 40
+	dock_height = 40
+
+/datum/map_template/outpost/hangar/warpzone_outpost_56x20
+	name = "hangar/warpzone_outpost_56x20"
+	dock_width = 56
+	dock_height = 20
+
+/datum/map_template/outpost/hangar/warpzone_outpost_56x40
+	name = "hangar/warpzone_outpost_56x40"
+	dock_width = 56
+	dock_height = 40
+
+/datum/overmap/outpost/warpzone_outpost
+	token_icon_state = "station_warpzone"
+	flag_overlay = FALSE
+	main_template = /datum/map_template/outpost/warpzone_outpost
+	elevator_template = /datum/map_template/outpost/elevator_warpzone
+	hangar_templates = list(
+		/datum/map_template/outpost/hangar/warpzone_outpost_20x20,
+		/datum/map_template/outpost/hangar/warpzone_outpost_40x20,
+		/datum/map_template/outpost/hangar/warpzone_outpost_40x40,
+		/datum/map_template/outpost/hangar/warpzone_outpost_56x20,
+		/datum/map_template/outpost/hangar/warpzone_outpost_56x40
+	)
+
+/*
 	/// MARK:Elysium Asteroid
 */
 /datum/map_template/outpost/elevator_asteroid

@@ -1,0 +1,2688 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/structure/railing,
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"aw" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/fraction/solfed)
+"aJ" = (
+/obj/machinery/computer/cargo/faction/independent/computer_2{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_2)
+"cA" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/inteq)
+"dE" = (
+/obj/machinery/door/airlock/mining{
+	name = "InteQ Cargo";
+	req_access_txt = "8133";
+	dir = 8;
+	id_tag = "cargo_inteq"
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/inteq)
+"dL" = (
+/obj/effect/landmark/outpost/elevator{
+	shaft = "1"
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"eH" = (
+/turf/open/space/basic,
+/area/space)
+"eI" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
+"eY" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"fD" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"gD" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/hallway/central)
+"he" = (
+/obj/machinery/computer/cargo/faction/independent/computer_1{
+	dir = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_1)
+"hJ" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/fraction/nanotrasen)
+"hT" = (
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
+"jQ" = (
+/obj/item/banner/nanotrasen/mundane,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"kh" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/vacant_rooms/trash_factory)
+"kX" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/space/basic,
+/area/space)
+"ld" = (
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
+"li" = (
+/obj/machinery/door/airlock/maintenance/glass{
+	id_tag = "cargo_cab_1";
+	dir = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"lx" = (
+/turf/open/floor/glass/indigo,
+/area/outpost/cargo/faction/nanotrasen)
+"lJ" = (
+/obj/machinery/button/door{
+	id = "cargo_cab_2";
+	name = "Bolt Door";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 4;
+	pixel_x = -22;
+	layer = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"lL" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"mO" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"ne" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 2.8
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"ot" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"oL" = (
+/obj/item/banner/inteq/mundane,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"qs" = (
+/obj/machinery/computer/cargo/faction/inteq{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/inteq)
+"qQ" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
+"qT" = (
+/obj/machinery/conveyor/auto{
+	id = "outpost3";
+	use_static_power = 1;
+	dir = 9
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"rP" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/cargo)
+"tH" = (
+/turf/open/floor/plasteel/elevatorshaft,
+/area/outpost/hallway/central)
+"vZ" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"wt" = (
+/obj/item/banner/syndie/mundane,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"ww" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/inteq)
+"wY" = (
+/obj/machinery/computer/cargo/faction/solfed{
+	dir = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/solfed)
+"xb" = (
+/obj/machinery/door/airlock/maintenance/glass{
+	id_tag = "cargo_cab_2";
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"xk" = (
+/obj/machinery/computer/cargo/faction/nanotrasen{
+	dir = 4
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/cargo/faction/nanotrasen)
+"xr" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	id = "outpost3"
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"xw" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/inteq)
+"xY" = (
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "1"
+	},
+/obj/machinery/elevator_call_button{
+	pixel_y = 31;
+	pixel_x = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"zG" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/red,
+/area/outpost/cargo/faction/syndicate)
+"zZ" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"Ab" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/fraction/syndi)
+"AI" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/solfed)
+"Cf" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Nanotrasen Cargo";
+	req_access_txt = "8130";
+	dir = 4;
+	id_tag = "cargo_nt"
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
+"Df" = (
+/obj/effect/landmark/outpost/elevator_machine{
+	shaft = "1"
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"Eb" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/solfed)
+"En" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
+"EU" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/inteq)
+"GC" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_2)
+"GL" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_1)
+"HM" = (
+/obj/structure/closet/firecloset/full{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
+"Ib" = (
+/obj/machinery/conveyor/auto{
+	dir = 8
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"Ir" = (
+/obj/machinery/button/door{
+	id = "cargo_inteq";
+	name = "Bolt Door";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 4;
+	pixel_x = -22;
+	layer = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/inteq)
+"II" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
+"LC" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"LO" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
+"Mw" = (
+/turf/closed/indestructible/reinforced,
+/area/outpost/hallway/central)
+"NA" = (
+/obj/machinery/door/airlock/solgov{
+	dir = 4;
+	id_tag = "cargo_solfed";
+	req_access_txt = "8132";
+	name = "SolFed Cargo"
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
+"Oy" = (
+/obj/machinery/button/door{
+	id = "cargo_nt";
+	name = "Bolt Door";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 8;
+	pixel_x = 22;
+	layer = 4
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
+"OA" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"OT" = (
+/obj/item/banner/solfed/mundane,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"PA" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	id = "outpost3"
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"Qz" = (
+/obj/machinery/conveyor/auto{
+	dir = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"QY" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/fraction/inteq)
+"Rz" = (
+/obj/machinery/computer/cargo/faction/syndicate{
+	dir = 8
+	},
+/turf/open/floor/glass/red,
+/area/outpost/cargo/faction/syndicate)
+"Sd" = (
+/obj/item/banner/cargo/mundane,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"Ss" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/cargo/faction/nanotrasen)
+"SO" = (
+/obj/machinery/button/door{
+	id = "cargo_cab_1";
+	name = "Bolt Door";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 8;
+	pixel_x = 22;
+	layer = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
+"TM" = (
+/obj/machinery/button/door{
+	id = "cargo_solfed";
+	name = "Bolt Door Cargo Cab 1";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 8;
+	pixel_x = 22;
+	layer = 4
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
+"Uh" = (
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/machinery/recycler,
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"Uw" = (
+/obj/effect/landmark/observer_start,
+/obj/effect/landmark/outpost_orbit_token,
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/central)
+"UI" = (
+/obj/machinery/microwave{
+	pixel_y = 6;
+	can_be_unanchored = 1
+	},
+/obj/structure/table,
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
+"Vo" = (
+/obj/machinery/door/airlock/security/glass{
+	req_access_txt = "8126";
+	name = "Syndicate Cargo";
+	dir = 8;
+	id_tag = "cargo_syndie"
+	},
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
+"VQ" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_2)
+"WD" = (
+/turf/open/floor/glass/red,
+/area/outpost/cargo/faction/syndicate)
+"XB" = (
+/obj/structure/window/reinforced/fulltile/indestructible{
+	alpha = 0
+	},
+/turf/open/space/basic,
+/area/outpost/hallway/aft)
+"XN" = (
+/obj/machinery/button/door{
+	id = "cargo_syndie";
+	name = "Bolt Door";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 4;
+	pixel_x = -22;
+	layer = 4
+	},
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
+"XR" = (
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo/faction/all/zone_1)
+"Yn" = (
+/obj/structure/table/wood,
+/obj/item/candle/infinite{
+	pixel_y = 4;
+	pixel_x = -1
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/vacant_rooms/trash_factory)
+"Zd" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/structure/closet/emcloset/anchored{
+	can_be_unanchored = 1
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
+"Zn" = (
+/obj/structure/table{
+	can_be_unanchored = 1;
+	deconstruction_ready = 0
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 5
+	},
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 5
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/hallway/aft)
+"ZE" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
+
+(1,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(2,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(3,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(4,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(5,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(6,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(7,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(8,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(9,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kX
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(10,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(11,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+kh
+kh
+kh
+kh
+kh
+kh
+kh
+kh
+eH
+rP
+rP
+rP
+rP
+rP
+rP
+rP
+eH
+eH
+hJ
+hJ
+hJ
+hJ
+hJ
+hJ
+hJ
+eH
+eH
+aw
+aw
+aw
+aw
+aw
+aw
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(12,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+fD
+fD
+lL
+fD
+LC
+LC
+fD
+kh
+eH
+rP
+GL
+XR
+he
+XR
+GL
+rP
+eH
+eH
+hJ
+Ss
+lx
+xk
+lx
+Ss
+hJ
+eH
+eH
+aw
+Eb
+AI
+wY
+AI
+Eb
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(13,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+ot
+fD
+fD
+ad
+xr
+qT
+ne
+kh
+eH
+rP
+OA
+OA
+OA
+OA
+OA
+rP
+eH
+eH
+hJ
+hT
+hT
+hT
+hT
+hT
+hJ
+eH
+eH
+aw
+II
+II
+II
+II
+II
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(14,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+Yn
+fD
+fD
+ad
+Uh
+Ib
+ne
+kh
+eH
+rP
+OA
+OA
+mO
+OA
+OA
+rP
+eH
+eH
+hJ
+hT
+hT
+LO
+hT
+hT
+hJ
+eH
+eH
+aw
+II
+II
+qQ
+II
+II
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(15,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+fD
+fD
+fD
+lL
+PA
+Qz
+ne
+kh
+eH
+rP
+OA
+SO
+OA
+OA
+OA
+rP
+eH
+eH
+hJ
+hT
+Oy
+hT
+hT
+hT
+hJ
+eH
+eH
+aw
+II
+TM
+II
+II
+II
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(16,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+fD
+fD
+fD
+fD
+eY
+eY
+fD
+kh
+eH
+rP
+rP
+rP
+OA
+rP
+rP
+rP
+eH
+eH
+hJ
+hJ
+hJ
+hT
+hJ
+hJ
+hJ
+eH
+eH
+aw
+aw
+aw
+II
+aw
+aw
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(17,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+kh
+kh
+kh
+kh
+fD
+kh
+kh
+kh
+kh
+eH
+eH
+eH
+rP
+OA
+rP
+eH
+eH
+eH
+eH
+eH
+eH
+hJ
+hT
+hJ
+eH
+eH
+eH
+eH
+eH
+eH
+aw
+II
+aw
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(18,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+gD
+gD
+gD
+zZ
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+rP
+li
+rP
+gD
+gD
+gD
+gD
+gD
+gD
+hJ
+Cf
+hJ
+gD
+gD
+gD
+gD
+gD
+gD
+aw
+NA
+aw
+gD
+gD
+gD
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(19,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+Mw
+Mw
+Mw
+Mw
+Mw
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+Sd
+zZ
+Sd
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+jQ
+zZ
+jQ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+OT
+zZ
+OT
+zZ
+zZ
+zZ
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(20,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+Mw
+tH
+tH
+dL
+Mw
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(21,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+Mw
+tH
+tH
+tH
+Df
+zZ
+zZ
+vZ
+zZ
+zZ
+Uw
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+zZ
+vZ
+zZ
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(22,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+Mw
+tH
+tH
+tH
+Mw
+xY
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(23,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+Mw
+Mw
+Mw
+Mw
+Mw
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+Sd
+zZ
+Sd
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+wt
+zZ
+wt
+zZ
+zZ
+zZ
+zZ
+zZ
+zZ
+oL
+zZ
+oL
+zZ
+zZ
+zZ
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(24,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+gD
+gD
+gD
+zZ
+gD
+gD
+gD
+gD
+gD
+gD
+gD
+rP
+xb
+rP
+gD
+gD
+gD
+gD
+gD
+gD
+Ab
+Vo
+Ab
+gD
+gD
+gD
+gD
+gD
+gD
+QY
+dE
+QY
+gD
+gD
+gD
+gD
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(25,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+XB
+eH
+eH
+eH
+eH
+eH
+eH
+rP
+OA
+rP
+eH
+eH
+eH
+eH
+eH
+eH
+Ab
+ld
+Ab
+eH
+eH
+eH
+eH
+eH
+eH
+QY
+ww
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(26,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+XB
+XB
+XB
+XB
+eI
+XB
+XB
+XB
+XB
+eH
+rP
+rP
+rP
+OA
+rP
+rP
+rP
+eH
+eH
+Ab
+Ab
+Ab
+ld
+Ab
+Ab
+Ab
+eH
+eH
+QY
+QY
+QY
+ww
+QY
+QY
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(27,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+En
+eI
+eI
+eI
+eI
+eI
+En
+XB
+eH
+rP
+OA
+lJ
+OA
+OA
+OA
+rP
+eH
+eH
+Ab
+ld
+XN
+ld
+ld
+ld
+Ab
+eH
+eH
+QY
+ww
+Ir
+ww
+ww
+ww
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(28,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+HM
+eI
+eI
+eI
+eI
+eI
+eI
+XB
+eH
+rP
+OA
+OA
+mO
+OA
+OA
+rP
+eH
+eH
+Ab
+ld
+ld
+ZE
+ld
+ld
+Ab
+eH
+eH
+QY
+ww
+ww
+EU
+ww
+ww
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(29,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+eI
+eI
+eI
+En
+eI
+eI
+eI
+XB
+eH
+rP
+OA
+OA
+OA
+OA
+OA
+rP
+eH
+eH
+Ab
+ld
+ld
+ld
+ld
+ld
+Ab
+eH
+eH
+QY
+ww
+ww
+ww
+ww
+ww
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(30,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+UI
+eI
+eI
+Zn
+eI
+eI
+eI
+XB
+eH
+rP
+GC
+VQ
+aJ
+VQ
+GC
+rP
+eH
+eH
+Ab
+zG
+WD
+Rz
+WD
+zG
+Ab
+eH
+eH
+QY
+cA
+xw
+qs
+xw
+cA
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(31,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+En
+eI
+eI
+eI
+eI
+eI
+En
+XB
+eH
+rP
+rP
+rP
+rP
+rP
+rP
+rP
+eH
+eH
+Ab
+Ab
+Ab
+Ab
+Ab
+Ab
+Ab
+eH
+eH
+QY
+QY
+QY
+QY
+QY
+QY
+QY
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(32,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+Zd
+eI
+eI
+eI
+En
+eI
+eI
+XB
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(33,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+eI
+eI
+eI
+eI
+eI
+eI
+eI
+eI
+XB
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(34,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+XB
+XB
+XB
+XB
+XB
+XB
+XB
+XB
+XB
+XB
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(35,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(36,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(37,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(38,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(39,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
+(40,1,1) = {"
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+eH
+"}
