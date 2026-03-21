@@ -21,6 +21,22 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/cargo/faction/all/zone_2)
+"bl" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/computer/outpost_export_console{
+	dir = 1
+	},
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
+"ck" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/outpost_selling_pad,
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
 "cA" = (
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
@@ -114,6 +130,15 @@
 	},
 /turf/open/floor/glass/red,
 /area/outpost/fraction/syndi)
+"jt" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/computer/outpost_export_console{
+	dir = 1
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
 "jQ" = (
 /obj/item/banner/nanotrasen/mundane,
 /obj/effect/dummy/lighting_obj{
@@ -127,6 +152,15 @@
 	},
 /turf/open/space/basic,
 /area/outpost/vacant_rooms/trash_factory)
+"kR" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/computer/outpost_export_console{
+	dir = 1
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
 "kX" = (
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
@@ -182,6 +216,13 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
+"mz" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/outpost_selling_pad,
+/turf/open/floor/glass/cyan,
+/area/outpost/cargo)
 "mO" = (
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
@@ -198,6 +239,13 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
+"np" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/outpost_selling_pad,
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/inteq)
 "ot" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -214,6 +262,13 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/central)
+"pi" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/outpost_selling_pad,
+/turf/open/floor/glass/indigo,
+/area/outpost/fraction/nanotrasen)
 "qs" = (
 /obj/machinery/computer/cargo/faction/inteq{
 	dir = 8
@@ -432,6 +487,15 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
+"Il" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/computer/outpost_export_console{
+	dir = 1
+	},
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/inteq)
 "Ir" = (
 /obj/machinery/button/door{
 	id = "cargo_inteq";
@@ -474,6 +538,15 @@
 "Mw" = (
 /turf/closed/indestructible/reinforced,
 /area/outpost/hallway/central)
+"Ny" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/computer/outpost_export_console{
+	dir = 1
+	},
+/turf/open/floor/glass/red,
+/area/outpost/fraction/syndi)
 "NA" = (
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
@@ -702,6 +775,13 @@
 	},
 /turf/open/floor/glass/cyan,
 /area/outpost/vacant_rooms/trash_factory)
+"Ys" = (
+/obj/effect/dummy/lighting_obj{
+	light_range = 10
+	},
+/obj/machinery/outpost_selling_pad,
+/turf/open/floor/glass/cyan,
+/area/outpost/fraction/solfed)
 "Zd" = (
 /obj/effect/dummy/lighting_obj{
 	light_range = 10
@@ -1489,7 +1569,7 @@ mO
 mO
 hT
 mO
-mO
+mz
 rP
 eH
 eH
@@ -1498,7 +1578,7 @@ LO
 LO
 xw
 LO
-LO
+pi
 hJ
 eH
 eH
@@ -1507,7 +1587,7 @@ qQ
 qQ
 ld
 qQ
-qQ
+Ys
 aw
 eH
 eH
@@ -1543,7 +1623,7 @@ mO
 SO
 mO
 mO
-mO
+kR
 rP
 eH
 eH
@@ -1552,7 +1632,7 @@ LO
 Oy
 LO
 LO
-LO
+bl
 hJ
 eH
 eH
@@ -1561,7 +1641,7 @@ qQ
 TM
 qQ
 qQ
-qQ
+jt
 aw
 eH
 eH
@@ -2191,7 +2271,7 @@ mO
 lJ
 mO
 mO
-mO
+kR
 rP
 eH
 eH
@@ -2200,7 +2280,7 @@ ZE
 XN
 ZE
 ZE
-ZE
+Ny
 Ab
 eH
 eH
@@ -2209,7 +2289,7 @@ EU
 Ir
 EU
 EU
-EU
+Il
 QY
 eH
 eH
@@ -2245,7 +2325,7 @@ mO
 mO
 hT
 mO
-mO
+mz
 rP
 eH
 eH
@@ -2254,7 +2334,7 @@ ZE
 ZE
 iT
 ZE
-ZE
+ck
 Ab
 eH
 eH
@@ -2263,7 +2343,7 @@ EU
 EU
 AI
 EU
-EU
+np
 QY
 eH
 eH
