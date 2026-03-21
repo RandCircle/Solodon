@@ -793,11 +793,11 @@
 /obj/item/storage/firstaid/o2,
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid,
 /obj/structure/closet{
 	icon_state = "med";
 	anchored = 1
 	},
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/glass/cyan,
 /area/outpost/hallway/aft)
 "Zn" = (
