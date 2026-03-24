@@ -350,7 +350,7 @@
 /obj/item/melee/sword/weebstick/on_exit_storage(datum/component/storage/concrete/S)
 	var/obj/item/storage/belt/weebstick/B = S.real_location()
 	if(istype(B))
-		playsound(B, 'sound/items/unsheath.ogg', 25, TRUE)
+		playsound(B, 'sound/weapons/unsheathed_blade.ogg', 25, TRUE)
 
 /obj/item/melee/sword/weebstick/on_enter_storage(datum/component/storage/concrete/S)
 	var/obj/item/storage/belt/weebstick/B = S.real_location()
