@@ -474,6 +474,26 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Central Hallway"
 	icon_state = "hallC"
 
+/// SOLODON MONOLITH-CLASS AREAS START ///
+
+/area/ship/hallway/central/North
+	name = "Central Hallway North"
+	icon_state = "hallC"
+
+/area/ship/hallway/central/West
+	name = "Central Hallway West"
+	icon_state = "hallC"
+
+/area/ship/hallway/central/East
+	name = "Central Hallway East"
+	icon_state = "hallC"
+
+/area/ship/hallway/central/South
+	name = "Central Hallway South"
+	icon_state = "hallC"
+
+/// SOLODON MONOLITH-CLASS AREAS END ///
+
 /// Maintenance Areas ///
 /area/ship/maintenance
 	name = "Maintenance"
