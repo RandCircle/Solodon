@@ -7,17 +7,11 @@
 
 	if(!length(current_client.parallax_layers_cached))
 		current_client.parallax_layers_cached = list()
+		// [SOLODDON-EDIT] - Только крутые параллкасы из целадона
 		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/layer_1(null, current_client.view)
 		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/layer_2(null, current_client.view)
-		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/layer_3(null, current_client.view)	// [CELADON-EDIT] - PARALLAX-FIX-ASTEROID
-		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/planet(null, current_client.view)
-		if(SSparallax.random_layer)
-			current_client.parallax_layers_cached += new SSparallax.random_layer
 		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/layer_3(null, current_client.view)
-		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/gas_giant/horizon(null, current_client.view)
-		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/gas_giant/clouds1(null, current_client.view)
-		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/gas_giant/clouds2(null, current_client.view)
-		current_client.parallax_layers_cached += new /atom/movable/screen/parallax_layer/gas_giant/clouds3(null, current_client.view)
+		// [/SOLODON-EDIT]
 
 	current_client.parallax_layers = current_client.parallax_layers_cached.Copy()
 
@@ -100,7 +94,7 @@
 		var/animate_time = 0
 		for(var/thing in current_client.parallax_layers)
 			var/atom/movable/screen/parallax_layer/L = thing
-			L.icon_state = initial(L.icon_state)
+			L.icon_state = L.base_state	// [SOLODON-EDIT]
 			L.update_o(current_client.view)
 			var/T = PARALLAX_LOOP_TIME / L.speed
 			if (T > animate_time)
@@ -155,7 +149,7 @@
 			animate(L)
 			continue
 
-		var/newstate = initial(L.icon_state)
+		var/newstate = L.base_state	// [SOLODON-EDIT]
 		var/T = PARALLAX_LOOP_TIME / L.speed
 
 		if (newstate in icon_states(L.icon))
@@ -250,14 +244,16 @@
 	var/offset_y = 0
 	var/view_sized
 	var/absolute = FALSE
+	var/base_state // [SOLODON-ADD] выбранный спрайт, который нужно восстанавливать
 	blend_mode = BLEND_ADD
 	plane = PLANE_SPACE_PARALLAX
 	screen_loc = "CENTER-7,CENTER-7"
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
-
 /atom/movable/screen/parallax_layer/Initialize(mapload, view)
 	. = ..()
+	if (!base_state)
+		base_state = icon_state
 	if (!view)
 		view = world.view
 	update_o(view)
@@ -321,17 +317,20 @@
 
 // [CELADON-ADD] - CELADON_PARALLAX
 // MARK:Random
-/atom/movable/screen/parallax_layer/layer_1/Initialize(mapload)
-	. = ..()
-	icon_state = "layer1_[rand(0, 16)]"
+/atom/movable/screen/parallax_layer/layer_1/Initialize(mapload, view)
+	base_state = "layer1_[rand(0, 16)]"
+	icon_state = base_state
+	return ..()
 
-/atom/movable/screen/parallax_layer/layer_2/Initialize(mapload)
-	. = ..()
-	icon_state = "layer2_[rand(1, 5)]"
+/atom/movable/screen/parallax_layer/layer_2/Initialize(mapload, view)
+	base_state = "layer2_[rand(1, 5)]"
+	icon_state = base_state
+	return ..()
 
-/atom/movable/screen/parallax_layer/layer_3/Initialize(mapload)
-	. = ..()
-	icon_state = "layer3_[rand(1, 2)]"
+/atom/movable/screen/parallax_layer/layer_3/Initialize(mapload, view)
+	base_state = "layer3_[rand(1, 2)]"
+	icon_state = base_state
+	return ..()
 // [/CELADON-ADD]
 //Gas Giant parallaxes
 
